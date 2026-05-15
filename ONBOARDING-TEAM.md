@@ -1,12 +1,12 @@
-# Onboarding — Team Plugins (Claude Code)
+# Onboarding — Plugins Flip (Claude Code)
 
-Bienvenue. Cette page t'explique en **5 minutes** comment installer les Team Plugins dans ton Claude Code et les utiliser au quotidien.
+Bienvenue. Cette page t'explique en **5 minutes** comment installer les plugins Flip dans ton Claude Code et les utiliser au quotidien.
 
 ---
 
 ## Ce que c'est
 
-Une **marketplace de 16 plugins** "Head of" pour Claude Code. Chaque plugin = un expert IA spécialisé (sales, content, finance, etc.) prêt à enchaîner plusieurs skills en un seul `/<commande>`.
+Une **marketplace privée de 16 plugins** "Head of" pour Claude Code. Chaque plugin = un expert IA spécialisé (sales, content, finance, etc.) prêt à enchaîner plusieurs skills en un seul `/<commande>`.
 
 Exemple : tu tapes `/launch`, Claude orchestre stratégie produit → checklist → ads → emails de campagne. Tu ne fais plus de prompts à la main.
 
@@ -23,12 +23,12 @@ Si tu n'as pas encore Claude Code : [https://claude.com/claude-code](https://cla
 
 ## Installation — 3 étapes (à faire UNE seule fois)
 
-### Étape 1 — Ajouter la marketplace
+### Étape 1 — Ajouter la marketplace Flip
 
 Dans Claude Code, tape :
 
 ```
-/plugin marketplace add <votre-org>/team-plugins
+/plugin marketplace add Romadulys/team-plugins
 ```
 
 Tu devrais voir "Marketplace 'team-plugins' added".
@@ -67,7 +67,7 @@ C'est l'étape qui te permet d'avoir **toujours la dernière version** sans rien
 3. Sélectionne **team-plugins**
 4. Active le toggle **"Enable auto-update"**
 
-À partir de là, dès que la marketplace est mise à jour, tu reçois les updates au prochain démarrage de Claude Code. Plus rien à faire.
+À partir de là, dès que la marketplace est mise à jour côté Flip, tu reçois les updates au prochain démarrage de Claude Code. Plus rien à faire.
 
 **Si tu zappes cette étape** : tu resteras bloqué sur la version actuelle pour toujours. Tu devras lancer `/plugin marketplace update team-plugins` manuellement de temps en temps.
 
@@ -127,13 +127,13 @@ Pour voir toute les commandes disponibles : tape `/help` dans Claude Code.
 - `/plugin marketplace update team-plugins` → force le rafraîchissement
 - `/plugin list` → vérifie ce qui est installé
 - `/plugin disable <nom>` / `/plugin enable <nom>` → désactive temporairement un plugin
-- Ouvre une issue sur le repo si bug ou question
+- Bug ou question → ping Romain directement
 
 ---
 
 ## En résumé
 
-1. `/plugin marketplace add <votre-org>/team-plugins`
+1. `/plugin marketplace add Romadulys/team-plugins`
 2. `/plugin install <nom>@team-plugins` (pour chaque plugin voulu)
 3. **Active l'auto-update** dans `/plugin` → Marketplaces (étape critique)
 
