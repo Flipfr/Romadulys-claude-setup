@@ -70,3 +70,25 @@ S'il manque l'URL ou les mots-clés cibles, demande — auditer sans cible, c'es
 ## Format de sortie
 
 Rapport Markdown : 1 section par axe (technique / contenu / Next.js), tableau priorisé en synthèse, recommandations actionnables avec exemples de code quand pertinent.
+
+---
+
+## 📚 Apprentissages intégrés — Veille 8 mai 2026
+
+### Nouvel axe d'audit obligatoire : GEO (Generative Engine Optimization)
+
+Avec l'arrivée d'AI Overviews (50% des requêtes US, **CTR organique -46,7%**), un audit SEO 2026 doit inclure un axe spécifique : la capacité du site à être **cité par l'IA**, pas juste à ranker.
+
+### Checklist GEO à ajouter en synthèse d'audit
+
+Pour les 20 articles top-traffic :
+1. ☐ Bloc "réponse en 40 mots" en **H2 dès le début** de l'article (snippet-ready)
+2. ☐ Structure **"best short answer + best deeper answer + best cited answer"** dans le même article
+3. ☐ **FAQ schema** (JSON-LD) avec 3-5 questions sous-jacentes
+4. ☐ **HowTo schema** quand applicable (tutoriels pas-à-pas)
+5. ☐ Présence de citations chiffrées avec sources (signal de fiabilité pour Google AI)
+6. ☐ Cohérence sémantique entre H1 / meta / premier paragraphe (renforce extraction par AI)
+
+### Nouvelle métrique de suivi
+
+Au-delà du ranking position, suivre les **AI Citations** : combien de fois le domaine est-il cité dans les réponses AI Overviews sur les queries cibles ? Tracking via outils émergents (Stackmatix, Ahrefs AI Citations module en alpha).

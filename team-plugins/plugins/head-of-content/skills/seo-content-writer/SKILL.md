@@ -182,3 +182,33 @@ Court, kebab-case, contient le mot-clé principal, sans mots vides.
 - `seo-internal-linking` — pour le maillage approfondi
 - `seo-meta-creator` — pour itérer spécifiquement sur les meta
 - `seo-cluster-strategist` — pour planifier un cluster avant d'écrire les pièces
+
+---
+
+## 📚 Apprentissages intégrés — Veille 8 mai 2026
+
+### AI Overviews change la donne — pivoter vers AI Citations (GEO)
+
+Source : Stackmatix + Search Engine Land, mai 2026.
+
+- AI Overviews apparaissent sur **50% des requêtes US** (39% sur queries info).
+- **CTR organique chute de 46,7%** sur 68k requêtes mesurées.
+- Nouvelle métrique : **AI Citations** (être cité dans la réponse IA), pas le ranking position.
+
+### Nouveau template d'article (snippet-ready)
+
+Tout article SEO doit désormais commencer par un bloc **"réponse en 40 mots"** en H2, *avant* le long format. Pattern gagnant : **"best short answer + best deeper answer + best cited answer"** dans le même article.
+
+Structure obligatoire :
+1. **H1** : question utilisateur exacte
+2. **H2 #1 : "En bref"** — réponse 40 mots condensée (snippet-ready, source d'AI Citation)
+3. **H2 #2 : long format détaillé** (1500-3000 mots SEO classique)
+4. **H2 #3 : FAQ schema-marquée** (3-5 questions sous-jacentes) — augmente les chances de citation
+
+### Application immédiate — corpus LPL
+
+Restructurer les **20 articles top-traffic LPL** avec ce pattern (bloc "réponse 40 mots" + FAQ). Cible : citation dans AI Overviews sur "permis libre", "passer son permis sans auto-école", "permis CPF 2026".
+
+### Heuristique nouvelle
+
+- **Le ranking position n°1 vaut moins qu'une AI Citation.** Sur les queries info, l'AI Overview vole 46,7% du clic. Optimiser pour être *cité par l'IA* devient prioritaire sur être *au-dessus du fold*.
