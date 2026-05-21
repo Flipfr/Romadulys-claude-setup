@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "glance": {
+      "command": "glance-mcp",
+      "type": "stdio"
+    }
+  }
+}

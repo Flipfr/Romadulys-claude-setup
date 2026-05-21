@@ -1,0 +1,17 @@
+{
+  "name": "head-of-seo",
+  "version": "0.1.0",
+  "description": "Ton Head of SEO dans Claude — domine une verticale en 6-12 mois : audit + topic cluster + articles optimisés + meta + maillage interne + schema.org.",
+  "author": "",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "seo", "content-marketing", "search"],
+  "skills": [
+    "seo-audit",
+    "seo-cluster-strategist",
+    "seo-content-writer",
+    "seo-meta-creator",
+    "seo-internal-linking",
+    "schema-markup"
+  ],
+  "commands": ["seo"]
+}

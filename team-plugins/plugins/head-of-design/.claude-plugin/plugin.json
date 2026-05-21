@@ -1,0 +1,9 @@
+{
+  "name": "head-of-design",
+  "description": "Ton Head of Design dans Claude — identité de marque + design d'interface impeccable (couleurs OKLCH, typo, layout).",
+  "author": {
+    "name": "Head of Plugins",
+    "email": "contact@example.com"
+  },
+  "version": "0.1.1"
+}

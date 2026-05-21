@@ -1,0 +1,10 @@
+{
+  "name": "head-of-product",
+  "version": "0.1.0",
+  "description": "Ton Head of Product dans Claude — Discovery + PRDs + roadmap + OKRs + analyse concurrentielle.",
+  "author": "",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "product", "PRD", "discovery"],
+  "skills": ["product-manager", "customer-interview", "roadmap-90-jours", "okr-builder", "competitor-analysis"],
+  "commands": ["product"]
+}

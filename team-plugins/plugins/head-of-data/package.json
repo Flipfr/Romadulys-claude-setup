@@ -1,0 +1,10 @@
+{
+  "name": "head-of-data",
+  "version": "0.1.0",
+  "description": "Ton Head of Data dans Claude — analyse de données brutes + métriques SaaS (MRR, churn, CAC, LTV, cohort).",
+  "author": "Head of Plugins",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "data", "analytics", "saas-metrics"],
+  "skills": ["data-analyst", "saas-metrics"],
+  "commands": ["data"]
+}

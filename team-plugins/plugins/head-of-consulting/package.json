@@ -1,0 +1,14 @@
+{
+  "name": "head-of-consulting",
+  "version": "0.1.0",
+  "description": "Ton Head of Consulting dans Claude — onboarde un client PME de A à Z : diagnostic + entretien JTBD + cartographie process + roadmap 90j + proposition commerciale.",
+  "author": "Head of Consulting",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "consulting", "diagnostic", "onboarding"],
+  "skills": [
+    "customer-interview",
+    "process-mapper",
+    "roadmap-90-jours"
+  ],
+  "commands": ["consulting"]
+}

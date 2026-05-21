@@ -1,0 +1,10 @@
+{
+  "name": "head-of-customer-success",
+  "version": "0.1.0",
+  "description": "Ton Head of Customer Success dans Claude — onboarding + Health Score + entretiens client + email lifecycle.",
+  "author": "Head of Customer Success",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "customer-success", "retention", "onboarding"],
+  "skills": ["customer-success", "customer-interview", "email-campaign"],
+  "commands": ["customer-success"]
+}

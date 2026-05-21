@@ -1,0 +1,15 @@
+{
+  "name": "head-of-finance",
+  "version": "0.1.0",
+  "description": "Ton Head of Finance dans Claude — prépare une levée de fonds early-stage de bout en bout : pitch deck + modèle financier + memo + investor update.",
+  "author": "Head of Plugins",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "fundraising", "cfo", "pitch-deck"],
+  "skills": [
+    "fundraising-prep",
+    "pitch-deck",
+    "financial-model",
+    "investor-update"
+  ],
+  "commands": ["fundraising"]
+}

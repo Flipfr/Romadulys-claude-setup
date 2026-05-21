@@ -1,0 +1,10 @@
+{
+  "name": "head-of-operations",
+  "version": "0.1.0",
+  "description": "Ton Head of Operations dans Claude — cartographie process + délégation + weekly review + OKRs ops.",
+  "author": "Head of Plugins",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "operations", "process", "SOPs"],
+  "skills": ["process-mapper", "delegation-system", "weekly-review", "okr-builder"],
+  "commands": ["operations"]
+}

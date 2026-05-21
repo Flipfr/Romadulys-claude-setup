@@ -1,0 +1,108 @@
+{
+  "name": "team-plugins",
+  "metadata": {
+    "description": "Équipe virtuelle de 16 Heads of (Launch, Sales, Finance, Product, etc.) — chaque persona orchestre plusieurs skills via une slash command."
+  },
+  "owner": {
+    "name": "Head of Plugins",
+    "email": "contact@example.com"
+  },
+  "plugins": [
+    {
+      "name": "head-of-launch",
+      "description": "Head of Launch — orchestre un lancement produit complet (stratégie + checklist + ads + email). Slash: /launch",
+      "category": "marketing",
+      "source": "./plugins/head-of-launch"
+    },
+    {
+      "name": "head-of-consulting",
+      "description": "Head of Consulting — onboarde un client PME de A à Z (JTBD + process + diagnostic + roadmap + proposition). Slash: /consulting",
+      "category": "consulting",
+      "source": "./plugins/head-of-consulting"
+    },
+    {
+      "name": "head-of-finance",
+      "description": "Head of Finance / CFO — prépare un pack levée early-stage (memo + modèle + pitch deck + investor update). Slash: /fundraising",
+      "category": "finance",
+      "source": "./plugins/head-of-finance"
+    },
+    {
+      "name": "head-of-sales",
+      "description": "Head of Sales — construit un GTM B2B multi-canal (concurrence + script + outbound + LinkedIn + partenariats). Slash: /sales",
+      "category": "sales",
+      "source": "./plugins/head-of-sales"
+    },
+    {
+      "name": "head-of-content",
+      "description": "Head of Content — transforme 1 source en 10+ formats (blog SEO + LinkedIn + Reels + hooks). Slash: /content",
+      "category": "marketing",
+      "source": "./plugins/head-of-content"
+    },
+    {
+      "name": "head-of-seo",
+      "description": "Head of SEO — domine une verticale en 6-12 mois (audit + cluster + articles + meta + maillage + schema). Slash: /seo",
+      "category": "marketing",
+      "source": "./plugins/head-of-seo"
+    },
+    {
+      "name": "head-of-product",
+      "description": "Head of Product — Discovery + PRD + roadmap + OKRs + analyse concurrentielle. Slash: /product",
+      "category": "product",
+      "source": "./plugins/head-of-product"
+    },
+    {
+      "name": "head-of-people",
+      "description": "Head of People (RH) — fiches de poste + délégation + OKRs équipe + meeting prep. Slash: /people",
+      "category": "people",
+      "source": "./plugins/head-of-people"
+    },
+    {
+      "name": "head-of-operations",
+      "description": "Head of Operations — cartographie process + SOPs + délégation + weekly review + OKRs ops. Slash: /operations",
+      "category": "operations",
+      "source": "./plugins/head-of-operations"
+    },
+    {
+      "name": "head-of-engineering",
+      "description": "Head of Engineering / CTO — code review + Next.js + Supabase + TypeScript strict + Claude API. Slash: /engineering",
+      "category": "engineering",
+      "source": "./plugins/head-of-engineering"
+    },
+    {
+      "name": "head-of-design",
+      "description": "Head of Design — identité de marque + design d'interface impeccable (OKLCH, typo, layout). Slash: /design",
+      "category": "design",
+      "source": "./plugins/head-of-design"
+    },
+    {
+      "name": "head-of-data",
+      "description": "Head of Data — analyse de données + métriques SaaS (MRR, churn, CAC, LTV, cohort). Slash: /data",
+      "category": "analytics",
+      "source": "./plugins/head-of-data"
+    },
+    {
+      "name": "head-of-growth",
+      "description": "Head of Growth — funnel AARRR + email + ads + e-commerce + hooks. Slash: /growth",
+      "category": "growth",
+      "source": "./plugins/head-of-growth"
+    },
+    {
+      "name": "head-of-customer-success",
+      "description": "Head of Customer Success — onboarding + Health Score + entretiens + email lifecycle. Slash: /customer-success",
+      "category": "customer-success",
+      "source": "./plugins/head-of-customer-success"
+    },
+    {
+      "name": "head-of-pr",
+      "description": "Head of PR — relations presse + personal branding founder + LinkedIn. Slash: /pr",
+      "category": "communications",
+      "source": "./plugins/head-of-pr"
+    },
+    {
+      "name": "head-of-academy",
+      "description": "Head of Academy / Formation — architecture pédagogique + auto-école + lifecycle apprenant + landing. Slash: /academy",
+      "category": "education",
+      "source": "./plugins/head-of-academy"
+    }
+  ]
+}

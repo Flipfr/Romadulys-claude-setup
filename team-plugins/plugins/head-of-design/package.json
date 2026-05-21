@@ -1,0 +1,10 @@
+{
+  "name": "head-of-design",
+  "version": "0.1.0",
+  "description": "Ton Head of Design dans Claude — identité de marque + design d'interface impeccable (couleurs OKLCH, typo, layout).",
+  "author": "Head of Plugins",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "design", "brand", "UI"],
+  "skills": ["impeccable-design", "brand-identity"],
+  "commands": ["design"]
+}

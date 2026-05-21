@@ -1,0 +1,16 @@
+{
+  "name": "head-of-sales",
+  "version": "0.1.0",
+  "description": "Ton Head of Sales dans Claude — construit un GTM B2B multi-canal complet : analyse concurrence + script sales + outbound email + LinkedIn social selling + partenariats.",
+  "author": "",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "gtm", "b2b", "sales", "outbound"],
+  "skills": [
+    "competitor-analysis",
+    "sales-script",
+    "email-campaign",
+    "linkedin-content-creator",
+    "partnership-outreach"
+  ],
+  "commands": ["sales"]
+}

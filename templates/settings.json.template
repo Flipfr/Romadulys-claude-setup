@@ -1,0 +1,68 @@
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "permissions": {
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(rm -r :*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git clean -f:*)"
+    ],
+    "defaultMode": "bypassPermissions"
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ~/.claude/hooks/block-destructive.sh",
+            "timeout": 5,
+            "statusMessage": "Verification securite..."
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "claude-mem@thedotmack": true,
+    "superpowers@claude-plugins-official": true,
+    "head-of-launch@team-plugins": true,
+    "head-of-consulting@team-plugins": true,
+    "head-of-finance@team-plugins": true,
+    "head-of-sales@team-plugins": true,
+    "head-of-content@team-plugins": true,
+    "head-of-seo@team-plugins": true,
+    "head-of-product@team-plugins": true,
+    "head-of-people@team-plugins": true,
+    "head-of-operations@team-plugins": true,
+    "head-of-engineering@team-plugins": true,
+    "head-of-design@team-plugins": true,
+    "head-of-data@team-plugins": true,
+    "head-of-growth@team-plugins": true,
+    "head-of-customer-success@team-plugins": true,
+    "head-of-pr@team-plugins": true,
+    "head-of-academy@team-plugins": true
+  },
+  "extraKnownMarketplaces": {
+    "thedotmack": {
+      "source": {
+        "source": "github",
+        "repo": "thedotmack/claude-mem"
+      }
+    },
+    "team-plugins": {
+      "source": {
+        "source": "directory",
+        "path": "__USERPROFILE__\\team-plugins"
+      }
+    }
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "dark-daltonized",
+  "remoteControlAtStartup": false
+}

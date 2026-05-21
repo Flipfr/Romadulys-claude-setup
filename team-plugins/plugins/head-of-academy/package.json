@@ -1,0 +1,10 @@
+{
+  "name": "head-of-academy",
+  "version": "0.1.0",
+  "description": "Ton Head of Academy / Formation dans Claude — création de formations + expertise auto-école + email lifecycle + optimisation e-commerce.",
+  "author": "Head of Academy",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "academy", "formation", "auto-ecole"],
+  "skills": ["course-builder", "autoecole-expert", "email-campaign", "ecommerce-optimizer"],
+  "commands": ["academy"]
+}

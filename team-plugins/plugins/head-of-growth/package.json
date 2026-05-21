@@ -1,0 +1,10 @@
+{
+  "name": "head-of-growth",
+  "version": "0.1.0",
+  "description": "Ton Head of Growth dans Claude — funnel AARRR + email + ads + e-commerce + hooks.",
+  "author": "Head of Plugins",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "growth", "AARRR", "conversion"],
+  "skills": ["growth-hacker", "email-campaign", "ads-copy", "ecommerce-optimizer", "hook-generator"],
+  "commands": ["growth"]
+}

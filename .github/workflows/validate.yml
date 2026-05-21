@@ -1,0 +1,67 @@
+name: Validate
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  validate-marketplace:
+    name: Validate marketplace structure
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate marketplace.json + plugin structure
+        run: node scripts/validate-marketplace.mjs
+
+      - name: Validate marketplace via claude CLI (optional)
+        run: |
+          if command -v claude &> /dev/null; then
+            claude plugin validate .
+          else
+            echo "claude CLI not available in CI — skipping (script validation already passed above)"
+          fi
+        continue-on-error: true
+
+  build-web:
+    name: Build landing (Next.js)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./web
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "pnpm"
+          cache-dependency-path: web/pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Type check + Build
+        run: pnpm build
+
+  summary:
+    name: ✅ All checks passed
+    runs-on: ubuntu-latest
+    needs: [validate-marketplace, build-web]
+    steps:
+      - run: echo "All validation checks passed. Safe to merge."

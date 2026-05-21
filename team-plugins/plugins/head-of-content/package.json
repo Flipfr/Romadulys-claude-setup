@@ -1,0 +1,16 @@
+{
+  "name": "head-of-content",
+  "version": "0.1.0",
+  "description": "Ton Head of Content dans Claude — transforme 1 contenu source (podcast, vidéo, article) en machine multi-format : blog SEO + LinkedIn + Reels + hooks + repurposing.",
+  "author": "Head of Content",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "content", "marketing", "social-media"],
+  "skills": [
+    "content-repurposer",
+    "seo-content-writer",
+    "linkedin-content-creator",
+    "reels-script",
+    "hook-generator"
+  ],
+  "commands": ["content"]
+}

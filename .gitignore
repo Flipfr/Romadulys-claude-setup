@@ -1,0 +1,85 @@
+# ===========================================
+# Team Plugins — .gitignore
+# ===========================================
+# BLOQUE TOUT CE QUI EST SENSIBLE OU EPHEMERE
+# ===========================================
+
+# --- Secrets / Auth (NE JAMAIS PUSH) ---
+.credentials.json
+*.credentials.json
+.env
+.env.*
+!.env.template
+*.key
+*.pem
+*-secret.*
+
+# --- Tokens MCP / OAuth ---
+mcp-needs-auth-cache.json
+*.auth.json
+
+# --- Memoire perso + transcripts (DONNEES BUSINESS) ---
+projects/
+sessions/
+session-env/
+todos/
+history.jsonl
+*.jsonl
+
+# --- Runtime / cache Claude Code ---
+cache/
+debug/
+telemetry/
+statsig/
+paste-cache/
+backups/
+shell-snapshots/
+chrome/
+downloads/
+ide/
+teams/
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# --- Artefacts build ---
+node_modules/
+dist/
+build/
+*.log
+
+# --- Archives temporaires ---
+*.zip
+*.tar.gz
+*.bak
+*.old
+*.to_delete
+*.to-delete
+*.broken-cache
+*.next15-broken
+
+# --- Next.js (landing web/) ---
+web/.next/
+web/node_modules/
+web/out/
+web/next-env.d.ts
+
+# --- Skills externes (symlinks vers plugins tiers) ---
+# Ces skills sont des @symlinks installes par claude-mem, superpowers, hyperframes
+# Pas notre proprietaire, et casses sur autre PC
+skills/dispatch
+skills/gsap
+skills/hyperframes
+skills/hyperframes-cli
+skills/hyperframes-registry
+skills/website-to-hyperframes
+skills/_last-sync.txt
+
+# --- Plugin-syncer artefacts ---
+team-plugins/plugins/head-of-.zip
+.vercel
+*.removed

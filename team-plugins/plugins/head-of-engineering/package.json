@@ -1,0 +1,10 @@
+{
+  "name": "head-of-engineering",
+  "version": "0.1.0",
+  "description": "Ton Head of Engineering / CTO dans Claude — code review + Next.js patterns + Supabase + TypeScript strict + Claude API.",
+  "author": "Head of Plugins",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "engineering", "cto", "nextjs", "supabase"],
+  "skills": ["code-review-nextjs", "nextjs-patterns", "supabase-expert", "typescript-strict", "claude-api-expert"],
+  "commands": ["engineering"]
+}

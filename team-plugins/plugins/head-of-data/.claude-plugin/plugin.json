@@ -1,0 +1,8 @@
+{
+  "name": "head-of-data",
+  "description": "Ton Head of Data dans Claude — analyse de données brutes + métriques SaaS (MRR, churn, CAC, LTV, cohort).",
+  "author": {
+    "name": "Head of Plugins",
+    "email": "contact@example.com"
+  }
+}

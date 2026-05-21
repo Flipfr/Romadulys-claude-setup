@@ -1,0 +1,10 @@
+{
+  "name": "head-of-people",
+  "version": "0.1.0",
+  "description": "Ton Head of People (RH) dans Claude — fiches de poste + délégation + OKRs équipe + meeting prep.",
+  "author": "Head of Plugins",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "people", "RH", "hiring"],
+  "skills": ["job-description", "delegation-system", "okr-builder", "meeting-prep"],
+  "commands": ["people"]
+}
