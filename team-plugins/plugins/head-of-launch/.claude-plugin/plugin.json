@@ -1,8 +1,9 @@
-{
-  "name": "head-of-launch",
-  "description": "Ton Head of Launch dans Claude — orchestre un lancement produit complet (stratégie + checklist + ads + email) en une seule commande.",
-  "author": {
-    "name": "Head of Plugins",
-    "email": "contact@example.com"
-  }
+﻿{
+    "name":  "head-of-launch",
+    "description":  "Ton Head of Launch dans Claude â€” orchestre un lancement produit complet (stratÃ©gie + checklist + ads + email) en une seule commande.",
+    "author":  {
+                   "name":  "Head of Plugins",
+                   "email":  "contact@example.com"
+               },
+    "version":  "0.1.1"
 }

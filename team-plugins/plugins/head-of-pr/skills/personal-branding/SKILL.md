@@ -106,13 +106,13 @@ Plan personal branding Notion-ready : 5 sections clairement séparées, exemples
 L'algo LinkedIn 2026 (Authenticity Update mars 2026) vérifie strictement le **profile-to-content alignment**. Conséquence directe sur la stratégie de personal branding :
 
 - **Choisir UN angle hyper-niche et s'y tenir 12 mois minimum.**
-- **Exemple concret** : pour un founder positionné sur "IA × transformation PME française" — point. Pas "tech en général", pas "founder life", pas "produit". Toute digression = throttle algorithmique.
+- **Pour Romain** : "IA × transformation PME française" — point. Pas "tech en général", pas "founder life", pas "produit". Toute digression = throttle algorithmique.
 - **Le profil LinkedIn doit explicitement supporter cette niche** (headline, expérience, skills listés, posts épinglés). L'algo cross-référence et pénalise si désaccord profil/contenu.
 
 ### Le narratif "SaaSpocalypse" comme angle d'attaque
 
 - **Ce que c'est** : terme inventé par un trader Jefferies, repris par Bloomberg le 3 février 2026, popularisé en France par L'Agence Sauvage. 285Md$ de capitalisation perdus en 48h sur les SaaS éditeurs.
-- **Pourquoi c'est puissant** : ça donne un narrateur extérieur (Bloomberg, pas toi qui t'auto-proclames) + une urgence + un mot qui se mémorise. Parfait pour positioning.
+- **Pourquoi c'est puissant pour Romain** : ça lui donne un narrateur extérieur (Bloomberg, pas lui qui s'auto-proclame) + une urgence + un mot qui se mémorise. Parfait pour positioning.
 - **Comment l'utiliser** :
   - Une série de 5-8 posts narratifs sur la SaaSpocalypse vue du terrain PME français
   - Pas en phrase d'ouverture quotidienne (saturation rapide)
@@ -123,11 +123,11 @@ L'algo LinkedIn 2026 (Authenticity Update mars 2026) vérifie strictement le **p
 
 - **La tentation du "et aussi"** — "je parle d'IA mais aussi de leadership, et aussi de productivité, et aussi de podcast". L'algo 2026 punit. **Une seule case.**
 - **Le polish corporate** — broetry artificielle, citations Tony Robbins, photos pro chemise blanche. La 2026 LinkedIn récompense l'authentique imparfait, pas le glossy.
-- **Le pitch direct** — "Je suis founder de [boîte], on aide les PME à...". Mort. Le pitch passe par le contenu, jamais par l'auto-présentation.
+- **Le pitch direct** — "Je suis founder de Flip, on aide les PME à...". Mort. Le pitch passe par le contenu, jamais par l'auto-présentation.
 
 ## ➕ À ajouter dans `Templates`
 
-### Calendrier éditorial type 90 jours (exemple founder agence conseil IA)
+### Calendrier éditorial type 90 jours pour Romain (Flip)
 
 **Mission unique** : devenir LE nom qui sort quand un dirigeant de PME française tape "agent IA PME" dans sa tête.
 
@@ -152,15 +152,24 @@ L'algo LinkedIn 2026 (Authenticity Update mars 2026) vérifie strictement le **p
 
 - **La niche extrême est désormais une condition d'existence sur LinkedIn** (2026-04-27, source veille — Authenticity Update LinkedIn mars 2026)
   Contexte : profile-to-content alignment vérifié algorithmiquement. Toute digression hors niche déclarée = throttle.
-  Pourquoi ça compte : c'est l'occasion (forcée) de la discipline. Plus de "et aussi je parle de leadership". Une niche, point.
-  Application : skill personal-branding (audit profil + calendrier 90j hyper-niche).
+  Pourquoi ça compte : pour Romain, c'est l'occasion (forcée) de la discipline. Plus de "et aussi je parle de leadership". IA × PME, point.
+  Application : skill personal-branding (audit profil + calendrier 90j hyper-niche pour Romain).
 
 - **"SaaSpocalypse" comme angle d'attaque possible mais à doser** (2026-04-27, source veille — Bloomberg / L'Agence Sauvage)
   Contexte : narratif disponible, externalisé (pas auto-proclamé), Bloomberg comme source de crédibilité.
-  Pourquoi ça compte : c'est un raccourci puissant pour positionner une marque sans avoir à expliquer 10 fois ce qu'on fait. Mais ça segmente — soit ça parle au client (tech-savvy), soit ça repousse (terrain pur).
-  Application : skill personal-branding (post pilier mensuel + références ponctuelles), à décliner en deux versions de hook propal selon l'audience.
+  Pourquoi ça compte : c'est un raccourci puissant pour positionner Flip sans avoir à expliquer 10 fois ce qu'on fait. Mais ça segmente — soit ça parle au client (tech-savvy), soit ça repousse (terrain pur).
+  Application : skill personal-branding (post pilier mensuel + références ponctuelles), skill flip-proposition-commerciale (deux versions de hook propal).
 
 - **Le founder-led growth est la moat 2026** (2026-04-27, source veille — Edelman-LinkedIn 2025/26)
   Contexte : 60% des B2B buyers découvrent via creator content. 95% des décideurs disent que le thought leadership influence leurs décisions d'achat.
-  Pourquoi ça compte : le profil founder × LinkedIn devient le canal d'acquisition #1. La page entreprise = secondaire.
-  Application : prioriser le temps du founder sur le profil perso, pas la page entreprise. Calendrier éditorial 90j priorité 1.
+  Pourquoi ça compte : Romain × LinkedIn devient le canal d'acquisition #1 de Flip. La page entreprise = secondaire.
+  Application : prioriser le temps de Romain sur le profil perso, pas la page Flip. Calendrier éditorial 90j priorité 1.
+
+---
+
+## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
+
+- **LinkedIn algo 2026 — pivot "value delivered" + dwell time comme signal clé** (2026-05-25, source veille — blog.linkboost.co)
+  Contexte : algo priorise pertinence, expertise, engagement qualitatif. Dwell time = signal clé. Commentaires = levier visibilité (apparaissent dans feed followers). Stratégie : 3-5 posts/sem, hooks forts <10 mots, carousels, storytelling + data, 10-15 min commentaires avant/après post.
+  Pourquoi ça compte : ajuster stratégie personal branding LinkedIn de Romain (Flip) — focus dwell time, routine commentaires obligatoire dans la fenêtre 10-15 min après publication.
+  Application : calendrier personal branding Romain : 3-5 posts/semaine, mix carrousels + storytelling + data, hooks <10 mots, routine commentaires 10-15 min avant + 10-15 min après chaque post (boost algo majeur).

@@ -80,13 +80,13 @@ Pour chaque slide : un bloc structuré avec **Titre / Message clé / Contenu / �
 
 
 **Date d'intégration** : 2026-04-27 (veille semaine du 24 avril 2026)
-**1 item intégré** : France Num 26% (chiffre clé pitch investisseur agence IA)
+**1 item intégré** : France Num 26% (chiffre clé pitch investisseur Flip)
 
 ---
 
-## ➕ À ajouter dans `Templates` — Slide "Marché" pitch agence IA
+## ➕ À ajouter dans `Templates` — Slide "Marché" pitch Flip
 
-### Chiffres marché IA-PME 2026 (validés veille)
+### Chiffres marché Flip 2026 (validés veille)
 
 ```
 Le marché français bascule
@@ -107,7 +107,7 @@ des projets IA en entreprise échouent faute de stratégie
 ```
 
 **Slide "Problème" associé** :
-> Les PME se précipitent sur l'IA — mais 95% se cassent le nez sur la mise en œuvre. [Agence] est celle qui les fait passer dans les 5%.
+> Les PME se précipitent sur l'IA — mais 95% se cassent le nez sur la mise en œuvre. Flip est l'agence qui les fait passer dans les 5%.
 
 ## ➕ À ajouter dans `Heuristiques`
 
@@ -121,5 +121,14 @@ des projets IA en entreprise échouent faute de stratégie
 
 - **Le doublement IA-en-PME 2024→2026 est l'argument d'urgence #1 en pitch** (2026-04-27, source veille — France Num / Bpifrance Le Lab)
   Contexte : 13% → 26% en 18 mois. Sources institutionnelles, donc opposables.
-  Pourquoi ça compte : pour le pitch investisseur d'une agence IA, c'est l'argument "le marché bouge maintenant, le timing est binaire". Pour les propals client, c'est l'argument "vos concurrents y sont déjà".
-  Application : skill pitch-deck (slide marché systématique), skill proposition commerciale (slide contexte), skill linkedin-content-creator (data point récurrent dans les posts contrarian).
+  Pourquoi ça compte : pour le pitch investisseur Flip, c'est l'argument "le marché bouge maintenant, le timing est binaire". Pour les propals client, c'est l'argument "vos concurrents y sont déjà".
+  Application : skill pitch-deck (slide marché systématique), skill flip-proposition-commerciale (slide contexte), skill linkedin-content-creator (data point récurrent dans les posts contrarian).
+
+---
+
+## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
+
+- **ROI médian IA documenté : +159,8% sur 24 mois (Baromètre IA & ROI 2022-2025, 200+ projets France)** (2026-05-25, source veille — denisatlan.fr/barometre-ia-pme)
+  Contexte : Baromètre IA & ROI 2022-2025 (200+ projets France) — ROI médian 159,8% sur 24 mois.
+  Pourquoi ça compte : chiffre de réassurance pour slide marché / proof points dans pitch investisseur, sourcé proprement.
+  Application : slide marché / opportunité — "ROI médian IA +159,8% sur 24 mois (Baromètre IA & ROI 2022-2025, 200+ projets France)" comme proof point dans le narratif d'investissement.

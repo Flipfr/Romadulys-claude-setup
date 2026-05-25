@@ -74,3 +74,22 @@ Pour chacun :
 ## Format de sortie
 
 Markdown structuré : 1 section par étape du funnel, tableaux pour la matrice, blocs "hypothèse / mesure / implémentation" pour chaque expérience. Exportable Notion.
+
+---
+
+## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
+
+- **Meta Advantage+ Shopping seuil 25 conv/sem (baissé de 50 à 25)** (2026-05-25, source veille — dataslayer.ai)
+  Contexte : seuil ASC baissé de 50 à 25 conversions/semaine.
+  Pourquoi ça compte : Buddy (crowdfunding) et LPL peuvent enfin tester Advantage+ avec budget modeste. Levier growth débloqué pour les projets sub-50 conv/sem.
+  Application : activer ASC sur projets B2C dès 25 conv/sem. Levier prioritaire pour Buddy et LPL.
+
+- **Meta Advantage+ Creative ON par défaut depuis février 2026** (2026-05-25, source veille — admanage.ai)
+  Contexte : nouvelles campagnes Sales/Leads/App Promo avec TOUTES les améliorations Advantage+ Creative activées par défaut.
+  Pourquoi ça compte : vertical-first obligatoire dans tous les briefs. Les améliorations auto-créa donnent un effet "test+" avec moins d'effort.
+  Application : workflow growth = vertical-first + ne pas désactiver Advantage+ Creative par défaut + monitorer les variations auto vs original.
+
+- **Meta "Describe Your Audience" — targeting langage naturel via Advantage+ Targeting** (2026-05-25, source veille — gezar.dk)
+  Contexte : Advantage+ Targeting accepte description en texte libre du client idéal, IA Meta fait le ciblage.
+  Pourquoi ça compte : raccourcit le setup, ouvre des audiences inattendues via la compréhension narrative IA Meta.
+  Application : workflow setup campagne = description narrative + bench A/B vs ciblage classique. Tester immédiatement sur Flip + Buddy + LPL.

@@ -1,8 +1,8 @@
-{
-  "name": "head-of-content",
-  "description": "Ton Head of Content dans Claude — transforme 1 contenu source (podcast, vidéo, article) en machine multi-format : blog SEO + LinkedIn + Reels + hooks + repurposing.",
-  "author": {
-    "name": "Head of Content"
-  },
-  "version": "0.1.1"
+﻿{
+    "name":  "head-of-content",
+    "description":  "Ton Head of Content dans Claude â€” transforme 1 contenu source (podcast, vidÃ©o, article) en machine multi-format : blog SEO + LinkedIn + Reels + hooks + repurposing.",
+    "author":  {
+                   "name":  "Head of Content"
+               },
+    "version":  "0.1.2"
 }

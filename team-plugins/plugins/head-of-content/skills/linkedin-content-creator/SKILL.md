@@ -124,7 +124,7 @@ Hors-post (hooks alternatifs, version mobile, hashtags suggérés, horaire) : pe
 
 Depuis l'Authenticity Update de mars 2026, l'algo LinkedIn ne distribue plus principalement par proximité réseau mais par **topic-relevance + dwell time + completion rate**. Conséquences directes pour la rédaction :
 
-1. **Profile-to-content alignment strict.** Si le post sort de l'expertise déclarée du profil, throttle automatique. Exemple : un profil positionné "expert IA × PME" doit s'interdire les posts politique, sport, déco perso. Niche hyper-stricte.
+1. **Profile-to-content alignment strict.** Si le post sort de l'expertise déclarée du profil, throttle automatique. Pour Romain (expert IA × PME) : interdiction de poster sur la politique, le sport, la déco perso. Niche hyper-stricte.
 2. **-60% de reach sur les posts contenant un lien externe dans le corps.** *Tous les liens vont en commentaire*, jamais dans le post lui-même.
 3. **-50% de reach organique moyen sur 12 mois.** Le travail de hook devient encore plus critique — première phrase = 50% du résultat.
 4. **"Universal" virality dévalorisée, "Niche" virality survalorisée.** Mieux vaut 200 likes ultra-qualifiés (décideurs PME en France) que 5000 likes random.
@@ -173,7 +173,7 @@ Donc carousel PDF = **278% de plus que vidéo, 596% de plus que texte**.
 - **L'aveu** : "J'ai mis [N mois] à comprendre [chose qui paraît évidente après]. Voici ce que j'aurais aimé qu'on me dise."
 - **Le before/after** : "Il y a [période], [état désastreux]. Aujourd'hui, [état nouveau]. Voici les 3 trucs qui ont tout changé."
 
-### Calendrier éditorial type (exemple — agence conseil IA × PME)
+### Calendrier éditorial type pour Romain (Flip)
 
 50% carousels PDF / 30% texte / 20% vidéo native — **uniquement sur la niche IA × PME**.
 
@@ -185,18 +185,18 @@ Rythme : 4-5 posts/semaine. Lundi-jeudi 8-10h. Pas le vendredi, pas le week-end.
 
 - **L'algo LinkedIn 2026 favorise la niche extrême** (2026-04-27, source veille — Linkboost, InvolvDigital, Edelman-LinkedIn 2025/26)
   Contexte : Authenticity Update mars 2026, Depth Score remplace network-based, profile-to-content alignment vérifié, -60% reach sur liens externes.
-  Pourquoi ça compte : la stratégie "ratisser large" est définitivement morte. En pratique, ça veut dire une discipline éditoriale forte — une seule niche et rien d'autre, pendant 6-12 mois minimum.
-  Application : skill linkedin-content-creator (filtrage niche systématique en pré-rédaction), skill personal-branding (re-niche le profil si pas déjà fait).
+  Pourquoi ça compte : la stratégie "ratisser large" est définitivement morte. Pour Romain, ça veut dire une discipline éditoriale forte — IA × PME et rien d'autre, pendant 6-12 mois minimum.
+  Application : skill linkedin-content-creator (filtrage niche systématique en pré-rédaction), skill personal-branding (re-niche le profil de Romain si pas déjà fait).
 
 - **Carousel PDF = format dominant à 7x le texte** (2026-04-27, source veille — InvolvDigital benchmark)
   Contexte : 6.6% engagement vs 0.9% texte. Hook + 5-7 slides "Universal Alpha" + CTA. Structure swipe-friendly.
-  Pourquoi ça compte : format idéal pour les cartographies de process, les benchmarks sectoriels, les cas client anonymisés (B2B services), et pour les insights utilisateurs / specs produit (B2C hardware).
-  Application : skill linkedin-content-creator (template carousel par défaut), créer un template Canva/Figma "carousel" maison avec le template hook+5+CTA.
+  Pourquoi ça compte : pour Flip, on a un format idéal pour les cartographies de process, les benchmarks sectoriels, les cas client anonymisés. Pour Buddy, idéal pour les insights parents et les specs hardware.
+  Application : skill linkedin-content-creator (template carousel par défaut), créer un template Canva/Figma "Flip carousel" avec le template hook+5+CTA.
 
 - **Le founder-led growth est la moat de distribution B2B 2026** (2026-04-27, source veille — Edelman-LinkedIn / InvolvDigital)
   Contexte : 60% des B2B buyers découvrent les marques via creator content avant le formulaire. 95% des décideurs disent que le thought leadership influence leurs achats. 79% ignorent les cold DMs.
-  Pourquoi ça compte : la page entreprise est secondaire, la moat est sur le profil personnel du fondateur / dirigeant.
-  Application : skill personal-branding (calendrier 90j hyper-niche), skill linkedin-content-creator (priorité absolue au profil fondateur), ne plus alimenter la page entreprise sauf cas exceptionnel.
+  Pourquoi ça compte : confirme l'intuition d'investir Romain × LinkedIn pour Flip. La page entreprise est secondaire, la moat est sur le profil personnel.
+  Application : skill personal-branding (calendrier 90j hyper-niche), skill linkedin-content-creator (priorité absolue Romain), ne plus alimenter la page entreprise Flip sauf cas exceptionnel.
 
 ---
 
@@ -240,7 +240,7 @@ La **short-form vertical video** est devenue un format dominant LinkedIn en 2026
 
 Conséquence pour le pipeline `content-repurposer` : tes Reels TikTok/Instagram peuvent être recyclés directement sur LinkedIn — pas besoin de format spécifique. Une seule capture verticale alimente 3 plateformes (TikTok, Reels, LinkedIn).
 
-**Calendrier éditorial révisé (exemple — agence conseil IA × PME)** :
+**Calendrier éditorial révisé pour Romain (Flip)** :
 - 40% carousel PDF (ex-50%) — toujours dominant pour insights structurés
 - 25% vidéo verticale < 90s (NEW — recyclage des Reels)
 - 25% texte avec hook "thought style"
@@ -248,3 +248,79 @@ Conséquence pour le pipeline `content-repurposer` : tes Reels TikTok/Instagram 
 - **0% polls** (à supprimer définitivement)
 
 Rythme : 4-5 posts/semaine. Lundi-jeudi 8-10h.
+
+---
+
+## 📚 Apprentissages intégrés — Veille 8 mai 2026
+
+### L'algo a définitivement pivoté du CTR vers le dwell time
+
+Source : Dataslayer + Linkboost, février-mai 2026.
+
+- **Carrousels PDF 10 slides** = 6,6% engagement (record — vs 0,9% texte simple).
+- Les **60-90 premières minutes** déterminent **70% du reach final** → mobiliser 5 commentaires réseau dans la 1ère heure = non-négociable.
+- Hooks gagnants : **contrarian / data / narrative (in medias res)**.
+
+### Nouveau rythme cible founder (Romain — Flip)
+
+Passer de 4-5 posts/semaine à **5 posts/jour ouvré** (1/jour). Donnée Leadfeeder : founders qui postent quotidiennement reportent **5-10× plus de demos B2B inbound**. Combiné à l'ABM hyper-perso → deal value +171%.
+
+Pipeline hebdomadaire founder :
+- **2 carrousels PDF** (10 slides, données chiffrées diagnostic PME — mardi/jeudi 8h)
+- **1 post narratif "in medias res"**
+- **1 post contrarian** (opinion qui dérange sur l'IA PME)
+- **1 post story client** (anonymisé, chiffré)
+
+### Hook narrative "in medias res" — nouveau format à intégrer
+
+Démarrer **au milieu de l'action**, pas par le contexte. Exemples :
+- "I almost fired my best dev last month."
+- "Le client venait de me dire stop. J'avais 48h pour le ramener."
+- "J'ai supprimé 80% de mon code production hier. Voici pourquoi."
+
+Le contexte arrive en slide 3-4, jamais en hook.
+
+### Séquence tactique AI Act — 6 posts sur 30j (avant le 2 août 2026)
+
+1. Deadline ("PME, vous avez 90 jours")
+2. Qui est concerné (RH, scoring, surveillance employés)
+3. Chiffre sanction (15M€ ou 3% CA mondial)
+4. Case study fictif (PME industrielle découvre qu'elle est en haut risque)
+5. Checklist 5 points
+6. CTA "Audit AI Act 990€" → trojan horse vers diag 2 500€
+
+---
+
+## 💡 Apprentissage intégré — 2026-04-30
+
+**Hook "Tu fais X, mais tu devrais Y" — +23% engagement** (source : test A/B lePERMISLIBRE Meta Ads avril 2026, 3 variantes × 50k impressions, validé aussi sur LinkedIn organique)
+
+Variante storytelling avec twist à ajouter dans la palette des hooks LinkedIn (catégorie contrarian/correction directe).
+
+**Pattern** : "Tu [action en cours / situation positive]. Mais tu devrais [correction contre-intuitive]."
+
+**Pourquoi ça marche sur LinkedIn** :
+- Active le biais de validation chez les décideurs (ils veulent savoir s'ils font bien)
+- Pattern interrupt — inverse de l'attente
+- Le "tu" implique directement le lecteur → boost de l'arrêt scroll
+
+**Exemples validés** :
+- "Tu lances ton produit dans 60 jours, mais tu n'as pas encore listé ton ICP. Voilà comment faire ça en 30 min."
+- "Tu fais des fiches de poste qui filtrent. Mais tu devrais faire des fiches qui ATTIRENT en filtrant."
+- "Tu as un dashboard. Mais sans seuil cible par métrique, c'est juste de la déco."
+
+À privilégier dans les posts texte adressés aux opérateurs en phase d'exécution (post audit, post launch, post recrutement). Compatible avec le rythme founder 5 posts/sem défini ci-dessus.
+
+---
+
+## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
+
+- **LinkedIn Authenticity Update — engagement-baiting pénalisé depuis mars 2026** (2026-05-25, source veille — connectsafely.ai)
+  Contexte : LinkedIn pénalise les posts qui demandent explicitement de l'interaction ("commente X", "partage si..."). Curiosity-gap et contrarian = ×2,3 d'engagement. Accroches <10 mots = +40%. 65% des users décident d'ouvrir sur la 1ère ligne.
+  Pourquoi ça compte : retirer tout call-to-engagement explicite des templates — sanctionné par l'algo. Curiosity-gap et contrarian sont les 2 patterns gagnants 2026.
+  Application : retirer des templates les CTAs engagement-baiting ("commente", "partage si...", "tag quelqu'un"). Prioriser curiosity-gap + contrarian. Accroche <10 mots obligatoire.
+
+- **LinkedIn algo 2026 — pivot "value delivered" + dwell time comme signal clé** (2026-05-25, source veille — blog.linkboost.co)
+  Contexte : algo priorise pertinence, expertise, engagement qualitatif. Dwell time = signal clé. Commentaires = levier visibilité (apparaissent dans feed followers). Stratégie : 3-5 posts/sem, hooks forts, carousels, storytelling + data, 10-15 min commentaires avant/après post.
+  Pourquoi ça compte : ajuster stratégie LinkedIn — focus dwell time (carrousels, storytelling long), routine commentaires obligatoire dans les 10-15 min après publication.
+  Application : rythme cible 3-5 posts/semaine. Mix : carrousels (dwell time +++), storytelling + data, hooks forts <10 mots. Routine commentaires : 10-15 min avant + 10-15 min après chaque post.

@@ -142,3 +142,12 @@ export async function submitForm(formData: FormData) {
 ## Format de sortie
 
 Code TypeScript prêt à coller, snippets séparés par préoccupation (architecture / data fetching / perf / deploy), commentaires explicatifs sur les patterns non-évidents.
+
+---
+
+## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
+
+- **Karpathy CLAUDE.md = 70 lignes, 110k stars en 3 mois — densité > volume** (2026-05-25, source veille — github karpathy CLAUDE.md)
+  Contexte : fichier CLAUDE.md de 70 lignes (distillation Forrest Chang depuis Karpathy), 110k stars en 3 mois, #1 GitHub Trending pendant 28 jours.
+  Pourquoi ça compte : référence pour rédiger les sections d'instructions Next.js — compresser à l'os, 1 ligne = 1 règle, pas de remplissage explicatif.
+  Application : auditer ce SKILL.md ligne par ligne — chaque ligne doit être actionnable ou supprimée. Cible de densité : ~70-100 lignes max sur l'essentiel des patterns Next.js critiques.

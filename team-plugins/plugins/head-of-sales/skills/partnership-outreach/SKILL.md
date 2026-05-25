@@ -58,7 +58,7 @@ Objet : Article LinkedIn sur [topic] m'a fait penser à toi
 
 Salut [Prénom],
 
-Je viens de lire ton post sur [sujet précis] — la partie sur [détail] résonne fort avec ce qu'on observe de notre côté.
+Je viens de lire ton post sur [sujet précis] — la partie sur [détail] résonne fort avec ce qu'on observe chez Flip.
 
 On accompagne [audience] sur [problème], notamment [résultat client précis].
 
@@ -124,3 +124,12 @@ Template avec colonnes :
 ## Format de sortie
 
 Templates copier-coller (cold email, LinkedIn, relances), tracker Notion duplicable, checklist d'accord en bullets.
+
+---
+
+## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
+
+- **AI Summit Europe : alliances éditeurs (Mistral, Gemini EU) × agences IA locales — modèle hybride** (2026-05-25, source veille — agence-ia.com)
+  Contexte : modèle hybride puissance éditeur + agilité agence locale. PME accèdent à offres réservées aux grandes entreprises via ces alliances.
+  Pourquoi ça compte : opportunité de partenariat éditeur pour Flip — programme partenaire Anthropic, Mistral, Gemini EU — qui devient un canal d'acquisition + crédibilité.
+  Application : démarche partenaire à lancer : (1) Anthropic Partner Program — éligibilité + dossier ; (2) Mistral si réseau d'agences ouvert ; (3) Gemini EU partners — explorer. Priorité 1 : Anthropic vu la stack Flip.

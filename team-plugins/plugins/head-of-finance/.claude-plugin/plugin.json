@@ -1,8 +1,9 @@
-{
-  "name": "head-of-finance",
-  "description": "Ton Head of Finance dans Claude — prépare une levée de fonds early-stage de bout en bout : pitch deck + modèle financier + memo + investor update.",
-  "author": {
-    "name": "Head of Plugins",
-    "email": "contact@example.com"
-  }
+﻿{
+    "name":  "head-of-finance",
+    "description":  "Ton Head of Finance dans Claude â€” prÃ©pare une levÃ©e de fonds early-stage de bout en bout : pitch deck + modÃ¨le financier + memo + investor update.",
+    "author":  {
+                   "name":  "Head of Plugins",
+                   "email":  "contact@example.com"
+               },
+    "version":  "0.1.1"
 }

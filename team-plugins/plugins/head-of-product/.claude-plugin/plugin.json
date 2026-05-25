@@ -1,8 +1,9 @@
-{
-  "name": "head-of-product",
-  "description": "Ton Head of Product dans Claude — Discovery + PRDs + roadmap + OKRs + analyse concurrentielle.",
-  "author": {
-    "name": "",
-    "email": ""
-  }
+﻿{
+    "name":  "head-of-product",
+    "description":  "Ton Head of Product dans Claude â€” Discovery + PRDs + roadmap + OKRs + analyse concurrentielle.",
+    "author":  {
+                   "name":  "",
+                   "email":  ""
+               },
+    "version":  "0.1.1"
 }

@@ -1,8 +1,8 @@
-{
-  "name": "head-of-consulting",
-  "description": "Ton Head of Consulting dans Claude — onboarde un client PME de A à Z : diagnostic + entretien JTBD + cartographie process + roadmap 90j + proposition commerciale.",
-  "author": {
-    "name": "Head of Consulting"
-  },
-  "version": "0.1.1"
+﻿{
+    "name":  "head-of-consulting",
+    "description":  "Ton Head of Consulting dans Claude â€” onboarde un client PME de A Ã  Z : diagnostic + entretien JTBD + cartographie process + roadmap 90j + proposition commerciale.",
+    "author":  {
+                   "name":  "Head of Consulting"
+               },
+    "version":  "0.1.2"
 }
