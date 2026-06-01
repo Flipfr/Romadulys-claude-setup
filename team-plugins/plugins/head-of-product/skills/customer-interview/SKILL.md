@@ -112,9 +112,9 @@ Pas un persona inventé — uniquement des éléments confirmés par les intervi
 - **Compte les anecdotes vécues** vs **opinions projetées**. Tu ne crois que les premières.
 - **3 interviews = signal faible. 8-10 interviews = patterns solides. 30+ = saturation.**
 
-## Application en cabinet conseil
+## Application Flip Agency
 
-Utilisable pour les **diagnostics clients PME** — un diagnostic type commence par 5-8 interviews opérationnelles + 1 dirigeant pour valider les douleurs avant de proposer.
+Utilisable pour les **diagnostics clients PME** — le diagnostic Flip commence par 5-8 interviews opérationnelles + 1 dirigeant pour valider les douleurs avant de proposer.
 
 ## Format de sortie
 

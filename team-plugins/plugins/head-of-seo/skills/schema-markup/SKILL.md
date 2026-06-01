@@ -67,12 +67,12 @@ Si je ne sais pas le type de page, je demande d'abord.
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "MaMarque",
-  "url": "https://example.com",
-  "logo": "https://example.com/logo.png",
+  "name": "lePERMISLIBRE",
+  "url": "https://lepermislibre.fr",
+  "logo": "https://lepermislibre.fr/logo.png",
   "sameAs": [
-    "https://www.linkedin.com/company/mamarque",
-    "https://www.instagram.com/mamarque"
+    "https://www.linkedin.com/company/lepermislibre",
+    "https://www.instagram.com/lepermislibre"
   ],
   "contactPoint": {
     "@type": "ContactPoint",
@@ -88,28 +88,28 @@ Si je ne sais pas le type de page, je demande d'abord.
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Titre de l'article",
-  "image": "https://example.com/blog/cover.jpg",
+  "headline": "Comment passer son permis avec son CPF en 2026",
+  "image": "https://lepermislibre.fr/blog/cpf-permis-cover.jpg",
   "author": {
     "@type": "Person",
-    "name": "Prénom Nom",
-    "url": "https://example.com/auteur/prenom-nom"
+    "name": "Romain Dura",
+    "url": "https://lepermislibre.fr/auteur/romain-dura"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "MaMarque",
+    "name": "lePERMISLIBRE",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://example.com/logo.png"
+      "url": "https://lepermislibre.fr/logo.png"
     }
   },
   "datePublished": "2026-04-27",
   "dateModified": "2026-04-27",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://example.com/blog/slug-article"
+    "@id": "https://lepermislibre.fr/blog/cpf-permis-2026"
   },
-  "description": "Résumé de l'article en 150-160 caractères."
+  "description": "Guide complet pour utiliser votre CPF afin de financer 100% du permis B en 2026."
 }
 ```
 
@@ -145,9 +145,9 @@ Si je ne sais pas le type de page, je demande d'abord.
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://example.com" },
-    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://example.com/blog" },
-    { "@type": "ListItem", "position": 3, "name": "Article 2026", "item": "https://example.com/blog/slug-article" }
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://lepermislibre.fr" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lepermislibre.fr/blog" },
+    { "@type": "ListItem", "position": 3, "name": "CPF Permis 2026", "item": "https://lepermislibre.fr/blog/cpf-permis-2026" }
   ]
 }
 ```
@@ -157,13 +157,13 @@ Si je ne sais pas le type de page, je demande d'abord.
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "Nom du produit premium",
-  "image": "https://example.com/produits/produit.jpg",
-  "description": "Description courte du produit et de ses bénéfices.",
-  "brand": { "@type": "Brand", "name": "MaMarque" },
+  "name": "Pack code de la route premium",
+  "image": "https://lepermislibre.fr/produits/pack-code.jpg",
+  "description": "Accès illimité aux 4000 questions officielles + suivi pédagogique.",
+  "brand": { "@type": "Brand", "name": "lePERMISLIBRE" },
   "offers": {
     "@type": "Offer",
-    "url": "https://example.com/produits/produit",
+    "url": "https://lepermislibre.fr/produits/pack-code",
     "priceCurrency": "EUR",
     "price": "29.00",
     "availability": "https://schema.org/InStock"
@@ -198,8 +198,8 @@ Une page peut avoir plusieurs types de schema en un seul bloc :
 {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "Organization", "@id": "https://example.com#organization", "name": "MaMarque", "url": "https://example.com" },
-    { "@type": "WebSite", "@id": "https://example.com#website", "url": "https://example.com", "publisher": { "@id": "https://example.com#organization" } },
+    { "@type": "Organization", "@id": "https://lepermislibre.fr#organization", "name": "lePERMISLIBRE", "url": "https://lepermislibre.fr" },
+    { "@type": "WebSite", "@id": "https://lepermislibre.fr#website", "url": "https://lepermislibre.fr", "publisher": { "@id": "https://lepermislibre.fr#organization" } },
     { "@type": "BreadcrumbList", "itemListElement": [ ... ] },
     { "@type": "FAQPage", "mainEntity": [ ... ] }
   ]

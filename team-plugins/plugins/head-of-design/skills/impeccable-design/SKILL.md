@@ -163,7 +163,7 @@ Inspire-toi de ces 24 verbes selon la demande :
 4. **Wireframe textuel** ou Tailwind/shadcn ready-to-paste
 5. **Décisions clés** avec justification (pourquoi cette typo, cette teinte, ce layout)
 
-## Stack par défaut
+## Stack par défaut sur Flip
 
 - Tailwind CSS + shadcn/ui (déjà en place)
 - OKLCH via Tailwind v4 (`color-mix`, `oklch()` natif)
@@ -204,3 +204,65 @@ Anthropic propose désormais un outil natif pour designs/prototypes/slides/one-p
 - ✅ Claude Design : prototypes one-shot, slides commerciales, one-pagers marketing — pas de système design custom à long terme.
 - ✅ `impeccable-design` (ce skill) : produit avec identité forte à maintenir, design system propriétaire, équipe qui doit s'approprier les tokens.
 - 🎯 Combo : Claude Design pour la phase exploration → ce skill pour figer le système quand le produit se stabilise.
+
+---
+
+## 📚 Mise à jour — Veille du 13 mai 2026
+
+**Source** : analyse de profils GitHub élite 2025-2026 (trinib, SP-XD, sindresorhus, DenverCoder1, anmol098, gautamkrishnar, orhun, natemoo-re, dbuzatto/gif-terminal) — distillation des patterns transférables vers vitrine SaaS B2B.
+
+### Le piège à éviter
+
+80% des patterns "GitHub profile" (badges, trophées, streak stats, ASCII art Matrix, skill-icons, Spotify Now Playing) ne se transfèrent **pas** à un site vitrine SaaS B2B. Coller ça = repousser les décideurs PME qui veulent du sérieux + clarté commerciale.
+
+Le bon registre pour "tech moderne sérieux" = **Resend, Linear, Vercel, Once.fr, Sentry, Railway** — pas un profil GitHub perso.
+
+### 8 patterns qui transfèrent réellement
+
+| # | Pattern | Logique | Application SaaS B2B |
+|---|---|---|---|
+| 1 | **Terminal comme hero fonctionnel** | Pas un effet décoratif Matrix — un faux terminal qui montre le produit en action (Vercel logs, Resend curl, Railway deploy) | Hero qui type-écrit un vrai output produit. Le terminal montre que ça marche, pas qu'on est cool |
+| 2 | **Mono détails, pas mono partout** | Mono sur metadata, chiffres, status, badges, code snippets — sans-serif sur body | Crédibilité tech sans sacrifier la lisibilité |
+| 3 | **Data live > screenshots statiques** | Compteurs qui tickent, dernière activité, last update timestamp | "X PME accompagnées ce mois", "17 places restantes", "dernier diag livré il y a 3h" |
+| 4 | **Restraint > maximalisme** | Top profils (sindresorhus, natemoo-re, orhun) gagnent sur ce qu'ils ne montrent **pas** | 1 promesse + 1 démo + 1 social proof >> 8 sections "features" |
+| 5 | **Built-in-public signal** | Auto-update blog feed, "last shipped", live activity widget | "Sprint en cours", "dernier post il y a X" — humain + actif |
+| 6 | **UNE animation signature, pas cinq** | trinib = bruit (matrix partout). Linear = 1 gradient subtil = mémorable | Choisir 1 motion qui définit la marque, bannir les autres |
+| 7 | **Asymétrie > grille uniforme** | Top profils varient les tailles de blocs | Anti-pattern "3 cards identiques" → varier hauteurs, ratios, alignements |
+| 8 | **`tabular-nums` sur chaque chiffre clé** | Mono numerals sur prix, ROI, jours, qty | Reads like un dashboard, pas une brochure |
+
+### Anti-patterns spécifiques (contamination GitHub-profile à bannir)
+
+| Anti-pattern | Pourquoi |
+|---|---|
+| Stickers / GIFs décoratifs (cat-typing, fire-emoji, anime) | Registre étudiant, casse la crédibilité B2B |
+| `skill-icons` (rangée d'icônes tech alignées) | Registre CV, pas SaaS pro |
+| ASCII art Matrix / pluies de caractères | Daté, illisible mobile, AI slop |
+| Streak counters comme proof | Sauf vraiment lié au produit (ex: GitHub) |
+| Profile trophies / badges gamifiés | Casse la crédibilité B2B |
+| Spotify Now Playing / WakaTime stats | Perso, pas commercial |
+| Terminal Matrix vert néon sur fond noir | Cliché hacker, fuit les dirigeants PME |
+
+### Stack ready-to-paste — Terminal hero React
+
+**Pattern** : type-écriture séquentielle, mono font, prompt `$` visible, cursor blink, header type "macOS terminal" (3 pastilles + label).
+
+**Bannir** :
+- Couleurs hacker néon-vert sur noir Matrix → préférer terminal "Vercel/Resend" (sombre + 1 accent doux).
+- Animation infinie sans pause → laisser le contenu lisible une fois affiché.
+- Layout horizontal qui explose en mobile → forcer overflow ou simplifier le contenu sur < 640px.
+
+**Implémentation** :
+- `framer-motion` ou simple `setTimeout` + state machine (suffisant pour la typing animation).
+- **Performance** : `transform/opacity` only, jamais `width`/`height`.
+- **Accessibilité** : `prefers-reduced-motion` → afficher l'output complet instantanément, pas d'animation.
+- **Mobile** : tester en 375px — le contenu doit rester lisible (parfois adapter le script terminal pour version courte).
+
+### Quand utiliser ce registre dev-aesthetic vs B2B classique
+
+| Cible | Registre conseillé |
+|---|---|
+| CTO/COO digitaux, agences IA, dev-conscious founders | Dev-aesthetic dark (Linear/Vercel/Resend) |
+| Dirigeants PME 35-55 ans, secteurs classiques | B2B premium classique (Pennylane/Pipedrive) |
+| **Hybride** (Flip cible : PME 5-50, dirigeants 35-55, tech-curious) | **Light base + 1 signature terminal/mono fonctionnelle** |
+
+Pour une cible hybride : **light base** (les PME ne veulent pas d'un site "hacker"), avec un **terminal hero fonctionnel** qui montre le produit en live (preuve produit), et des **détails mono** (tabular-nums sur €, jours, ROI, places restantes).

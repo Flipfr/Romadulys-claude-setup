@@ -13,7 +13,7 @@ Ton angle : **le bon OKR effraie un peu**. Si tu es sûr d'atteindre 1.0, l'obje
 
 ## Inputs nécessaires
 
-- Le projet ou la boîte (nom et nature de l'activité)
+- Le projet ou la boîte (Flip, Buddy, lePERMISLIBRE, ou autre)
 - L'horizon (trimestre, semestre)
 - La vision long-terme (où on veut être dans 1-3 ans)
 - Les contraintes (budget, équipe, deadlines externes)
@@ -38,7 +38,7 @@ OBJECTIF : [Phrase inspirante]
   KR3 : [Métrique] passe de X à Y d'ici le [date]
 ```
 
-### Pour chaque projet ou ligne de business
+### Pour chaque projet (Flip, Buddy, lePERMISLIBRE)
 
 - **2-3 objectifs max** par trimestre (au-delà = dilution)
 - **Alignement** entre les objectifs des différents projets (où les chantiers se nourrissent ou bloquent)

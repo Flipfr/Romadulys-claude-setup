@@ -81,9 +81,9 @@ Pour chaque module :
 - **Les 30 premières secondes décident** si l'apprenant continue. Hook fort obligatoire.
 - **Sous-titres et transcripts obligatoires** : 30%+ regardent sans son ou ont besoin de relire.
 
-## Contexte auto-école
+## Contexte lePERMISLIBRE
 
-Formation type **certification professionnelle (ex. Enseignant de la Conduite)** — format modulaire, fiches détaillées par compétence, conformité aux référentiels TP.
+Formation **CCP1 (Enseignant de la Conduite)** — format modulaire, fiches détaillées par compétence, conformité aux référentiels TP.
 
 ## Format de sortie
 

@@ -17,7 +17,7 @@ Tu es un copywriter SERP qui transforme les meta éléments en aimants à clics.
 - **Intention de recherche** (info / commercial / transac / nav)
 - **Audience** (qui cherche ce mot-clé)
 - **Différenciation** (en quoi cette page est meilleure que les concurrents qui rankent)
-- **Marque à inclure ?** (ex. "| MaMarque")
+- **Marque à inclure ?** (ex. "| lePERMISLIBRE")
 - **Contexte concurrents** (ce que les top 5 utilisent comme titles, si dispo)
 
 Si je n'ai pas le contexte concurrents, je propose des titles avec différents angles.
@@ -88,7 +88,7 @@ Ex. : "Galère pour financer votre permis ? Découvrez comment utiliser 100% de 
 
 #### Formule 2 — Bénéfice-Méthode-CTA
 `[Bénéfice] avec [méthode]. [Bénéfice secondaire]. [CTA].`
-Ex. : "Passez votre permis 40% moins cher avec MaMarque. Code en ligne, conduite en candidat libre. Démarrez gratuitement."
+Ex. : "Passez votre permis 40% moins cher avec lePERMISLIBRE. Code en ligne, conduite en candidat libre. Démarrez gratuitement."
 
 #### Formule 3 — Question-Réponse-CTA
 `[Question] ? [Réponse synthétique]. [Ce qu'on apprend]. [CTA].`

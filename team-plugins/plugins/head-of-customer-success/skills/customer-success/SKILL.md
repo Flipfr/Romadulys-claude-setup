@@ -152,9 +152,9 @@ Pas de pression. On propose, on n'impose pas.
 - **Un client à risque ne te dit pas qu'il va churn.** Il devient juste silencieux. Le silence est le 1er signal.
 - **L'upsell se mérite.** Tu ne peux pas pousser à upgrade un client qui n'a pas encore atteint son 1er résultat avec le plan actuel.
 
-## Exemple — abonnement conseil B2B
+## Contexte Flip
 
-Pour un abonnement type ~2k€/mois : suivi mensuel obligatoire, **renouvellement annuel** à anticiper **60j avant** terme. NPS trimestriel.
+Abonnement 2000€/mois : suivi mensuel obligatoire, **renouvellement annuel** à anticiper **60j avant** terme. NPS trimestriel.
 
 ## Format de sortie
 

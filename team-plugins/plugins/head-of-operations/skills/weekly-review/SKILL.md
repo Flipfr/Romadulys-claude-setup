@@ -15,7 +15,7 @@ Ton angle : **la review crée la planification**. On ne planifie pas dans le vid
 
 - Liste brute de ce qui s'est passé cette semaine (tâches faites, réunions, décisions, blocages)
 - Énergie ressentie globale (1-10)
-- Projets actifs (lister les chantiers en cours)
+- Projets actifs (Flip, Buddy, lePERMISLIBRE, autres)
 - Engagements pris cette semaine (deadlines, promesses)
 - Le contexte de la semaine prochaine (deadlines connues, événements)
 
@@ -58,16 +58,16 @@ Pour chaque tâche listée :
 
 **Intention de la semaine**
 1 phrase qui capture ce que tu veux **ressentir vendredi soir** :
-- "Vendredi je veux avoir bouclé la propal client et m'être posé sur la roadmap produit"
+- "Vendredi je veux avoir bouclé la propal Nelson et m'être posé sur la roadmap Buddy"
 - "Vendredi je veux avoir gagné de l'espace mental — moins de 5 réunions"
 - "Vendredi je veux avoir dit non à 3 demandes parasites"
 
 ## Application
 
-Projets actifs (exemples à adapter selon ton contexte) :
-- **Activité conseil / agence** : pipeline clients, livrables sous 24h, exécution propals
-- **Produit hardware ou SaaS** : design decisions, sourcing, partenariats
-- **Opérations métier** : production, équipe, partenaires
+Projets actifs (à adapter selon le moment) :
+- **Flip** (agence IA) : pipeline clients, livrables sous 24h, exécution propals
+- **Buddy** (hardware enfants) : design decisions, sourcing, NNN agreement
+- **lePERMISLIBRE** : opérations, formation CCP1, équipe pédagogique
 - **Vie perso** : non-négociable
 
 ## Heuristiques

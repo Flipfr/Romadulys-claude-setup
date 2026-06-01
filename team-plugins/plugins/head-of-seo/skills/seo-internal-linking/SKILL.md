@@ -70,9 +70,9 @@ Si la liste des autres pages manque, je demande au moins 10-20 URLs principales.
 |------|---------|----------------|
 | Exact match | "permis CPF" | Pages produit principales (1x max) |
 | Partial match | "financer son permis avec le CPF" | La majorité des cas |
-| Branded | "guide MaMarque" | Liens vers contenus signature |
+| Branded | "guide lePERMISLIBRE" | Liens vers contenus signature |
 | Question | "comment passer son code en candidat libre" | FAQ, guides pratiques |
-| Naked URL | "example.com/cpf" | Très rare, références directes |
+| Naked URL | "lepermislibre.fr/cpf" | Très rare, références directes |
 
 ### Anti-patterns
 - ❌ "cliquez ici", "en savoir plus", "ce lien"

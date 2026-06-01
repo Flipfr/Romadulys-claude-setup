@@ -98,7 +98,7 @@ Markdown structuré : tableaux pour les comparaisons, bullets pour les insights.
 Claude peut désormais générer **charts, diagrammes et SVG directement dans la conversation** sans passer par un outil externe. Conséquences pour le data-analyst :
 
 - **Plus besoin de basculer vers un outil de dataviz pour montrer un insight**. Un graph en barres, un line chart, un sankey, un diagramme de flux — tout sort en SVG natif.
-- **Pendant un atelier client (immersion conseil, board meeting), on peut produire une viz en live** au lieu de promettre "je vous l'envoie après".
+- **Pendant un atelier client (immersion Flip, board meeting), on peut produire une viz en live** au lieu de promettre "je vous l'envoie après".
 - **Format de sortie standard recommandé** : 1 viz par insight clé, légendée, avec source + date. Pas plus de 5-7 viz par livrable (sinon noyade).
 
 ### Quand utiliser inline vs outil externe
@@ -106,7 +106,7 @@ Claude peut désormais générer **charts, diagrammes et SVG directement dans la
 | Cas | Inline natif Claude | Outil externe (Tableau, Looker, Plotly) |
 |---|---|---|
 | Insight ad-hoc en réunion | ✅ | ❌ trop lent |
-| Cartographie process client | ✅ | ❌ overkill |
+| Cartographie process Flip | ✅ | ❌ overkill |
 | Dashboard vivant avec refresh data | ❌ | ✅ |
 | Rapport one-shot pour client PME | ✅ | ❌ overkill |
 | Analyse exploratoire 50+ variables | 🟡 | ✅ |
@@ -114,13 +114,13 @@ Claude peut désormais générer **charts, diagrammes et SVG directement dans la
 
 ## ➕ À ajouter dans `Templates`
 
-### Charts les plus utiles en mission conseil
+### Charts les plus utiles en mission Flip
 
 1. **Bar chart "avant/après"** — pour les gains de temps post-automatisation. Couleurs contrastées, valeurs explicites.
 2. **Sankey/flow diagram** — pour la cartographie des process actuels (entrées → étapes → sorties). Identifie visuellement les goulots.
 3. **Heatmap "fréquence × valeur ajoutée"** — pour prioriser les tâches à automatiser. Axes clairs.
 4. **Timeline Gantt** — pour les roadmaps 90 jours.
-5. **Line chart "métriques clés sur 12 mois"** — pour le suivi post-déploiement (abonnement récurrent).
+5. **Line chart "métriques clés sur 12 mois"** — pour le suivi post-déploiement (abonnement Flip).
 
 ---
 
@@ -128,5 +128,5 @@ Claude peut désormais générer **charts, diagrammes et SVG directement dans la
 
 - **Les visualisations inline Claude transforment l'expérience d'atelier** (2026-04-27, source veille — Anthropic release notes avril 2026)
   Contexte : Claude génère désormais charts et diagrammes en SVG natif directement dans la conversation, sans outil externe.
-  Pourquoi ça compte : pour les missions conseil (immersions, restitutions diag), on peut produire la dataviz en live au lieu de promettre un rendu post-réunion. Effet "wow" + accélération du cycle livrable.
-  Application : skill data-analyst (output inline par défaut), skill de diagnostic PME (cartographie process en SVG natif pendant l'atelier).
+  Pourquoi ça compte : pour les missions Flip (immersions, restitutions diag), on peut produire la dataviz en live au lieu de promettre un rendu post-réunion. Effet "wow" + accélération du cycle livrable.
+  Application : skill data-analyst (output inline par défaut), skill flip-diagnostic-pme (cartographie process en SVG natif pendant l'atelier).

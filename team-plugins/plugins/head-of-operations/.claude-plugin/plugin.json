@@ -4,5 +4,6 @@
   "author": {
     "name": "Head of Plugins",
     "email": "contact@example.com"
-  }
+  },
+  "version": "0.1.1"
 }

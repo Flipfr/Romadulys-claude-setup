@@ -28,7 +28,7 @@ S'il manque les missions concrètes ou les difficultés réelles du poste, deman
 ### Titre du poste
 
 - **Version interne** (précise, neutre) : "Senior Full-Stack Engineer (Next.js + Supabase)"
-- **Version externe** pour les job boards (attractive sans clickbait) : "Premier dev tech — Next.js + Supabase"
+- **Version externe** pour les job boards (attractive sans clickbait) : "Premier dev tech Flip — Next.js + Supabase"
 
 ### Accroche (3-5 lignes)
 

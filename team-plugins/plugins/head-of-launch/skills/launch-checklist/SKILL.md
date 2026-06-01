@@ -1,6 +1,6 @@
 ---
 name: launch-checklist
-description: Checklists exhaustives par type de lancement — produit SaaS (technique, marketing, business), campagne publicitaire, produit hardware connecté, formation en ligne. Pour SaaS — monitoring, backups, SSL, perf sous 2s, mobile, 404, CGU, analytics, landing, SEO, séquence email, social, press kit, Product Hunt, pricing affiché, paiement testé, onboarding, support, métriques de succès. À utiliser pour vérifier qu'on n'oublie rien avant un lancement, structurer le J-7 → J0, ou auditer un launch en cours. À utiliser même si l'utilisateur dit juste "je lance dans 1 semaine", "qu'est-ce que j'oublie", "review mon plan de lancement".
+description: Checklists exhaustives par type de lancement — produit SaaS (technique, marketing, business), campagne publicitaire, produit hardware (Buddy), formation (lePERMISLIBRE). Pour SaaS — monitoring, backups, SSL, perf sous 2s, mobile, 404, CGU, analytics, landing, SEO, séquence email, social, press kit, Product Hunt, pricing affiché, paiement testé, onboarding, support, métriques de succès. À utiliser pour vérifier qu'on n'oublie rien avant un lancement, structurer le J-7 → J0, ou auditer un launch en cours. À utiliser même si l'utilisateur dit juste "je lance dans 1 semaine", "qu'est-ce que j'oublie", "review mon plan de lancement".
 ---
 
 # Launch Checklist Master
@@ -76,7 +76,7 @@ Ton angle : **un launch raté à cause d'un détail** (analytics manquant, paiem
 - [ ] **Mots-clés négatifs** Google chargés
 - [ ] **Plan de scale** prêt (à quel budget on monte si CAC tient)
 
-### Lancement produit hardware connecté
+### Lancement produit hardware (Buddy)
 
 **🏭 Production**
 - [ ] **PVT validé** (run de 100-500 unités passé)
@@ -103,10 +103,10 @@ Ton angle : **un launch raté à cause d'un détail** (analytics manquant, paiem
 - [ ] **Stretch goals** définis (et faisables)
 - [ ] **Plan post-campagne** clair (production, communication backers, livraison)
 
-### Lancement formation en ligne
+### Lancement formation (lePERMISLIBRE)
 
 **📚 Pédagogique**
-- [ ] **Contenu validé** par expert métier du programme cible
+- [ ] **Contenu validé** par expert métier (CCP1 spécifique)
 - [ ] **Conformité Qualiopi** vérifiée
 - [ ] **Référentiel TP** respecté
 - [ ] **Évaluations formatives et sommatives** prêtes

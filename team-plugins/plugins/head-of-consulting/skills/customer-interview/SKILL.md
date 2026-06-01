@@ -82,7 +82,7 @@ S'il manque l'objectif de la recherche, demande — un entretien sans hypothèse
 **Job émotionnel** : [comment ils veulent se sentir]
 **Pain principal** : [verbatim direct]
 **Tentatives** : [solutions essayées + pourquoi rejetées]
-**Moment de bascule** : [déclencheur du dernier changement, si applicable]
+**Switch moment** : [déclencheur du dernier changement, si applicable]
 **Verbatims marquants** :
   > "[Citation 1]"
   > "[Citation 2]"
@@ -112,9 +112,9 @@ Pas un persona inventé — uniquement des éléments confirmés par les intervi
 - **Compte les anecdotes vécues** vs **opinions projetées**. Tu ne crois que les premières.
 - **3 interviews = signal faible. 8-10 interviews = patterns solides. 30+ = saturation.**
 
-## Application — diagnostic PME
+## Application Flip Agency
 
-Utilisable pour les **diagnostics clients PME** — un diagnostic typique commence par 5-8 interviews opérationnelles + 1 dirigeant pour valider les douleurs avant de proposer.
+Utilisable pour les **diagnostics clients PME** — le diagnostic Flip commence par 5-8 interviews opérationnelles + 1 dirigeant pour valider les douleurs avant de proposer.
 
 ## Format de sortie
 

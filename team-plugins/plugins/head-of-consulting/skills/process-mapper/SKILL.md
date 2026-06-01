@@ -66,15 +66,15 @@ Structure :
 ### Exemple de structure SOP
 
 ```
-## SOP — Onboarding nouveau client
+## SOP — Onboarding nouveau client Flip
 
 **Version** : 1.2 (2026-04-27)
 **Objectif** : Faire signer le diagnostic + planifier l'atelier sous 5 jours
-**Prérequis** : Accès CRM, outil de paiement, Calendly, modèle propal
+**Prérequis** : Accès Notion CRM, Stripe, Calendly, modèle propal
 
 ### Étapes
 1. Réceptionner le brief client (champ X dans CRM)
-2. Lancer la skill de proposition commerciale
+2. Lancer la skill flip-proposition-commerciale
 3. ...
 
 ### Checklist fin de process

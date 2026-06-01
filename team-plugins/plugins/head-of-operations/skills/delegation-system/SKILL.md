@@ -159,7 +159,7 @@ Pour chacune :
 
 ## Contexte
 
-Cas typique : un fondateur qui gère **plusieurs activités en parallèle** (agence + produit + opérations + vie perso). Priorisation et délégation **critiques** vu la diversité des chantiers.
+Romain gère : **Flip** (agence IA) + **Buddy** (hardware) + **lePERMISLIBRE** + vie perso. Priorisation et délégation **critiques** vu la diversité des chantiers.
 
 ## Format de sortie
 
@@ -171,7 +171,7 @@ Audit en tableau, brief de délégation en template réutilisable, plan d'onboar
 
 
 **Date d'intégration** : 2026-04-27 (veille semaine du 24 avril 2026)
-**1 item intégré** : Archon + Superpowers (parallèle harness builder vs niveau de délégation)
+**1 item intégré** : Archon + Superpowers (parallèle harness builder ↔ niveau de délégation)
 
 ---
 
@@ -212,6 +212,6 @@ Avant de décider "humain délégué vs agent IA" pour une tâche, scorer sur 4 
 ## 📚 Mémoire vivante associée
 
 - **Le niveau de délégation et le niveau de déterminisme d'un agent IA sont la même grille mentale** (2026-04-27, source veille — Archon, Superpowers)
-  Contexte : la communauté open-source travaille sur la "déterminisation" des agents (Archon harness builders) au moment où les agences déploient de la délégation humaine pour scaler. Les deux problèmes sont structurellement les mêmes — réduire la variance d'output sur des tâches récurrentes.
-  Pourquoi ça compte : on peut servir le même framework aux clients pour les deux décisions. Argument de cohérence méthodologique.
-  Application : skill delegation-system (parallèle humain/IA), cartographie tâches → décision déléguer humain ou IA selon score 16-20 / 11-15 / <11.
+  Contexte : la communauté open-source travaille sur la "déterminisation" des agents (Archon harness builders) au moment où Flip déploie de la délégation humaine pour scaler. Les deux problèmes sont structurellement les mêmes — réduire la variance d'output sur des tâches récurrentes.
+  Pourquoi ça compte : on peut servir le même framework aux clients Flip pour les deux décisions. Argument de cohérence méthodologique.
+  Application : skill delegation-system (parallèle humain/IA), skill flip-diagnostic-pme (cartographie tâches → décision déléguer humain ou IA selon score 16-20 / 11-15 / <11).

@@ -1,6 +1,6 @@
 ---
 name: financial-model
-description: CFO fractional pour startups — modèle financier complet, P&L prévisionnel (revenus par ligne, charges directes/fixes/variables, masse salariale, CAC, marge brute, EBITDA, burn, runway), modèle SaaS spécifique (MRR start → New + Expansion - Churn = MRR end), 3 scénarios (base/bull/bear), cash flow mensuel et break-even, applications agence/hardware/edtech. À utiliser pour bâtir un budget, projeter une trésorerie, simuler un scénario, justifier une levée, ou présenter à un board. À utiliser même si l'utilisateur dit juste "fais-moi un budget", "combien je brûle par mois", "j'ai besoin de projections".
+description: CFO fractional pour startups — modèle financier complet, P&L prévisionnel (revenus par ligne, charges directes/fixes/variables, masse salariale, CAC, marge brute, EBITDA, burn, runway), modèle SaaS spécifique (MRR start → New + Expansion - Churn = MRR end), 3 scénarios (base/bull/bear), cash flow mensuel et break-even, applications Flip/Buddy/lePERMISLIBRE. À utiliser pour bâtir un budget, projeter une trésorerie, simuler un scénario, justifier une levée, ou présenter à un board. À utiliser même si l'utilisateur dit juste "fais-moi un budget", "combien je brûle par mois", "j'ai besoin de projections".
 ---
 
 # Financial Model Builder
@@ -95,27 +95,27 @@ Pour chaque euro levé :
 - Combien sur l'infra / outils
 - Buffer (10-15% recommandé)
 
-## Applications par type de business
+## Applications projets
 
-**Agence conseil / services**
-- Diagnostic ponctuel × volume / mois (ex : 2-3k€)
-- Abonnement récurrent × clients en portefeuille (ex : 1.5-2.5k€/mois)
-- Formation × jours vendus (ex : 1.5-2k€/jour)
+**Flip (agence IA)**
+- Diagnostic 2500€ × volume / mois
+- Abonnement 2000€/mois × clients en portefeuille
+- Formation 1800€/jour × jours vendus
 - Charges : équipe (consultants, dev), outils (Claude API, Notion, Vercel)
 - Marge brute attendue : 60-75%
 
-**Produit hardware**
+**Buddy (hardware)**
 - Prix unitaire vente
 - Marge unitaire = prix vente − COGS (BOM + assembly + logistique + douanes)
 - Volumes par canal (DTC, distribution, retail)
 - CapEx tooling (one-shot, amortissable)
 - WCR (besoin en fonds de roulement) — important pour hardware
 
-**Formation / EdTech**
-- Tarifs CPF + autres modalités
-- Taux de complétion apprenants (impacte le CA réel vs facturé)
-- Marge sur formateurs
-- Saisonnalité (selon secteur)
+**lePERMISLIBRE**
+- CPF B + autres modalités
+- Taux de complétion candidats (impacte le CA réel vs facturé)
+- Marge sur enseignants
+- Saisonnalité (été = pic, février = creux)
 
 ## Heuristiques
 

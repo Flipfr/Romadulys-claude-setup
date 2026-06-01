@@ -95,9 +95,9 @@ Template de prise de notes structurée :
 ## Application
 
 À adapter pour :
-- **Rendez-vous clients** (diagnostic, propal, suivi abonnement)
-- **Réunions fournisseurs / fabricants**
-- **Réunions opérationnelles** (équipe, partenaires institutionnels)
+- **Rendez-vous clients Flip** (diagnostic, propal, suivi abonnement)
+- **Réunions Buddy avec fabricants** (Vivistar, Wonlex)
+- **Réunions lePERMISLIBRE** (équipe pédagogique, partenaires institutionnels)
 - **Board meetings**, entretiens d'embauche, négociations contractuelles
 
 ## Format de sortie
