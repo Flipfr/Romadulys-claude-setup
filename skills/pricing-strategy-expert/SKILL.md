@@ -104,7 +104,7 @@ Tu donnes une recommandation tranchée. Pas de "ça dépend" généralisé — t
 
 
 **Date d'intégration** : 2026-04-27 (veille semaine du 24 avril 2026)
-**1 item intégré** : Lab IA/PME (3e tier intermédiaire potentiel)
+**1 item intégré** : Lab IA/PME (3e tier Flip potentiel)
 
 ---
 
@@ -131,7 +131,7 @@ Tu donnes une recommandation tranchée. Pas de "ça dépend" généralisé — t
 | PME 30-100 personnes, transformation graduelle | Lab 3-6 mois |
 | PME/ETI 100+ personnes, programme complexe multi-douleur | Lab 6 mois → bascule abonnement |
 | TPE <10 personnes, budget serré | Diag seul + autonomie (pas de Lab) |
-| ETI internationale | Orienter vers gros cabinet |
+| ETI internationale | Pas Flip — orienter vers gros cabinet |
 
 ## ➕ À ajouter dans `Anti-patterns`
 
@@ -144,8 +144,8 @@ Tu donnes une recommandation tranchée. Pas de "ça dépend" généralisé — t
 
 - **Le format "Lab IA/PME" émerge comme 3e tier intermédiaire** (2026-04-27, source veille — agence-ia.com)
   Contexte : modèle de co-développement agence-PME sur 3-6 mois, particulièrement chez PME industrielles ou régulées, en réponse à la demande croissante d'autonomie progressive.
-  Pourquoi ça compte : potentiellement une 3e ligne de revenus pour une agence conseil, plus margée que l'abonnement (5-8K€/mois vs 2K€/mois), plus structurée que le diag (3-6 mois vs one-shot).
-  Application : skill pricing-strategy-expert (tier intermédiaire), proposition commerciale (3e option dans l'architecture d'offre). À tester avec 2-3 pilotes au S2 2026 avant industrialisation.
+  Pourquoi ça compte : potentiellement une 3e ligne de revenus pour Flip, plus margée que l'abonnement (5-8K€/mois vs 2K€/mois), plus structurée que le diag (3-6 mois vs one-shot).
+  Application : skill pricing-strategy-expert (tier intermédiaire), skill flip-proposition-commerciale (3e option dans l'architecture d'offre). À tester avec 2-3 pilotes au S2 2026 avant industrialisation.
 
 ---
 
@@ -164,8 +164,24 @@ L'**AI Act devient enforceable le 2 août 2026** (T-3 mois). PME utilisant IA en
 
 **Heuristique** : à chaque deadline réglementaire (RGPD, AI Act, DSA, Qualiopi…), on peut packager une offre tactique 800-1500€ pour générer du flux qualifié vers l'offre récurrente.
 
-### Sweet spot 2k€/mois confirmé
+### Sweet spot Flip confirmé (2k€/mois)
 
-Marché en 2 camps en mai 2026 : (1) agences structurées 15-20k€ minimum (Stema, Digitallia), (2) freelances 600-900€/jour + abonnements 300-500€/mois. **L'offre à 2 000€/mois = sweet spot vide**. Fenêtre 3-6 mois pour planter un drapeau de niche avant que les cabinets descendent en gamme.
+Marché en 2 camps en mai 2026 : (1) agences structurées 15-20k€ minimum (Stema, Digitallia), (2) freelances 600-900€/jour + abonnements 300-500€/mois. **Flip à 2 000€/mois = sweet spot vide**. Fenêtre 3-6 mois pour planter un drapeau de niche avant que les cabinets descendent en gamme.
 
 → Tenir le prix, ne pas céder à la pression du discount. Ajouter explicitement le comparatif sur la page d'offre.
+
+---
+
+## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
+
+- **Diagnostic IA BPI cofinance 50% pour PME <250 salariés — levier pricing puissant** (2026-05-25, source veille — koino.fr)
+  Contexte : BPI France cofinance 50% un Diagnostic IA pour PME <250 salariés. France Num jusqu'à 50% sur transformation numérique.
+  Pourquoi ça compte : permet de positionner le prix de référence (2500€) en parallèle du reste à charge effectif (1250€) — destruction de l'objection prix. **À vérifier : éligibilité exacte du diagnostic Flip avant de promettre.**
+  Application : pricing strategy — afficher prix de référence + reste à charge potentiel post-cofinancement BPI. Pattern "ancrage haut + reste à charge faible" = perception de valeur + facilité de signature.
+
+## Apprentissages terrain
+
+- **2026-06-01** : IA Booster (France 2030) cofinance 80% du diagnostic IA — positionner le prix Flip face au reste à charge effectif de 780–2 600 €. Renforce le pattern "ancrage haut + reste à charge faible". (francenum.gouv.fr)
+- **2026-06-01** : benchmark prix agences IA France 2026 — audit 1 500–5 000 €, POC 10–50 k€, déploiement 30–150 k€, agent IA simple 3–8 k€, agent multicanal 10–25 k€ + 80–600 €/mois de run. (koino.fr)
+  - Anti-pattern positionnement : l'angle "opéré + ROI mesuré" est devenu un standard de marché, plus un différenciateur → chercher un angle vertical/sectoriel pour se démarquer.
+- **2026-06-01** : plafond CPF abaissé à 900 € pour les épreuves VL (depuis le 26 fév. 2026) — pour toute offre formation éligible CPF (ex. lePERMISLIBRE), packager une formule pile sous 900 € pour rester 100% finançable. (digiformag.com)

@@ -1,9 +1,9 @@
-﻿{
-    "name":  "head-of-growth",
-    "description":  "Ton Head of Growth dans Claude â€” funnel AARRR + email + ads + e-commerce + hooks.",
-    "author":  {
-                   "name":  "Head of Plugins",
-                   "email":  "contact@example.com"
-               },
-    "version":  "0.1.2"
+{
+  "name": "head-of-growth",
+  "description": "Ton Head of Growth dans Claude â€” funnel AARRR + email + ads + e-commerce + hooks.",
+  "author": {
+    "name": "Head of Plugins",
+    "email": "contact@example.com"
+  },
+  "version": "0.1.3"
 }

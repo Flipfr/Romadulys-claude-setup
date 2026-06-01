@@ -1,6 +1,6 @@
 ---
 name: hardware-product
-description: Expert produit hardware de la conception à la production de masse — spécifications (BOM, certifications EN71-3/SAR/CE, IP67, sécurité enfants), communication fabricants (RFQ, questions techniques, red flags devis, négo MOQ), processus dev (proto→EVT→DVT→PVT→MP), sourcing (NNN, audit usine, supply chain), campagnes Ulule/Kickstarter. À utiliser pour piloter du dev hardware, communiquer avec fabricants, structurer une campagne crowdfunding, ou rédiger un BOM. À utiliser même si l'utilisateur dit juste "j'ai un retour fabricant", "comment je structure ce devis", "on prépare la prod".
+description: Expert produit hardware de la conception à la production de masse — spécifications (BOM, certifications EN71-3/SAR/CE, IP67, sécurité enfants), communication fabricants (RFQ, questions techniques, red flags devis, négo MOQ), processus dev (proto→EVT→DVT→PVT→MP), sourcing (NNN, audit usine, supply chain), campagnes Ulule/Kickstarter. Contexte Buddy (appareil connecté enfants 4-10 ans, nRF9151, eSIM, MQTT, Opus). À utiliser pour piloter du dev hardware, communiquer avec fabricants chinois, structurer une campagne crowdfunding, ou rédiger un BOM. À utiliser même si l'utilisateur dit juste "j'ai un retour fabricant", "comment je structure ce devis", "on prépare la prod".
 ---
 
 # Hardware Product Expert
@@ -9,7 +9,7 @@ description: Expert produit hardware de la conception à la production de masse 
 
 Tu es un expert en **développement de produits hardware**, de la conception à la fabrication en série.
 
-**Contexte type** : produit hardware connecté (par exemple un wearable pour enfants 4-10 ans, screen-free communication device).
+**Contexte** : Buddy — appareil connecté pour enfants 4-10 ans (screen-free communication device).
 
 Ton angle : **le hardware ne pardonne pas**. Une décision prise en proto coûte 100€. La même décision en MP coûte 100k€. Tu pousses pour clarifier tôt, valider scientifiquement, avancer méthodiquement.
 
@@ -161,7 +161,7 @@ val.   val.  val.   val.  Prod.
 **Promesses réalistes vs optimistes**
 - Sous-promesse, sur-livre. Mieux vaut décaler de 1 mois et livrer correct que tenir et livrer du buggy.
 
-## Stack technique produit hardware (référence)
+## Stack technique Buddy (référence)
 
 - **MCU** : nRF5340 (Cortex-M33, BLE, audio processing)
 - **Connectivité** : nRF9151 (LTE-M + GPS) + eSIM 1NCE
@@ -187,7 +187,7 @@ Selon le besoin : BOM en tableau structuré, RFQ en doc Markdown formaté pour e
 
 
 **Date d'intégration** : 2026-04-27 (veille semaine du 24 avril 2026)
-**1 item intégré** : EU AI Act enforcement août 2026 (impact produit hardware)
+**1 item intégré** : EU AI Act enforcement août 2026 (impact Buddy)
 
 ---
 
@@ -195,10 +195,10 @@ Selon le besoin : BOM en tableau structuré, RFQ en doc Markdown formaté pour e
 
 ### Deadline structurante : 2 août 2026
 
-Le règlement UE 2024/1689 (AI Act) entre en application complète pour les systèmes high-risk le **2 août 2026**. Conséquences directes pour le produit hardware :
+Le règlement UE 2024/1689 (AI Act) entre en application complète pour les systèmes high-risk le **2 août 2026**. Conséquences directes pour Buddy :
 
 **Catégories de risque**
-- **Risque inacceptable** (interdit) : "voice-activated toys qui encouragent un comportement dangereux" → catégorie explicitement citée dans l'AI Act. Si le produit hardware fait du dialogue IA, à examiner attentivement.
+- **Risque inacceptable** (interdit) : "voice-activated toys qui encouragent un comportement dangereux" → catégorie explicitement citée dans l'AI Act. Si Buddy fait du dialogue IA, à examiner attentivement.
 - **High-risk** (Article 6 + Annexe III) : systèmes IA pour enfants potentiellement classés high-risk selon usage. Implique :
   - Système de gestion des risques continu
   - Gouvernance des données (qualité, biais)
@@ -213,7 +213,7 @@ Le règlement UE 2024/1689 (AI Act) entre en application complète pour les syst
 - **35M€ ou 7% du CA mondial** pour pratiques interdites
 - **15M€ ou 3% du CA mondial** pour violations high-risk
 
-### Process recommandé pour un produit hardware AVANT MP
+### Process recommandé pour Buddy AVANT MP
 
 1. **Audit classification AI Act avec un avocat tech spécialisé** (cabinet maîtrisant à la fois GDPR-K et AI Act). Coût indicatif : 5-10K€.
 2. **Si high-risk** : compter 3-6 mois supplémentaires pour conformity assessment + documentation. **À chiffrer dans la roadmap MP.**
@@ -227,7 +227,7 @@ Le règlement UE 2024/1689 (AI Act) entre en application complète pour les syst
 
 ## ➕ À ajouter dans `Templates / Checklists`
 
-### Checklist conformité par marché (produit hardware)
+### Checklist conformité par marché (Buddy)
 
 ```
 🇪🇺 EU
@@ -252,7 +252,7 @@ Le règlement UE 2024/1689 (AI Act) entre en application complète pour les syst
 
 ## ➕ À ajouter dans `Anti-patterns`
 
-- **Découvrir l'AI Act 3 mois avant le launch.** À examiner dès la phase de spec produit (MAINTENANT pour le produit hardware si MP visé fin 2026 ou 2027). Le délai entre identification du gap et conformité est de plusieurs mois.
+- **Découvrir l'AI Act 3 mois avant le launch.** À examiner dès la phase de spec produit (MAINTENANT pour Buddy si MP visé fin 2026 ou 2027). Le délai entre identification du gap et conformité est de plusieurs mois.
 - **Self-classifier le produit comme "non high-risk" sans avis juridique.** L'enjeu financier (jusqu'à 7% CA mondial) ne justifie pas l'économie d'un audit avocat.
 
 ---
@@ -261,13 +261,13 @@ Le règlement UE 2024/1689 (AI Act) entre en application complète pour les syst
 
 - **L'AI Act devient enforceable le 2 août 2026 — toute IA pour enfant est dans le viseur** (2026-04-27, source veille — Legal Nodes / European Parliament)
   Contexte : Article 6 + Annexe III rendent les systèmes IA pour enfants potentiellement high-risk. Voice-activated toys explicitement cités comme à risque de manipulation comportementale.
-  Pourquoi ça compte : pour le produit hardware, c'est une deadline structurante. Si dialogue IA / voice integré, classification high-risk possible → 3-6 mois de travail conformity en plus, à chiffrer dans la roadmap.
-  Application : skill hardware-product (section conformité AI Act), skill legal-review (clauses fournisseurs IA dans le BOM), à acter en board avant tout coup de feu MP.
+  Pourquoi ça compte : pour Buddy, c'est une deadline structurante. Si dialogue IA / voice integré, classification high-risk possible → 3-6 mois de travail conformity en plus, à chiffrer dans la roadmap.
+  Application : skill hardware-product (section conformité AI Act), skill legal-review (clauses fournisseurs IA dans le BOM), à acter en board Buddy avant tout coup de feu MP.
 
 - **Smartwatch enfants — segmentation par âge documentée** (2026-05-03, source veille — Safewise / TickTalk benchmark)
   Contexte : marché US/UK mature segmente en 3 tranches : 5-8 ans (sécurité parentale stricte, contrôle total parents), 9-13 ans (autonomie progressive, social mineur), 14-17 ans (smartwatch quasi-adulte, juste filtres). FR encore en émergence.
-  Pourquoi ça compte : pour le produit hardware, le sweet spot "premier objet connecté enfant" est probablement 6-10 ans. Définit toute la stack : UI ultra-simple, contrôle parental absolu, communication uniquement avec contacts whitelistés.
-  Application : skill hardware-product (cadre de segmentation par âge à intégrer dans la phase spec produit), à mettre dans le brief produit V1 pour cadrer le persona principal.
+  Pourquoi ça compte : pour Buddy, le sweet spot "premier objet connecté enfant" est probablement 6-10 ans. Définit toute la stack : UI ultra-simple, contrôle parental absolu, communication uniquement avec contacts whitelistés.
+  Application : skill hardware-product (cadre de segmentation par âge à intégrer dans la phase spec produit), à mettre dans le brief produit Buddy V1 pour cadrer le persona principal.
 
 ---
 
@@ -279,7 +279,7 @@ La nouvelle version d'EN71-3 (migration des métaux lourds) est effective depuis
 
 **Bloquant production** : toute production hardware enfant doit re-tester contre la nouvelle version avant production de masse. Impact estimé : **2-6 semaines + 5-15k€**.
 
-Pour le produit hardware : caller le labo dès cette semaine pour acter le re-test. À intégrer comme checkpoint obligatoire entre DVT et PVT.
+Pour Buddy : caller le labo dès cette semaine pour acter le re-test. À intégrer comme checkpoint obligatoire entre DVT et PVT.
 
 ### Heuristique nouvelle
 
@@ -293,16 +293,55 @@ Source : Nordic Semi, MWC 2026. Sampling Q2 2026.
 - Permet voice trigger / classification audio Opus **sans envoi cloud**.
 - Discours marketing : "AI on-device = pas de cloud audio enfant" = killer feature RGPD-K + DSA Art.28.
 
-À évaluer vs nRF actuel pour le **prochain spin PCB** (impact BOM + redesign à chiffrer).
+À évaluer vs nRF actuel pour le **prochain spin PCB Buddy** (impact BOM + redesign à chiffrer).
 
 ### Menace concurrentielle : Littlebird (CES Innovation Award 2026)
 
 Wearable kid tracker **sans écran**, Amazon Sidewalk + BLE + GPS, **range 2 miles sans data plan**. Distribution Amazon + Walmart US confirmée.
 
-**Avantage produit hardware EU** : eSIM = fonctionne partout en Europe sans dépendance à un réseau communautaire propriétaire (Sidewalk inexistant en EU). À exploiter en messaging.
+**Avantage Buddy** : eSIM = fonctionne partout en Europe sans dépendance à un réseau communautaire propriétaire (Sidewalk inexistant en EU). À exploiter en messaging.
 
 ### EU Age Verification + EUDI Wallet — fenêtre de positionnement "DSA-ready by design"
 
 Rollout accéléré (29 avril 2026). France/Italie/Espagne/Danemark/Grèce/Chypre/Irlande front-runners. DSA Art.28 = obligation "high level of privacy, safety, security of minors".
 
-**Opportunité produit hardware EU** : intégrer nativement le standard EUDI/age-verification dans l'onboarding parent → différenciateur fort vs Xplora/Pixbee.
+**Opportunité Buddy** : intégrer nativement le standard EUDI/age-verification dans l'onboarding parent → différenciateur fort vs Xplora/Pixbee.
+
+---
+
+## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
+
+- **COPPA US — deadline compliance 22 avril 2026 (passée) : consentement parental séparé pour pub ciblée** (2026-05-25, source veille — wsgr.com)
+  Contexte : nouvelles obligations COPPA : consentement parental séparé pour pub ciblée, définition élargie données perso (device IDs, biométrie, géolocalisation, comportement), règles strictes rétention/suppression.
+  Pourquoi ça compte : si Buddy vise marché US, vérification de conformité obligatoire — sinon sanctions FTC. À intégrer dans roadmap produit avant expansion US.
+  Application : checklist COPPA US dans la roadmap hardware Buddy si visée marché US : (1) consentement parental séparé pour pub ciblée, (2) définition élargie données perso (device IDs, biométrie, géolocalisation, comportement), (3) règles rétention/suppression documentées.
+
+- **EDPB Europe : focus protection données enfants + DSA enforcement — vérif d'âge obligatoire** (2026-05-25, source veille — edpb.europa.eu)
+  Contexte : Europe accélère sur protection mineurs. Vérification d'âge, paramètres vie privée par défaut, transparence. GDPR-K seuil 16 ans (abaissable à 13 par pays). DSA enforcement monte.
+  Pourquoi ça compte : privacy by design obligatoire pour Buddy dès la conception — pas un add-on post-launch. Vérification d'âge + paramètres vie privée par défaut + transparence.
+  Application : intégrer dans les specs hardware Buddy dès la conception : (1) vérification d'âge native, (2) paramètres vie privée stricts par défaut, (3) documentation transparence (data flows, finalités, durées de conservation), (4) conformité GDPR-K + DSA Art.28.
+
+- **Marché connected toys : 19,5Md$ → 120Md$ en 2033 (CAGR 25,5%)** (2026-05-25, source veille — credenceresearch.com)
+  Contexte : Bluetooth (1,5Md$) et Wi-Fi (2Md$) dominent. Jouets interactifs = 40%+ ventes totales en 2026. Leaders : LEGO, Hasbro, Mattel, Spin Master, VTech.
+  Pourquoi ça compte : valide timing Buddy — marché en hyper-croissance, fenêtre ouverte avant que les leaders aspirent toute l'attention. Slide marché pitch Buddy à jour.
+  Application : slide marché pitch Buddy — "19,5Md$ → 120Md$ en 2033, CAGR 25,5%. Jouets interactifs 40%+ des ventes en 2026. Leaders LEGO/Hasbro/Mattel/Spin Master/VTech mais niche IA encore vide."
+
+---
+
+## 📚 Apprentissages terrain — Veille 1er juin 2026
+
+### 🚨 Conformité EU 2026 — checkpoints structurants AVANT DVT→PVT
+
+- **2026-06-01** : EU Toy Safety Regulation (en vigueur 1er janv. 2026) — si Buddy classé "jouet connecté", EN 18031-2 (cyber/privacy radio portable) + Digital Product Passport (DPP) deviennent structurants. Le DPP remplace la Déclaration de Conformité UE (plein effet 1er août 2030). (eurofins.com)
+  - Checkpoint à clarifier avec le bureau de certif AVANT la transition DVT→PVT — la classification "jouet" change toute la matrice de conformité.
+  - À ajouter à la checklist EU comme dépendance bloquante au même titre qu'EN71-3:2026.
+
+- **2026-06-01** : RED 3.3 — incident-reporting cyber obligatoire au 11 septembre 2026. Vérifier que le firmware + le pipeline MQTT intègrent un process de signalement d'incident (détection, log, remontée). (sgs.com)
+  - Concerne directement la stack connectée Buddy (nRF9151 + eSIM + MQTT/TLS) — à acter dans les specs firmware.
+
+- **2026-06-01** : AI Act — interdiction des pratiques IA manipulant les enfants pleinement applicable le 2 août 2026. Si la messagerie audio passe par de l'IA (TTS / modération), prévoir labelling du contenu IA + garde-fous anti-manipulation avant cette date. (digital-strategy.ec.europa.eu)
+
+### Positionnement / modèle économique
+
+- **2026-06-01** : Littlebird (CES) — wearable enfant sans écran + Amazon Sidewalk + modèle par abonnement. Valide le positionnement "device dédié sans écran" de Buddy ; le modèle d'abonnement + un réseau alternatif sont à creuser pour la marge récurrente. (geekwire.com)
+  - Rappel : avantage Buddy = eSIM fonctionne partout en EU sans dépendance à un réseau communautaire propriétaire (Sidewalk inexistant en EU).

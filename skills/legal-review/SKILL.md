@@ -82,11 +82,11 @@ Liste précise et **directement utilisable** :
 - **Lis les annexes**. Le diable y vit.
 - **Si une clause te paraît bizarre, elle l'est.** Ne signe pas en pensant "je verrai".
 
-## Cas d'usage typiques
+## Contexte projets utilisateur
 
-- **NNN Agreement CIETAC Shanghai** (produit hardware avec fabricant chinois) en cours
-- Création de holdings pour structurer plusieurs sociétés
-- Formation professionnelle (CPF, Qualiopi)
+- **NNN Agreement CIETAC Shanghai** (Buddy / Wonlex) en cours
+- Holdings à créer pour Flip et Buddy
+- Formation lePERMISLIBRE (CPF)
 
 ## Format de sortie
 
@@ -137,7 +137,7 @@ Markdown structuré avec emojis 🔴🟡🟢 pour la criticité, sections claire
 
 - **Les clauses fournisseur IA sont le nouveau front de la legal review hardware** (2026-04-27, source veille — AI Act Article 11)
   Contexte : AI Act enforceable 2 août 2026, responsabilité distribuée entre fournisseur de modèle et fabricant du produit final. Ambiguïté juridique en cas de litige si les contrats ne le précisent pas.
-  Pourquoi ça compte : pour tout hardware avec composant IA, un mauvais contrat fournisseur peut transférer 100% du risque AI Act au fabricant, jusqu'à 7% CA mondial.
+  Pourquoi ça compte : pour Buddy (et tout hardware avec composant IA), un mauvais contrat fournisseur peut transférer 100% du risque AI Act au fabricant, jusqu'à 7% CA mondial.
   Application : skill legal-review (template clauses IA), skill hardware-product (étape contrat fournisseur en parallèle de la spec technique).
 
 ---
@@ -148,7 +148,7 @@ Markdown structuré avec emojis 🔴🟡🟢 pour la criticité, sections claire
 
 Obligations dures s'appliquent. **PME en IA RH / scoring client / surveillance employés** = "haut risque". Sanctions jusqu'à **15M€ ou 3% du CA mondial**.
 
-Checklist AI Act PME à intégrer dans toute revue (offre type "Audit AI Act 990€") :
+Checklist AI Act PME à intégrer dans toute revue (offre "Audit AI Act 990€" Flip) :
 1. ☐ Cartographie des outils IA en place (ATS, scoring credit, surveillance, monitoring)
 2. ☐ Classification risque par cas d'usage (interdit / haut / limité / minimal)
 3. ☐ Documentation technique pour les systèmes haut risque (Article 11)
@@ -159,7 +159,7 @@ Checklist AI Act PME à intégrer dans toute revue (offre type "Audit AI Act 990
 
 Source : Commission EU, 29 avril 2026. France/Italie/Espagne/Danemark/Grèce/Chypre/Irlande front-runners.
 
-Pour tout produit "minors" :
+Pour Buddy et tout produit "minors" :
 - DSA Art.28 = obligation "high level of privacy, safety, security of minors"
 - App open-source de vérif d'âge (mini-wallet anonyme, interop EUDI Wallet)
 - Dispo citoyens fin 2026
@@ -182,4 +182,33 @@ Loi 2024-120 impose en plus des obligations aux parents (droit à l'image).
 
 ### Heuristique nouvelle
 
-- **Deadline réglementaire = signal commercial.** AI Act (2 août 2026), DSA Art.28 (rollout fin 2026), Qualiopi (audits durcis). Chaque deadline = opportunité d'offre tactique (audit conformité 800-1500€) à packager.
+- **Deadline réglementaire = signal commercial pour Flip.** AI Act (2 août 2026), DSA Art.28 (rollout fin 2026), Qualiopi (audits durcis). Chaque deadline = opportunité d'offre tactique (audit conformité 800-1500€) à packager.
+
+---
+
+## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
+
+- **COPPA US — deadline compliance 22 avril 2026 (passée) : nouvelles obligations renforcées** (2026-05-25, source veille — wsgr.com)
+  Contexte : nouvelles obligations COPPA : consentement parental séparé pour pub ciblée, définition élargie données perso (device IDs, biométrie, géolocalisation, comportement), règles strictes rétention/suppression.
+  Pourquoi ça compte : pour Buddy (et tout produit kids US), audit compliance obligatoire avant expansion US. Sanctions FTC en jeu.
+  Application : check-list COPPA US à intégrer dans tout audit compliance produit kids visant les USA — (1) consentement parental séparé pub ciblée, (2) device IDs/biométrie/géoloc/comportement traités comme données perso, (3) rétention/suppression documentées + exerçables.
+
+- **EDPB Europe : focus protection données enfants + DSA enforcement Art.28** (2026-05-25, source veille — edpb.europa.eu)
+  Contexte : Europe accélère sur protection mineurs. Vérification d'âge, paramètres vie privée par défaut, transparence. GDPR-K seuil 16 ans (abaissable à 13 par pays). DSA enforcement monte.
+  Pourquoi ça compte : tout produit kids EU doit documenter la conformité GDPR-K + DSA Art.28 — vérif d'âge, vie privée par défaut, transparence.
+  Application : check-list compliance kids EU : (1) GDPR-K consentement parental documenté <16 ans (ou seuil pays), (2) vérification d'âge native, (3) privacy par défaut stricts, (4) DSA Art.28 "high level of privacy, safety, security of minors" documenté, (5) data flows transparents.
+
+---
+
+## 📚 Apprentissages terrain — Veille 1er juin 2026
+
+### Jouets connectés enfants (EU)
+
+- **2026-06-01** : EU Toy Safety Regulation — EN 18031-2 + Digital Product Passport (DPP). Conformité cyber/privacy obligatoire pour les jouets connectés enfants ; le DPP remplace la Déclaration de Conformité UE. À intégrer dans la revue de tout contrat fournisseur/fabricant d'un produit kids EU. (eurofins.com)
+
+- **2026-06-01** : AI Act (2 août 2026) — labelling du contenu IA obligatoire + interdiction des pratiques IA manipulant les enfants. Check-list conformité à appliquer aux produits embarquant de l'IA destinée aux mineurs (cohérent avec le template clauses fournisseur IA ci-dessus). (digital-strategy.ec.europa.eu)
+
+### Organismes de formation (CPF)
+
+- **2026-06-01** : 🚨 Loi anti-fraude formation (entrée en vigueur 1er juillet 2026) — check-list conformité pour les organismes de formation : obligation de se présenter aux examens sous peine de remboursement, publication obligatoire des taux de réussite, vérification d'identité forte + traçabilité numérique des présences, délai de rétractation porté de 14 à 30 jours, sanctions jusqu'à 500k€ / 5 ans. (centre-inffo.fr)
+  - Impact direct lePERMISLIBRE : auditer le dispositif d'identité/présence + la publication des taux de réussite AVANT le 1er juillet.

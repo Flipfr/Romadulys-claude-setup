@@ -324,3 +324,10 @@ Variante storytelling avec twist à ajouter dans la palette des hooks LinkedIn (
   Contexte : algo priorise pertinence, expertise, engagement qualitatif. Dwell time = signal clé. Commentaires = levier visibilité (apparaissent dans feed followers). Stratégie : 3-5 posts/sem, hooks forts, carousels, storytelling + data, 10-15 min commentaires avant/après post.
   Pourquoi ça compte : ajuster stratégie LinkedIn — focus dwell time (carrousels, storytelling long), routine commentaires obligatoire dans les 10-15 min après publication.
   Application : rythme cible 3-5 posts/semaine. Mix : carrousels (dwell time +++), storytelling + data, hooks forts <10 mots. Routine commentaires : 10-15 min avant + 10-15 min après chaque post.
+
+---
+
+## 📚 Mise à jour — Veille 1er juin 2026
+
+- **2026-06-01** : Le "save" est le signal d'engagement n°1 pour la distribution LinkedIn B2B 2026 (blog.linkboost.co)
+  Prioriser le contenu "saveable" (frameworks, checklists, carrousels) plutôt que les posts d'opinion. Sweet spot 3-4 posts/sem. Carrousels = 2-3× plus d'engagement. 2 000 vues ciblées > 100 000 vues larges en leads qualifiés — confirme la stratégie niche extrême.

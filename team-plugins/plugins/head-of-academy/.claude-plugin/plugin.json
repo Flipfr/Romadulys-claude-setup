@@ -1,8 +1,8 @@
-﻿{
-    "name":  "head-of-academy",
-    "description":  "Ton Head of Academy / Formation dans Claude â€” crÃ©ation de formations + expertise auto-Ã©cole + email lifecycle + optimisation e-commerce.",
-    "author":  {
-                   "name":  "Head of Academy"
-               },
-    "version":  "0.1.1"
+{
+  "name": "head-of-academy",
+  "description": "Ton Head of Academy / Formation dans Claude â€” crÃ©ation de formations + expertise auto-Ã©cole + email lifecycle + optimisation e-commerce.",
+  "author": {
+    "name": "Head of Academy"
+  },
+  "version": "0.1.2"
 }

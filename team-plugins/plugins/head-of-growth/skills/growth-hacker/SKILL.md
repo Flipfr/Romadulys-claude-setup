@@ -93,3 +93,12 @@ Markdown structuré : 1 section par étape du funnel, tableaux pour la matrice, 
   Contexte : Advantage+ Targeting accepte description en texte libre du client idéal, IA Meta fait le ciblage.
   Pourquoi ça compte : raccourcit le setup, ouvre des audiences inattendues via la compréhension narrative IA Meta.
   Application : workflow setup campagne = description narrative + bench A/B vs ciblage classique. Tester immédiatement sur Flip + Buddy + LPL.
+
+---
+
+## 📚 Mise à jour — Veille 1er juin 2026
+
+- **2026-06-01** : Meta Ads — fenêtre d'audiences d'achat élargie à 730 j (vs 180) (tryvizup.com)
+  Auditer les comptes clients pour exploiter la fenêtre élargie sur les cycles B2B longs. Activer le CAPI one-click sur les comptes sans tracking serveur — levier de reciblage débloqué quasi gratuit.
+- **2026-06-01** : Google AI Max en disponibilité générale + AI Brief (Gemini) (blog.google)
+  Argument d'offre "campagnes Google pilotées par IA" aligné Flip. Tester sur un compte client comme expérience growth (setup langage naturel vs structure classique).

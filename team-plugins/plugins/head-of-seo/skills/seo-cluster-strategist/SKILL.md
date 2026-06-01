@@ -253,3 +253,10 @@ Score chaque spoke (0-100) sur ces facteurs :
 - `seo-internal-linking` — pour le maillage opérationnel article par article
 - `seo-audit` — pour auditer le cluster en cours de route
 - `programmatic-seo` — si une partie du cluster peut être automatisée à scale
+
+---
+
+## 📚 Apprentissages terrain
+
+- **2026-06-01** : Nouvelle ligne d'offre "visibilité IA" (GEO/AEO) pour PME (scrunch.com)
+  Structurer le contenu des clusters pour être cité par les LLM (réponses courtes en H2, FAQ schema, citations sourcées) — double usage : présence Flip + offre vendable aux clients. Penser chaque cluster comme citable par les moteurs génératifs, pas seulement rankable sur Google.

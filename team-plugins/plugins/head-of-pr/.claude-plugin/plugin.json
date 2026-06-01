@@ -1,9 +1,9 @@
-﻿{
-    "name":  "head-of-pr",
-    "description":  "Ton Head of PR dans Claude â€” relations presse + personal branding + LinkedIn pour founders.",
-    "author":  {
-                   "name":  "",
-                   "email":  ""
-               },
-    "version":  "0.1.2"
+{
+  "name": "head-of-pr",
+  "description": "Ton Head of PR dans Claude â€” relations presse + personal branding + LinkedIn pour founders.",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "version": "0.1.3"
 }

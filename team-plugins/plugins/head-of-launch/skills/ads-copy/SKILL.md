@@ -162,3 +162,12 @@ Nouveau pattern à ajouter dans les hooks Meta Ads recommandés (catégorie cont
   Contexte : seuil ASC baissé de 50 à 25 conversions/semaine.
   Pourquoi ça compte : Buddy (crowdfunding) et LPL peuvent enfin tester Advantage+ avec budget modeste.
   Application : déclencher test ASC dès 25 conv/sem sur compte. Avant on attendait 50, désormais 25 suffisent.
+
+---
+
+## 📚 Mise à jour — Veille 1er juin 2026
+
+- **2026-06-01** : Meta Ads — fenêtre d'audiences d'achat passée de 180 à 730 jours (auto depuis le 18 mai 2026, sauf opt-out) (tryvizup.com)
+  Exploiter pour le reciblage B2B sur cycles longs (Flip). Activer aussi le CAPI one-click gratuit dans Events Manager sur les comptes sans tracking serveur.
+- **2026-06-01** : Google AI Max sort de bêta (disponibilité générale) + AI Brief piloté par Gemini (blog.google)
+  Décrire son business en langage naturel pour piloter ciblage/messaging ; s'étend au Shopping ; les DSA migrent vers AI Max. Réduit drastiquement le temps de setup campagne.

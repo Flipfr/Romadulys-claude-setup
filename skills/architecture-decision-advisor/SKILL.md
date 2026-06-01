@@ -122,7 +122,7 @@ Si la décision dépend d'une donnée que tu n'as pas (ex : "on ne sait pas si l
 **Règle de décision 2026** :
 1. D'abord, vérifier si un MCP existant fait le job (~400 disponibles via activepieces, plus les MCP officiels Anthropic, plus les MCP communautaires sur smithery.ai/awesome-mcp).
 2. Si oui → wrap avec Claude, time-to-deploy 1-3 jours.
-3. Si non → coder un MCP custom (qui sera réutilisable sur d'autres missions).
+3. Si non → coder un MCP custom (qui sera réutilisable sur d'autres missions Flip).
 4. Coder un connecteur "à la main" sans passer par MCP = à éviter (dette technique, pas réutilisable).
 
 ## ➕ À ajouter dans `Heuristiques`
@@ -143,7 +143,7 @@ Si la décision dépend d'une donnée que tu n'as pas (ex : "on ne sait pas si l
 - **MCP est le standard de fait en avril 2026** (2026-04-27, source veille — Linux Foundation, activepieces, agents-radar)
   Contexte : Model Context Protocol donné à la Linux Foundation, adopté par Anthropic, OpenAI, Microsoft, Google. ~400 serveurs MCP disponibles via activepieces.
   Pourquoi ça compte : la décision d'archi "comment je connecte mon agent à mon SaaS X" se résout 80% du temps par un MCP existant en 2026.
-  Application : skill architecture-decision-advisor (étape "MCP shopping" en pré-décision custom), skill switch-diagnostic-pme.
+  Application : skill architecture-decision-advisor (étape "MCP shopping" en pré-décision custom), skill flip-diagnostic-pme.
 
 - **block/goose comme option crédible self-hosted** (2026-04-27, source veille — Block / GitHub)
   Contexte : 4 900 stars en 2 semaines, Rust, MCP natif, signé Block (Square/Cash App).
@@ -180,8 +180,29 @@ Cas d'usage Globber (admin marque blanche SaaS) : notifier en temps réel quand 
 | Mémoire partagée | Native | Filesystem partagé |
 | Vendor lock-in | Faible | Élevé |
 
-→ **Default recommandé** : Managed Agents Multiagent pour les missions (turnkey, support officiel). ruflo en option self-hosted pour clients data-sensibles ou très tech.
+→ **Default recommandé** : Managed Agents Multiagent pour les missions Flip (turnkey, support officiel). ruflo en option self-hosted pour clients data-sensibles ou très tech.
 
 ### Pattern "MCP shopping" enrichi avec microsoft/mcp
 
 Pour toute PME sous M365 (80% du marché FR), le catalogue [microsoft/mcp](https://github.com/microsoft/mcp) couvre 80% des intégrations courantes (Outlook, Teams, SharePoint, SQL Server, Dataverse, Clarity). À évaluer avant tout custom dev.
+
+---
+
+## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
+
+- **muratcankoylan/Agent-Skills-for-Context-Engineering — context engineering = compétence 2026** (2026-05-25, source veille — github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)
+  Contexte : skills dédiés context engineering et multi-agents — comment ne pas "noyer" un agent IA sous trop d'infos.
+  Pourquoi ça compte : context engineering devient une dimension de choix d'archi à part entière en 2026, à côté de "stockage", "auth", "scaling". Compétence différenciante pour livrer agents IA chez PME (Flip).
+  Application : intégrer "context engineering" comme nouvelle dimension dans les matrices de comparaison d'archi (combien de tokens injecter ? quel ordre ? compaction ?). À côté de cost/complexity/time-to-implement.
+
+- **MCP tunnels + self-hosted sandboxes — réponse anti-objection "données privées"** (2026-05-25, source veille — 9to5mac.com)
+  Contexte : MCP tunnels permettent à un agent d'atteindre des serveurs MCP dans un réseau privé sans les exposer sur Internet. Self-hosted sandboxes pour l'exécution de code.
+  Pourquoi ça compte : pour les archi où le client refuse le cloud (PME industrielle, secteurs régulés), on peut désormais proposer un pattern "agent cloud + MCP on-prem via tunnel" — au lieu de tout self-hoster.
+  Application : nouvelle option dans le matrix de choix archi PME — colonne "data on-prem + agent cloud via MCP tunnel" entre "tout cloud" et "tout self-hosted".
+
+---
+
+## 📚 Apprentissages terrain — Veille 1er juin 2026
+
+- **2026-06-01** : Managed Agents — option self-hosted sandbox AWS (source : 9to5mac.com).
+  À intégrer comme option d'archi quand un client refuse que ses données sortent de son réseau (anti-objection "données privées"). Vient compléter le matrix "tout cloud / on-prem via MCP tunnel / tout self-hosted" : le sandbox AWS self-hosted permet l'exécution de code de l'agent dans le périmètre AWS du client.

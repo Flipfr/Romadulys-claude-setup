@@ -128,3 +128,10 @@ Le pattern **contrarian + correction directe** bat les hooks classiques (type "C
   Contexte : algo priorise pertinence, expertise, engagement qualitatif. Dwell time = signal clé.
   Pourquoi ça compte : un bon hook doit non seulement attirer mais aussi engager le scroll long — le hook seul ne suffit plus, il doit annoncer un contenu qui retient.
   Application : générer des hooks qui promettent une valeur de dwell time (carrousel, narratif long, data dense) — pas juste des accroches choc qui font lire 3 secondes.
+
+---
+
+## 📚 Mise à jour — Veille 1er juin 2026
+
+- **2026-06-01** : Privilégier les hooks qui annoncent une valeur enregistrable ("saveable") (blog.linkboost.co)
+  Sur LinkedIn 2026 le "save" est le signal roi : les hooks qui promettent un framework / checklist / référence à garder surperforment. Ajouter ce filtre au générateur — l'accroche doit signaler "contenu à archiver" (ex : "La checklist que j'aurais voulue avant de...", "5 critères pour...").

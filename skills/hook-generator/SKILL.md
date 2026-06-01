@@ -91,3 +91,47 @@ Les hooks qui performent en 2026 (LinkedIn surtout, mais valable cross-plateform
 - **Authenticité > polish.** Une formulation imparfaite peut signaler "écrit par un humain" et booster l'engagement (mais pas de fautes d'orthographe).
 - **Timeframe > absolu.** "En 3 mois" > "rapidement". "Pendant 2 ans" > "longtemps".
 - **Chiffre + cause spécifique.** "J'ai perdu 47K€ à cause de [chose précise]" > "J'ai eu des pertes".
+
+---
+
+## 💡 Apprentissage intégré — 2026-04-30
+
+**Hook "Tu fais X, mais tu devrais Y" — +23% engagement** (source : test A/B lePERMISLIBRE Meta Ads avril 2026, 3 variantes × 50k impressions, validé aussi sur LinkedIn organique)
+
+Le pattern **contrarian + correction directe** bat les hooks classiques (type "Comment je suis passé de X à Y") de 23% en engagement.
+
+**Pourquoi ça marche** :
+- Active le biais de validation (le lecteur veut savoir s'il fait bien)
+- Pattern interrupt (inverse l'attente)
+- Implication directe via le "tu"
+
+**Ajout à la palette des formats** (catégorie contrarian/correction) :
+
+| Format | Exemple | Niveau d'agressivité |
+|---|---|---|
+| Contrarian + correction "tu fais X, tu devrais Y" | "Tu lances ton produit dans 60 jours, mais tu n'as pas encore listé ton ICP." | 3 |
+| Contrarian + correction "tu fais X, tu devrais Y" | "Tu fais des fiches de poste qui filtrent. Mais tu devrais faire des fiches qui ATTIRENT en filtrant." | 3 |
+| Contrarian + correction "tu fais X, tu devrais Y" | "Tu as un dashboard. Mais sans seuil cible par métrique, c'est juste de la déco." | 3 |
+
+À utiliser en priorité dans les hooks Meta Ads + LinkedIn organique quand l'audience est en phase "exécution" (vs "découverte").
+
+---
+
+## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
+
+- **LinkedIn Authenticity Update — engagement-baiting pénalisé, accroches <10 mots = +40%** (2026-05-25, source veille — connectsafely.ai)
+  Contexte : LinkedIn pénalise les posts qui demandent explicitement de l'interaction ("commente X", "partage si..."). Curiosity-gap et contrarian = ×2,3 d'engagement. Accroches <10 mots = +40%. 65% des users décident d'ouvrir sur la 1ère ligne.
+  Pourquoi ça compte : les hooks doivent désormais être <10 mots, et curiosity-gap ou contrarian. Pas d'engagement-baiting. 65% de la décision se joue sur la 1ère ligne.
+  Application : règle dure du hook generator = max 10 mots sur l'accroche + curiosity-gap ou contrarian obligatoire + zéro engagement-baiting.
+
+- **LinkedIn algo 2026 — dwell time comme signal clé** (2026-05-25, source veille — blog.linkboost.co)
+  Contexte : algo priorise pertinence, expertise, engagement qualitatif. Dwell time = signal clé.
+  Pourquoi ça compte : un bon hook doit non seulement attirer mais aussi engager le scroll long — le hook seul ne suffit plus, il doit annoncer un contenu qui retient.
+  Application : générer des hooks qui promettent une valeur de dwell time (carrousel, narratif long, data dense) — pas juste des accroches choc qui font lire 3 secondes.
+
+---
+
+## 📚 Mise à jour — Veille 1er juin 2026
+
+- **2026-06-01** : Privilégier les hooks qui annoncent une valeur enregistrable ("saveable") (blog.linkboost.co)
+  Sur LinkedIn 2026 le "save" est le signal roi : les hooks qui promettent un framework / checklist / référence à garder surperforment. Ajouter ce filtre au générateur — l'accroche doit signaler "contenu à archiver" (ex : "La checklist que j'aurais voulue avant de...", "5 critères pour...").

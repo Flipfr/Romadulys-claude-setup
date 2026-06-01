@@ -151,3 +151,12 @@ Code TypeScript prêt à coller, snippets séparés par préoccupation (architec
   Contexte : fichier CLAUDE.md de 70 lignes (distillation Forrest Chang depuis Karpathy), 110k stars en 3 mois, #1 GitHub Trending pendant 28 jours.
   Pourquoi ça compte : référence pour rédiger les sections d'instructions Next.js — compresser à l'os, 1 ligne = 1 règle, pas de remplissage explicatif.
   Application : auditer ce SKILL.md ligne par ligne — chaque ligne doit être actionnable ou supprimée. Cible de densité : ~70-100 lignes max sur l'essentiel des patterns Next.js critiques.
+
+---
+
+## 📚 Apprentissages terrain — Veille 1er juin 2026
+
+- **2026-06-01** : Dynamic Workflows (Claude Code) pour migrations massives — orchestration scriptée de sous-agents pour refactors à grande échelle (centaines de milliers de lignes) (source : techcrunch.com).
+  Action : pour une migration Pages Router → App Router ou un refactor de typage sur un gros repo, envisager un script d'orchestration de sous-agents plutôt qu'une passe manuelle.
+- **2026-06-01** : forrestchang/andrej-karpathy-skills (~109k stars) — CLAUDE.md de 65 lignes, 4 principes à cherry-pick : Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven (source : github.com/forrestchang/andrej-karpathy-skills).
+  Règle : densité > volume. Appliquer ces 4 principes comme garde-fous sur tout changement Next.js.

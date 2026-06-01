@@ -101,3 +101,10 @@ Markdown avec blocs de code TypeScript correctement balisés. Utilise les `[CRIT
   Contexte : fichier CLAUDE.md de 70 lignes (distillation Forrest Chang depuis Karpathy), 110k stars en 3 mois, #1 GitHub Trending pendant 28 jours.
   Pourquoi ça compte : la valeur n'est pas dans le volume mais la densité d'instructions — référence pour rédiger les guides Next.js avec un maximum d'instructions actionnables au mot.
   Application : en code review, suggérer la compression des CLAUDE.md / README / docs internes vers ~70 lignes d'instructions denses plutôt que des wikis. Préférer "1 ligne = 1 règle actionnable" à "1 paragraphe = 1 explication".
+
+---
+
+## 📚 Apprentissages terrain — Veille 1er juin 2026
+
+- **2026-06-01** : CLAUDE.md Karpathy (~109k stars) comme référence de densité d'instructions (source : github.com/forrestchang/andrej-karpathy-skills).
+  65 lignes qui battent des fichiers de config verbeux. En review d'un CLAUDE.md / README / doc de contribution, privilégier la densité d'instructions : signaler le remplissage explicatif et viser ~65 lignes actionnables.

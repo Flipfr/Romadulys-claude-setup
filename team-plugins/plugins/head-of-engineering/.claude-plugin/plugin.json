@@ -1,9 +1,9 @@
-﻿{
-    "name":  "head-of-engineering",
-    "description":  "Ton Head of Engineering / CTO dans Claude â€” code review + Next.js patterns + Supabase + TypeScript strict + Claude API.",
-    "author":  {
-                   "name":  "Head of Plugins",
-                   "email":  "contact@example.com"
-               },
-    "version":  "0.1.2"
+{
+  "name": "head-of-engineering",
+  "description": "Ton Head of Engineering / CTO dans Claude â€” code review + Next.js patterns + Supabase + TypeScript strict + Claude API.",
+  "author": {
+    "name": "Head of Plugins",
+    "email": "contact@example.com"
+  },
+  "version": "0.1.3"
 }

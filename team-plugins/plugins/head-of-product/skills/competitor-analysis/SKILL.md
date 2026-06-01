@@ -140,3 +140,9 @@ Autres concurrents directs (à monitorer) : Xplora, Pixbee, Garmin Bounce, Pinwh
   Contexte : Ornikar 15913 candidats/trim, 82 départements. En Voiture Simone 5505. Stych. LPL. Marché stabilisé.
   Pourquoi ça compte : benchmark concurrentiel à jour pour LPL — identifier angle de différenciation vs Ornikar (leader) et EVS (#2).
   Application : fiches concurrents directes pour LPL : Ornikar, En Voiture Simone, Stych — avec leurs volumes trimestriels et positionnements.
+
+## Apprentissages terrain
+
+- **2026-06-01** : concurrents agences IA France 2026 — Kokoro, Stema Partners, Support Flow se positionnent tous sur "livré, documenté, opéré, pas juste prototypé". Cet angle est désormais banalisé → ne plus en faire le différenciateur Flip, basculer sur un angle vertical/sectoriel. (koino.fr)
+- **2026-06-01** : Littlebird (USA), concurrent hardware enfant à monitorer pour l'expansion EU de Buddy — wearable enfant sans écran sur Amazon Sidewalk (tracking sans forfait data) + BLE/Wi-Fi/GPS, ~1000 unités au lancement, distribution Walmart en août, modèle par abonnement 25 $/mois. (geekwire.com)
+  - Avantage Buddy en EU : eSIM (pas de dépendance à Sidewalk, inexistant en Europe). Différencier par la zone géo et le réseau plutôt que copier le positionnement "sans écran".

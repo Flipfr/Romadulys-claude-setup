@@ -114,3 +114,8 @@ Du plus doux au plus direct, pour permettre l'A/B test :
 ## Format de sortie
 
 Markdown clair avec blocs séparés pour chaque livrable (hooks, version courte, version longue, CTAs, analyse). Le client doit pouvoir copier-coller chaque section sans avoir à retravailler la mise en forme.
+
+## Apprentissages terrain
+
+- **2026-06-01** : hook chiffré sur le frein n°1 PME validé pour landing/pitch Flip — "54% des dirigeants ne savent pas par où commencer avec l'IA. On transforme ça en roadmap en 2 semaines." (lelab.bpifrance.fr — Baromètre BPI T2 2026)
+  - Angle "statistique surprenante" + bénéfice direct + délai chiffré dans une seule phrase. Le 54% nomme la douleur avec les mots du lecteur, la roadmap 2 semaines apporte la solution spécifique.

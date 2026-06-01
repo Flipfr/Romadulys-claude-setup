@@ -284,3 +284,14 @@ Action immédiate : ajouter `hard_deny` sur `Write(.env)` + `Write(*credentials*
   Contexte : pairing modèle fort + rapide. Réduit coûts en gardant qualité raisonnement.
   Pourquoi ça compte : optimisation coûts en production — Opus en phase analyse/planning, Haiku en phase exécution répétitive.
   Application : pattern "Opus advisor + Haiku executor" en section optimisation coûts production. Exemple : génération de 50 mails personnalisés = Opus rédige le template + Haiku boucle sur les variations.
+
+---
+
+## 📚 Apprentissages terrain — Veille 1er juin 2026
+
+- **2026-06-01** : Claude Opus 4.8 (sorti 28 mai 2026) — nouveau modèle frontier, coding 64,3%→69,2%, meilleure honnêteté, prix inchangé (5$/M in, 25$/M out), dispo API/Bedrock/Vertex/Foundry (source : anthropic.com/news/claude-opus-4-8).
+  Règle : swap direct sans surcoût depuis Opus 4.7. **Fast mode = 3× moins cher** → levier pour baisser la facture sur les tâches volumineuses. À mettre à jour dans la table "modèle par cas d'usage".
+- **2026-06-01** : Dynamic Workflows (Claude Code) — script JS orchestrant jusqu'à 1000 sous-agents en parallèle pour migrations/refactors massifs (v2.1.154+, research preview) (source : techcrunch.com).
+  Anti-pattern coût : 1000 agents = facture qui grimpe vite. Toujours cadrer le périmètre avant de lancer.
+- **2026-06-01** : Managed Agents — webhooks signés `whsec_` (events session/vault) = push au lieu de polling ; orchestration lead/spécialistes ; sandboxes self-hosted AWS (source : 9to5mac.com).
+  Le self-hosted AWS = réponse anti-objection "données privées" pour clients régulés.
