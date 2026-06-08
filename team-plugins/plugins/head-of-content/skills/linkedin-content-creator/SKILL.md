@@ -173,7 +173,7 @@ Donc carousel PDF = **278% de plus que vidéo, 596% de plus que texte**.
 - **L'aveu** : "J'ai mis [N mois] à comprendre [chose qui paraît évidente après]. Voici ce que j'aurais aimé qu'on me dise."
 - **Le before/after** : "Il y a [période], [état désastreux]. Aujourd'hui, [état nouveau]. Voici les 3 trucs qui ont tout changé."
 
-### Calendrier éditorial type pour Romain (Flip)
+### Calendrier éditorial type pour Romain (Switch)
 
 50% carousels PDF / 30% texte / 20% vidéo native — **uniquement sur la niche IA × PME**.
 
@@ -190,13 +190,13 @@ Rythme : 4-5 posts/semaine. Lundi-jeudi 8-10h. Pas le vendredi, pas le week-end.
 
 - **Carousel PDF = format dominant à 7x le texte** (2026-04-27, source veille — InvolvDigital benchmark)
   Contexte : 6.6% engagement vs 0.9% texte. Hook + 5-7 slides "Universal Alpha" + CTA. Structure swipe-friendly.
-  Pourquoi ça compte : pour Flip, on a un format idéal pour les cartographies de process, les benchmarks sectoriels, les cas client anonymisés. Pour Buddy, idéal pour les insights parents et les specs hardware.
-  Application : skill linkedin-content-creator (template carousel par défaut), créer un template Canva/Figma "Flip carousel" avec le template hook+5+CTA.
+  Pourquoi ça compte : pour Switch, on a un format idéal pour les cartographies de process, les benchmarks sectoriels, les cas client anonymisés. Pour Buddy, idéal pour les insights parents et les specs hardware.
+  Application : skill linkedin-content-creator (template carousel par défaut), créer un template Canva/Figma "Switch carousel" avec le template hook+5+CTA.
 
 - **Le founder-led growth est la moat de distribution B2B 2026** (2026-04-27, source veille — Edelman-LinkedIn / InvolvDigital)
   Contexte : 60% des B2B buyers découvrent les marques via creator content avant le formulaire. 95% des décideurs disent que le thought leadership influence leurs achats. 79% ignorent les cold DMs.
-  Pourquoi ça compte : confirme l'intuition d'investir Romain × LinkedIn pour Flip. La page entreprise est secondaire, la moat est sur le profil personnel.
-  Application : skill personal-branding (calendrier 90j hyper-niche), skill linkedin-content-creator (priorité absolue Romain), ne plus alimenter la page entreprise Flip sauf cas exceptionnel.
+  Pourquoi ça compte : confirme l'intuition d'investir Romain × LinkedIn pour Switch. La page entreprise est secondaire, la moat est sur le profil personnel.
+  Application : skill personal-branding (calendrier 90j hyper-niche), skill linkedin-content-creator (priorité absolue Romain), ne plus alimenter la page entreprise Switch sauf cas exceptionnel.
 
 ---
 
@@ -240,7 +240,7 @@ La **short-form vertical video** est devenue un format dominant LinkedIn en 2026
 
 Conséquence pour le pipeline `content-repurposer` : tes Reels TikTok/Instagram peuvent être recyclés directement sur LinkedIn — pas besoin de format spécifique. Une seule capture verticale alimente 3 plateformes (TikTok, Reels, LinkedIn).
 
-**Calendrier éditorial révisé pour Romain (Flip)** :
+**Calendrier éditorial révisé pour Romain (Switch)** :
 - 40% carousel PDF (ex-50%) — toujours dominant pour insights structurés
 - 25% vidéo verticale < 90s (NEW — recyclage des Reels)
 - 25% texte avec hook "thought style"
@@ -261,7 +261,7 @@ Source : Dataslayer + Linkboost, février-mai 2026.
 - Les **60-90 premières minutes** déterminent **70% du reach final** → mobiliser 5 commentaires réseau dans la 1ère heure = non-négociable.
 - Hooks gagnants : **contrarian / data / narrative (in medias res)**.
 
-### Nouveau rythme cible founder (Romain — Flip)
+### Nouveau rythme cible founder (Romain — Switch)
 
 Passer de 4-5 posts/semaine à **5 posts/jour ouvré** (1/jour). Donnée Leadfeeder : founders qui postent quotidiennement reportent **5-10× plus de demos B2B inbound**. Combiné à l'ABM hyper-perso → deal value +171%.
 
@@ -289,45 +289,6 @@ Le contexte arrive en slide 3-4, jamais en hook.
 5. Checklist 5 points
 6. CTA "Audit AI Act 990€" → trojan horse vers diag 2 500€
 
----
+## 📚 Apprentissage — Veille 5 juin 2026
 
-## 💡 Apprentissage intégré — 2026-04-30
-
-**Hook "Tu fais X, mais tu devrais Y" — +23% engagement** (source : test A/B lePERMISLIBRE Meta Ads avril 2026, 3 variantes × 50k impressions, validé aussi sur LinkedIn organique)
-
-Variante storytelling avec twist à ajouter dans la palette des hooks LinkedIn (catégorie contrarian/correction directe).
-
-**Pattern** : "Tu [action en cours / situation positive]. Mais tu devrais [correction contre-intuitive]."
-
-**Pourquoi ça marche sur LinkedIn** :
-- Active le biais de validation chez les décideurs (ils veulent savoir s'ils font bien)
-- Pattern interrupt — inverse de l'attente
-- Le "tu" implique directement le lecteur → boost de l'arrêt scroll
-
-**Exemples validés** :
-- "Tu lances ton produit dans 60 jours, mais tu n'as pas encore listé ton ICP. Voilà comment faire ça en 30 min."
-- "Tu fais des fiches de poste qui filtrent. Mais tu devrais faire des fiches qui ATTIRENT en filtrant."
-- "Tu as un dashboard. Mais sans seuil cible par métrique, c'est juste de la déco."
-
-À privilégier dans les posts texte adressés aux opérateurs en phase d'exécution (post audit, post launch, post recrutement). Compatible avec le rythme founder 5 posts/sem défini ci-dessus.
-
----
-
-## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
-
-- **LinkedIn Authenticity Update — engagement-baiting pénalisé depuis mars 2026** (2026-05-25, source veille — connectsafely.ai)
-  Contexte : LinkedIn pénalise les posts qui demandent explicitement de l'interaction ("commente X", "partage si..."). Curiosity-gap et contrarian = ×2,3 d'engagement. Accroches <10 mots = +40%. 65% des users décident d'ouvrir sur la 1ère ligne.
-  Pourquoi ça compte : retirer tout call-to-engagement explicite des templates — sanctionné par l'algo. Curiosity-gap et contrarian sont les 2 patterns gagnants 2026.
-  Application : retirer des templates les CTAs engagement-baiting ("commente", "partage si...", "tag quelqu'un"). Prioriser curiosity-gap + contrarian. Accroche <10 mots obligatoire.
-
-- **LinkedIn algo 2026 — pivot "value delivered" + dwell time comme signal clé** (2026-05-25, source veille — blog.linkboost.co)
-  Contexte : algo priorise pertinence, expertise, engagement qualitatif. Dwell time = signal clé. Commentaires = levier visibilité (apparaissent dans feed followers). Stratégie : 3-5 posts/sem, hooks forts, carousels, storytelling + data, 10-15 min commentaires avant/après post.
-  Pourquoi ça compte : ajuster stratégie LinkedIn — focus dwell time (carrousels, storytelling long), routine commentaires obligatoire dans les 10-15 min après publication.
-  Application : rythme cible 3-5 posts/semaine. Mix : carrousels (dwell time +++), storytelling + data, hooks forts <10 mots. Routine commentaires : 10-15 min avant + 10-15 min après chaque post.
-
----
-
-## 📚 Mise à jour — Veille 1er juin 2026
-
-- **2026-06-01** : Le "save" est le signal d'engagement n°1 pour la distribution LinkedIn B2B 2026 (blog.linkboost.co)
-  Prioriser le contenu "saveable" (frameworks, checklists, carrousels) plutôt que les posts d'opinion. Sweet spot 3-4 posts/sem. Carrousels = 2-3× plus d'engagement. 2 000 vues ciblées > 100 000 vues larges en leads qualifiés — confirme la stratégie niche extrême.
+- **Hook "croyance privée" + carrousels-document dominants** (2026-06-05, veille 5 juin) — "Je pensais que X… après Y, je sais que Z." Les carrousels (framework/checklist) restent le format le plus sauvegardé/repartagé ; l'algo 2026 récompense les questions qui déclenchent des commentaires.

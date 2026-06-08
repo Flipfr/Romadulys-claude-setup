@@ -78,3 +78,7 @@ Pour la section **Univers visuel** (étape 4), enrichir les directives avec une 
 | Édition/contenu premium | The New York Times, Substack |
 
 **Process à ajouter avant de figer la palette et la typo** : demander au client de pointer 2-3 marques visuelles qu'il admire — utiliser ces 71 systems comme banque d'analogies pour cadrer la conversation. Pattern observé : les fondateurs articulent mieux leur direction visuelle avec une grille de comparaison qu'à partir d'une page blanche.
+
+## 📚 Apprentissage — Veille 5 juin 2026
+
+- **Angle "anti-smartphone pour enfants" porté par le climat réglementaire** (2026-06-05, veille 5 juin) — le durcissement DSA / loi <15 ans rend le positionnement "safe by design, sans réseau social" non seulement marketing mais aligné avec l'air du temps politique. Pour Buddy : assumer "l'anti-smartphone".

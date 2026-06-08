@@ -99,75 +99,12 @@ Source : Anchour Meta Ads 2026 Playbook + Dataslayer.
 
 Meta sépare désormais click-through et **engage-through conversions** (vues longues, interactions) dans le reporting natif → les créas storytelling longues remontent dans l'attribution.
 
-**Conséquence brief** : passer la stratégie créa Meta vers **formats 30-45 secondes narratifs** (vs UGC court qui dominait). Pour Flip en B2B, c'est une opportunité — les vidéos pédagogiques longues vont enfin trouver leur attribution.
+**Conséquence brief** : passer la stratégie créa Meta vers **formats 30-45 secondes narratifs** (vs UGC court qui dominait). Pour Switch en B2B, c'est une opportunité — les vidéos pédagogiques longues vont enfin trouver leur attribution.
 
 ### Threads App Ads — canal vierge à activer
 
 Threads s'ouvre aux App Ads globalement via Marketing API (pas de nouvelle créa requise — mirror IG). À activer en mirror des campagnes Instagram pour Buddy, audience early adopter parents.
 
----
+## 📚 Apprentissage — Veille 5 juin 2026
 
-## 💡 Apprentissage intégré — 2026-04-30
-
-**Hook "Tu fais X, mais tu devrais Y" — +23% engagement Meta Ads** (source : test A/B lePERMISLIBRE Meta Ads avril 2026, 3 variantes × 50k impressions)
-
-Nouveau pattern à ajouter dans les hooks Meta Ads recommandés (catégorie contrarian + correction directe).
-
-**Format** : "Tu [action en cours / situation positive]. Mais tu devrais [correction contre-intuitive]."
-
-**Performance mesurée** : +23% d'engagement vs hooks classiques type "Comment je suis passé de X à Y", sur les 3 angles testés (douleur, bénéfice, social proof).
-
-**Pourquoi ça marche** :
-- Active le biais de validation
-- Pattern interrupt
-- Implication directe via le "tu"
-
-**Exemples validés** (à adapter par offre) :
-- "Tu lances ton produit dans 60 jours, mais tu n'as pas encore listé ton ICP. Voilà comment faire ça en 30 min."
-- "Tu fais des fiches de poste qui filtrent. Mais tu devrais faire des fiches qui ATTIRENT en filtrant."
-- "Tu as un dashboard. Mais sans seuil cible par métrique, c'est juste de la déco."
-
-À tester en priorité comme variante de **l'Angle 1 — Problème / douleur** ou **l'Angle 3 — Social proof / curiosité**, sur des audiences en phase "exécution" (vs "découverte").
-
----
-
-## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
-
-- **Meta MCP officiel + CLI ads (29 avril 2026) — setup 5-7 min vs 25 min+** (2026-05-25, source veille — github.com/pipeboard-co/meta-ads-mcp)
-  Contexte : Meta lance serveur MCP officiel + CLI. Query perfs, modifier budgets, pauser ads depuis terminal/Claude Desktop. Setup 5-7 min vs 25 min+.
-  Pourquoi ça compte : workflow MCP pour gestion ads clients Flip + Buddy + LPL. Réduction massive de friction opérationnelle.
-  Application : intégrer Meta MCP comme outil par défaut pour piloter campagnes — query perfs et ajustements de budgets depuis Claude directement.
-
-- **Meta Advantage+ Creative ON par défaut depuis février 2026 + ASC seuil 25 conv/sem** (2026-05-25, source veille — admanage.ai + dataslayer.ai)
-  Contexte : nouvelles campagnes Sales/Leads/App Promo avec TOUTES les améliorations Advantage+ Creative activées par défaut. ASC seuil baissé 25 conv/sem.
-  Pourquoi ça compte : vertical-first obligatoire dès la production de créatives. Buddy (crowdfunding) et LPL peuvent enfin tester ASC avec budget modeste.
-  Application : brief créa par défaut = vertical 9:16 + ASC ON. Tester ASC dès qu'un compte atteint 25 conv/sem (avant : 50).
-
-- **Meta "Describe Your Audience" — targeting langage naturel via Advantage+ Targeting** (2026-05-25, source veille — gezar.dk)
-  Contexte : Advantage+ Targeting accepte description en texte libre du client idéal, IA Meta fait le ciblage.
-  Pourquoi ça compte : raccourcit drastiquement le setup ciblage — passer de structures audiences complexes à descriptions narratives.
-  Application : nouveau workflow setup ciblage Meta = description narrative du client idéal en texte libre. Tester immédiatement sur Flip+Buddy+LPL.
-
-- **Meta disclosure IA obligatoire depuis mars 2026 sur toute pub contenant contenu IA** (2026-05-25, source veille — nicreated.com.au)
-  Contexte : depuis mars 2026, Meta exige mention sur toute pub contenant contenu généré/modifié par IA.
-  Pourquoi ça compte : checklist obligatoire en production de creatives — sinon campagnes rejetées.
-  Application : check-list de production creative Meta = ajouter disclosure IA si visuel/script/voix généré ou modifié par IA. Sans disclosure = rejet.
-
-- **Vertical 9:16 = 90% inventaire Meta — Stories/Reels fusionnés en safe zone unique** (2026-05-25, source veille — admove.ai)
-  Contexte : Meta a fusionné Stories et Reels en safe zone unique, 90% inventaire pub est vertical.
-  Pourquoi ça compte : toute creative doit être pensée 9:16 dès le départ, pas de recadrage post.
-  Application : brief créa par défaut = 9:16 native dès le scénario. Pas de recadrage 16:9 → 9:16. Briefs vidéo précisent safe zone Meta unifiée Stories/Reels.
-
-- **Meta Advantage+ Shopping seuil 25 conv/sem (baissé de 50 à 25)** (2026-05-25, source veille — dataslayer.ai)
-  Contexte : seuil ASC baissé de 50 à 25 conversions/semaine.
-  Pourquoi ça compte : Buddy (crowdfunding) et LPL peuvent enfin tester Advantage+ avec budget modeste.
-  Application : déclencher test ASC dès 25 conv/sem sur compte. Avant on attendait 50, désormais 25 suffisent.
-
----
-
-## 📚 Mise à jour — Veille 1er juin 2026
-
-- **2026-06-01** : Meta Ads — fenêtre d'audiences d'achat passée de 180 à 730 jours (auto depuis le 18 mai 2026, sauf opt-out) (tryvizup.com)
-  Exploiter pour le reciblage B2B sur cycles longs (Flip). Activer aussi le CAPI one-click gratuit dans Events Manager sur les comptes sans tracking serveur.
-- **2026-06-01** : Google AI Max sort de bêta (disponibilité générale) + AI Brief piloté par Gemini (blog.google)
-  Décrire son business en langage naturel pour piloter ciblage/messaging ; s'étend au Shopping ; les DSA migrent vers AI Max. Réduit drastiquement le temps de setup campagne.
+- **Case study ads ≠ premier contact (LinkedIn 2026)** (2026-06-05, veille 5 juin) — la creative "preuve/case study" ne performe que sur une audience qui te connaît déjà. La placer en milieu/bas de funnel (retargeting), jamais en acquisition froide.

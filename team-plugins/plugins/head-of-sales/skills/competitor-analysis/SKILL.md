@@ -90,7 +90,7 @@ Document structuré : tableau comparatif central, fiches par concurrent en annex
 
 ### Fiches concurrents à intégrer dans la base
 
-#### 1. Flip — Marché agences IA PME France
+#### 1. Switch — Marché agences IA PME France
 
 **Stema Partners** et **Digitallia** = top tier structuré, audit→industrialisation, **15-20k€ minimum**, livrable 4 mois. Cibles : ETI et grosses PME tech.
 
@@ -98,7 +98,7 @@ Document structuré : tableau comparatif central, fiches par concurrent en annex
 
 **Micro-agences niche** (vague émergente 2026, ex. agence-ia.com) : positionnement vertical fort (1 secteur = 1 agence).
 
-→ **Sweet spot Flip** : 2500€ + 2k€/mois, démarrage J+7. Fenêtre 3-6 mois pour planter un drapeau de niche.
+→ **Sweet spot Switch** : 2500€ + 2k€/mois, démarrage J+7. Fenêtre 3-6 mois pour planter un drapeau de niche.
 
 #### 2. Buddy — Marché wearables enfants
 
@@ -108,41 +108,10 @@ Autres concurrents directs (à monitorer) : Xplora, Pixbee, Garmin Bounce, Pinwh
 
 ### Heuristique nouvelle
 
-- **Le "do nothing" reste le concurrent n°1 sur l'IA PME.** 74% des TPE/PME ne sont pas équipées. La compétition n'est pas Stema vs Digitallia — c'est *Flip vs le statu quo*. Hook commercial : "Vous n'êtes pas en retard sur Stema, vous êtes en retard sur 26% de vos concurrents directs."
+- **Le "do nothing" reste le concurrent n°1 sur l'IA PME.** 74% des TPE/PME ne sont pas équipées. La compétition n'est pas Stema vs Digitallia — c'est *Switch vs le statu quo*. Hook commercial : "Vous n'êtes pas en retard sur Stema, vous êtes en retard sur 26% de vos concurrents directs."
 
 - **Pour les hardware concurrents avec un positionnement fort (Littlebird "sans écran"), ne pas copier le positionnement mais le compléter.** Différenciation par la zone géo (EU vs US), le réseau (eSIM vs Sidewalk), le cas d'usage (urbain vs rural).
 
----
+## 📚 Apprentissage — Veille 5 juin 2026
 
-## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
-
-- **anthropics/financial-services — repo Anthropic verticalisé secteur financier** (2026-05-25, source veille — github.com/anthropics/financial-services)
-  Contexte : repo officiel Anthropic verticalisé secteur financier, +12000 stars en une semaine.
-  Pourquoi ça compte : Anthropic devient un acteur direct sur les verticales sectorielles — concurrent indirect pour Flip qui doit anticiper l'arrivée de packs sectoriels officiels.
-  Application : ajouter "Anthropic verticales sectorielles" en monitoring concurrentiel dans l'analyse Flip.
-
-- **🚨 Claude for Small Business — concurrent direct Flip sur la cible PME** (2026-05-25, source veille — releasebot.io/updates/anthropic/claude)
-  Contexte : Anthropic lance "Claude for Small Business" branché sur QuickBooks/PayPal/HubSpot/Canva/Docusign/Google Workspace/M365 avec workflows prêts.
-  Pourquoi ça compte : **menace concurrentielle frontale** — Anthropic adresse directement la cible PME sans intermédiaire. Flip doit se repositionner sur le diagnostic + accompagnement humain.
-  Application : fiche concurrent direct "Claude for Small Business" avec analyse menace : qui peut s'en passer / qui a besoin de Flip en complément / argumentaire de différenciation.
-
-- **AI Summit Europe : alliances éditeurs (Mistral, Gemini EU) × agences IA locales — modèle hybride** (2026-05-25, source veille — agence-ia.com)
-  Contexte : modèle hybride puissance éditeur + agilité agence locale. PME accèdent à offres réservées aux grandes entreprises.
-  Pourquoi ça compte : monitorer les alliances éditeur+agence — si Mistral/Gemini lance un réseau d'agences certifiées, Flip risque le court-circuit.
-  Application : monitoring trimestriel des alliances éditeur+agence en Europe + identifier les opportunités de programme partenaire pour Flip.
-
-- **Marché connected toys : 19,5Md$ → 120Md$ en 2033 (CAGR 25,5%)** (2026-05-25, source veille — credenceresearch.com)
-  Contexte : Bluetooth (1,5Md$) et Wi-Fi (2Md$) dominent. Jouets interactifs = 40%+ ventes totales en 2026. Leaders : LEGO, Hasbro, Mattel, Spin Master, VTech.
-  Pourquoi ça compte : pour Buddy, marché en hyper-croissance, fenêtre ouverte avant que les leaders aspirent toute l'attention. Cartographier les leaders + les niches.
-  Application : mapping concurrentiel Buddy — leaders (LEGO, Hasbro, Mattel, Spin Master, VTech) + niches émergentes (smartwatch kids, plush IA, audio devices).
-
-- **1/3 des candidats choisit auto-école en ligne en 2026 — marché stabilisé à 4 acteurs** (2026-05-25, source veille — autoecolemagazine.fr)
-  Contexte : Ornikar 15913 candidats/trim, 82 départements. En Voiture Simone 5505. Stych. LPL. Marché stabilisé.
-  Pourquoi ça compte : benchmark concurrentiel à jour pour LPL — identifier angle de différenciation vs Ornikar (leader) et EVS (#2).
-  Application : fiches concurrents directes pour LPL : Ornikar, En Voiture Simone, Stych — avec leurs volumes trimestriels et positionnements.
-
-## Apprentissages terrain
-
-- **2026-06-01** : concurrents agences IA France 2026 — Kokoro, Stema Partners, Support Flow se positionnent tous sur "livré, documenté, opéré, pas juste prototypé". Cet angle est désormais banalisé → ne plus en faire le différenciateur Flip, basculer sur un angle vertical/sectoriel. (koino.fr)
-- **2026-06-01** : Littlebird (USA), concurrent hardware enfant à monitorer pour l'expansion EU de Buddy — wearable enfant sans écran sur Amazon Sidewalk (tracking sans forfait data) + BLE/Wi-Fi/GPS, ~1000 unités au lancement, distribution Walmart en août, modèle par abonnement 25 $/mois. (geekwire.com)
-  - Avantage Buddy en EU : eSIM (pas de dépendance à Sidewalk, inexistant en Europe). Différencier par la zone géo et le réseau plutôt que copier le positionnement "sans écran".
+- **Cartographie concurrents Buddy 2026** (2026-06-05, veille 5 juin) — TickTalk 5 (leader, 300k+ familles, "safety+fun, zéro réseau social, 40+ contrôles parentaux, 137h autonomie"), Pingo Track 4G (4G + double caméra, concurrent direct sur la techno), myFirst Fone S4. Promesse commune : "connecté sans les dangers d'internet". Buddy se différencie par audio/MQTT/Opus + sans écran ; point de vigilance : autonomie (TickTalk 137h).

@@ -75,30 +75,6 @@ Pour chacun :
 
 Markdown structuré : 1 section par étape du funnel, tableaux pour la matrice, blocs "hypothèse / mesure / implémentation" pour chaque expérience. Exportable Notion.
 
----
+## 📚 Apprentissage — Veille 5 juin 2026
 
-## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
-
-- **Meta Advantage+ Shopping seuil 25 conv/sem (baissé de 50 à 25)** (2026-05-25, source veille — dataslayer.ai)
-  Contexte : seuil ASC baissé de 50 à 25 conversions/semaine.
-  Pourquoi ça compte : Buddy (crowdfunding) et LPL peuvent enfin tester Advantage+ avec budget modeste. Levier growth débloqué pour les projets sub-50 conv/sem.
-  Application : activer ASC sur projets B2C dès 25 conv/sem. Levier prioritaire pour Buddy et LPL.
-
-- **Meta Advantage+ Creative ON par défaut depuis février 2026** (2026-05-25, source veille — admanage.ai)
-  Contexte : nouvelles campagnes Sales/Leads/App Promo avec TOUTES les améliorations Advantage+ Creative activées par défaut.
-  Pourquoi ça compte : vertical-first obligatoire dans tous les briefs. Les améliorations auto-créa donnent un effet "test+" avec moins d'effort.
-  Application : workflow growth = vertical-first + ne pas désactiver Advantage+ Creative par défaut + monitorer les variations auto vs original.
-
-- **Meta "Describe Your Audience" — targeting langage naturel via Advantage+ Targeting** (2026-05-25, source veille — gezar.dk)
-  Contexte : Advantage+ Targeting accepte description en texte libre du client idéal, IA Meta fait le ciblage.
-  Pourquoi ça compte : raccourcit le setup, ouvre des audiences inattendues via la compréhension narrative IA Meta.
-  Application : workflow setup campagne = description narrative + bench A/B vs ciblage classique. Tester immédiatement sur Flip + Buddy + LPL.
-
----
-
-## 📚 Mise à jour — Veille 1er juin 2026
-
-- **2026-06-01** : Meta Ads — fenêtre d'audiences d'achat élargie à 730 j (vs 180) (tryvizup.com)
-  Auditer les comptes clients pour exploiter la fenêtre élargie sur les cycles B2B longs. Activer le CAPI one-click sur les comptes sans tracking serveur — levier de reciblage débloqué quasi gratuit.
-- **2026-06-01** : Google AI Max en disponibilité générale + AI Brief (Gemini) (blog.google)
-  Argument d'offre "campagnes Google pilotées par IA" aligné Flip. Tester sur un compte client comme expérience growth (setup langage naturel vs structure classique).
+- **Funnel LinkedIn 2 temps (2026)** (2026-06-05, veille 5 juin) — notoriété d'abord (hook "croyance privée"), puis case study ads en retargeting. Ne pas cramer de budget case study sur audience froide.

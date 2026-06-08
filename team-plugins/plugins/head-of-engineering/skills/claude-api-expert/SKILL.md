@@ -150,7 +150,7 @@ const message = await client.messages.create({
 - **Observabilité** : Sentry / Datadog avec traces, OpenTelemetry pour distributed tracing
 - **Error handling** : codes 400 (input invalide) vs 5xx (transient) → stratégies différentes
 
-### Cas d'usage Flip Agency
+### Cas d'usage Switch Agency
 
 Pipeline type :
 1. **Audio client** → Whisper (transcription)
@@ -159,7 +159,7 @@ Pipeline type :
 4. **Notion** → Claude (génération de la roadmap depuis la fiche)
 5. **Roadmap** → PDF (livraison sous 24h)
 
-Caching aggressif sur le system prompt "consultant senior Flip" répété sur chaque diagnostic.
+Caching aggressif sur le system prompt "consultant senior Switch" répété sur chaque diagnostic.
 
 ## Format de sortie
 
@@ -183,23 +183,23 @@ Nouveautés à exploiter en production :
 | Cas | Modèle | Pourquoi |
 |---|---|---|
 | Livrable structuré long (PRD, pitch deck) | Opus 4.7 + `xhigh` | qualité > coût |
-| Génération roadmap PME (Flip) | Opus 4.7 standard | équilibre qualité/coût |
+| Génération roadmap PME (Switch) | Opus 4.7 standard | équilibre qualité/coût |
 | Tool-use orchestration, agents H24 | Sonnet 4.6 | latence + coût |
 | Classification, extraction, scoring | Haiku 4.5 | volume + coût |
 
 ### Managed Agents — public beta (header `managed-agents-2026-04-01`)
 
-Harness managé par Anthropic avec sandboxing + tools intégrés, sans gestion d'infra côté client. Pour Flip, c'est un nouveau modèle d'offre PME :
+Harness managé par Anthropic avec sandboxing + tools intégrés, sans gestion d'infra côté client. Pour Switch, c'est un nouveau modèle d'offre PME :
 - L'agent tourne H24 sur un process (relances, pipeline, suivi commissions) sans que la PME gère VM/queues/storage.
 - Réduit le ticket d'entrée pour les PME non-tech.
-- À considérer pour un pricing tier "Flip H24" à mi-chemin entre diagnostic ponctuel et abonnement custom.
+- À considérer pour un pricing tier "Switch H24" à mi-chemin entre diagnostic ponctuel et abonnement custom.
 
 ### Claude Context (MCP Zilliz) — pour grosses codebases
 
-Quand un Head of bosse sur un repo > 200K LOC (Flip app, Buddy app), la fenêtre contexte explose. Claude Context (`github.com/zilliztech/claude-context`) expose le codebase entier via vector search sémantique, peu importe la taille.
+Quand un Head of bosse sur un repo > 200K LOC (Switch app, Buddy app), la fenêtre contexte explose. Claude Context (`github.com/zilliztech/claude-context`) expose le codebase entier via vector search sémantique, peu importe la taille.
 
 **Quand le câbler** : sur un repo > 200K LOC, ou dès qu'on perd des références cross-fichiers en review.
-**MCP recommandé par défaut** dans `head-of-engineering` pour les missions Flip sur codebases existants.
+**MCP recommandé par défaut** dans `head-of-engineering` pour les missions Switch sur codebases existants.
 
 ---
 
@@ -213,7 +213,7 @@ Source : anthropic.com/news/higher-limits-spacex. Accord SpaceX = +300 MW (220k+
 - Fin de la réduction heures de pointe sur Pro/Max.
 - Conséquence : on peut désormais lancer `head-of-content` sur **10 sujets simultanés** sans throttling.
 
-→ Mettre à jour les scripts batch (Flip diagnostics, content repurposer, génération LinkedIn en masse) pour exploiter la nouvelle capacité.
+→ Mettre à jour les scripts batch (Switch diagnostics, content repurposer, génération LinkedIn en masse) pour exploiter la nouvelle capacité.
 
 ### Managed Agents (public beta, 6 mai 2026)
 
@@ -251,47 +251,8 @@ const response = await anthropic.messages.create({
 
 Action immédiate : ajouter `hard_deny` sur `Write(.env)` + `Write(*credentials*)` dans `settings.json` global.
 
----
+## 📚 Apprentissage — Veille 5 juin 2026
 
-## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
-
-- **muratcankoylan/Agent-Skills-for-Context-Engineering — context engineering = compétence 2026** (2026-05-25, source veille — github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)
-  Contexte : skills dédiés context engineering et multi-agents — comment ne pas "noyer" un agent IA sous trop d'infos.
-  Pourquoi ça compte : optimiser la fenêtre de contexte n'est plus un nice-to-have mais une compétence à part entière. Impact direct facture API + qualité réponses.
-  Application : patterns context engineering (compaction, ordering, selective injection) à formaliser dans la doc Claude API.
-
-- **Cache diagnostics (beta) — `cache_miss_reason` pour debug facture API** (2026-05-25, source veille — docs.anthropic.com)
-  Contexte : passer `diagnostics.previous_message_id` dans une requête Messages renvoie un `cache_miss_reason`. Permet de comprendre pourquoi le prompt cache ne hit pas.
-  Pourquoi ça compte : outil essentiel pour débugger une facture API qui grimpe — au lieu de deviner pourquoi le cache rate, on a la raison exacte.
-  Application : section "debug cache hit/miss" — pattern d'utilisation `diagnostics.previous_message_id` + interpretation des `cache_miss_reason`.
-
-- **Écosystème Claude Code explose : 4200+ skills, 770+ MCP servers, Tool Search réduit contexte 95%** (2026-05-25, source veille — claudemarketplaces.com)
-  Contexte : MCP Tool Search (lazy loading) réduit usage contexte de 95%. Serveurs officiels first-party (Notion, Stripe, Slack, Vercel, Cloudflare) remplacent alternatives community.
-  Pourquoi ça compte : audit MCP servers obligatoire — migrer vers les officiels où dispo (sécurité + maintenance + perf). Tool Search en lazy loading = changement majeur d'archi.
-  Application : section "MCP Tool Search + serveurs officiels first-party" — préférer les officiels (Notion, Stripe, Slack, Vercel, Cloudflare) + activer Tool Search lazy loading par défaut.
-
-- **Claude Managed Agents — 3 features (Dreaming, Outcomes, Multi-agent) + tarif 0.08$/session-hour** (2026-05-25, source veille — 9to5mac.com)
-  Contexte : Dreaming = agent review sessions passées pour s'améliorer. Outcomes = rubrique de succès, agent s'auto-évalue. Multi-agent = lead délègue. Prix : tokens + 0.08$/session-hour.
-  Pourquoi ça compte : permet de packager des agents autonomes — l'agent s'améliore tout seul entre les sessions. Modèle économique nouveau (session-hour).
-  Application : section "Managed Agents pricing" — décomposer coût en tokens + session-hour, exemples de calcul ROI pour PME.
-
-- **Claude Platform on AWS — billing AWS + IAM + Files/Batch API + Managed Agents** (2026-05-25, source veille — platform.claude.com)
-  Contexte : API sur infra Anthropic mais billing AWS, IAM, Files API, Batch API, Managed Agents, code execution.
-  Pourquoi ça compte : pour clients déjà sur AWS, moins de friction d'onboarding (pas de nouveau contrat fournisseur, IAM existant).
-  Application : option déploiement "Claude on AWS" pour clients PME déjà sur AWS — billing unique via AWS Marketplace.
-
-- **Advisor Tool (beta) — pattern "Opus conseille, Haiku exécute" pour réduire coûts** (2026-05-25, source veille — platform.claude.com)
-  Contexte : pairing modèle fort + rapide. Réduit coûts en gardant qualité raisonnement.
-  Pourquoi ça compte : optimisation coûts en production — Opus en phase analyse/planning, Haiku en phase exécution répétitive.
-  Application : pattern "Opus advisor + Haiku executor" en section optimisation coûts production. Exemple : génération de 50 mails personnalisés = Opus rédige le template + Haiku boucle sur les variations.
-
----
-
-## 📚 Apprentissages terrain — Veille 1er juin 2026
-
-- **2026-06-01** : Claude Opus 4.8 (sorti 28 mai 2026) — nouveau modèle frontier, coding 64,3%→69,2%, meilleure honnêteté, prix inchangé (5$/M in, 25$/M out), dispo API/Bedrock/Vertex/Foundry (source : anthropic.com/news/claude-opus-4-8).
-  Règle : swap direct sans surcoût depuis Opus 4.7. **Fast mode = 3× moins cher** → levier pour baisser la facture sur les tâches volumineuses. À mettre à jour dans la table "modèle par cas d'usage".
-- **2026-06-01** : Dynamic Workflows (Claude Code) — script JS orchestrant jusqu'à 1000 sous-agents en parallèle pour migrations/refactors massifs (v2.1.154+, research preview) (source : techcrunch.com).
-  Anti-pattern coût : 1000 agents = facture qui grimpe vite. Toujours cadrer le périmètre avant de lancer.
-- **2026-06-01** : Managed Agents — webhooks signés `whsec_` (events session/vault) = push au lieu de polling ; orchestration lead/spécialistes ; sandboxes self-hosted AWS (source : 9to5mac.com).
-  Le self-hosted AWS = réponse anti-objection "données privées" pour clients régulés.
+- **⚠️ Dépréciation Sonnet 4 / Opus 4 — retrait API le 15 juin 2026** (2026-06-05, veille 5 juin) — les IDs `claude-sonnet-4-20250514` et `claude-opus-4-20250514` sont retirés. Checklist migration obligatoire : grep ces IDs dans tout code Buddy/Switch et basculer vers Opus 4.8 / Sonnet courant AVANT le 15/06.
+- **Opus 4.8 = défaut partout + Fast mode à 10$/50$ par MTok (~2.5x plus rapide, 3x moins cher que 4.7/4.6 à 30$/150$)** (2026-06-05) — arbitrer Fast mode pour les charges prod sensibles au coût/latence. Mettre à jour les tableaux de coûts.
+- **Shift prompt → context engineering** (2026-06-05) — en 2026 on ne bricole plus des prompts, on construit des procédures stables (fichiers d'instructions, mémoire persistante, checkpoints humains sur étapes à risque). Front-load l'info critique (10% début / 10% fin), instructions en XML.
