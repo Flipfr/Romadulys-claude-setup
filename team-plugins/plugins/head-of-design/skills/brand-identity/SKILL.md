@@ -79,6 +79,6 @@ Pour la section **Univers visuel** (étape 4), enrichir les directives avec une 
 
 **Process à ajouter avant de figer la palette et la typo** : demander au client de pointer 2-3 marques visuelles qu'il admire — utiliser ces 71 systems comme banque d'analogies pour cadrer la conversation. Pattern observé : les fondateurs articulent mieux leur direction visuelle avec une grille de comparaison qu'à partir d'une page blanche.
 
-## 📚 Apprentissage — Veille 5 juin 2026
+## 📚 Apprentissage — Veille 19 juin 2026
 
-- **Angle "anti-smartphone pour enfants" porté par le climat réglementaire** (2026-06-05, veille 5 juin) — le durcissement DSA / loi <15 ans rend le positionnement "safe by design, sans réseau social" non seulement marketing mais aligné avec l'air du temps politique. Pour Buddy : assumer "l'anti-smartphone".
+- **Buddy : "privacy by design" comme angle de marque n°1** (2026-06-22, veille 19 juin) — Consumer Reports/TechCrunch alertent : des montres GPS enfants envoient les données non chiffrées vers des serveurs NA/Asie, sans MFA. Pendant que l'AI Act se relâche, la privacy enfant se durcit dans l'opinion. Assumer pour Buddy : "données chiffrées, hébergées en UE, MFA par défaut" — c'est là qu'on plante le drapeau.

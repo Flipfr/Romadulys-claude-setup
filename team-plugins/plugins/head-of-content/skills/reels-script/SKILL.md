@@ -97,11 +97,6 @@ La vidéo verticale courte est devenue un format dominant LinkedIn en 2026, sous
 
 **Pipeline distribution** : 1 Reel produit → publication TikTok + Instagram Reels + LinkedIn natif. Pas YouTube Short — algo différent qui pénalise les vidéos visiblement recyclées. Voir le skill `content-repurposer` pour le calendrier.
 
----
+## 📚 Apprentissage — Veille 19 juin 2026
 
-## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
-
-- **Vertical 9:16 = 90% inventaire Meta — Stories/Reels fusionnés en safe zone unique** (2026-05-25, source veille — admove.ai)
-  Contexte : Meta a fusionné Stories et Reels en safe zone unique, 90% inventaire pub est vertical.
-  Pourquoi ça compte : tout script Reels doit être pensé 9:16 native dès le storyboard, plus de recadrage 16:9 → 9:16.
-  Application : storyboarding par défaut en 9:16 dès la conception, respecter la safe zone unifiée Stories/Reels (texte clé hors de la zone overlay UI Meta).
+- **Vidéo courte founder-led sur LinkedIn** (2026-06-22, veille 19 juin) — LinkedIn pousse fort la vidéo (création x2, vues +36% YoY). Décliner les insights IA/PME en formats vidéo courts founder face caméra, pas seulement TikTok/Reels. Hook dès la 1ère seconde, sous-titres systématiques (lecture sans son).

@@ -105,6 +105,13 @@ Meta sépare désormais click-through et **engage-through conversions** (vues lo
 
 Threads s'ouvre aux App Ads globalement via Marketing API (pas de nouvelle créa requise — mirror IG). À activer en mirror des campagnes Instagram pour Buddy, audience early adopter parents.
 
-## 📚 Apprentissage — Veille 5 juin 2026
+---
 
-- **Case study ads ≠ premier contact (LinkedIn 2026)** (2026-06-05, veille 5 juin) — la creative "preuve/case study" ne performe que sur une audience qui te connaît déjà. La placer en milieu/bas de funnel (retargeting), jamais en acquisition froide.
+## 🔄 Veille intégrée (MAJ 2026-06-15)
+
+1. **TikTok GMV Max** (annoncé à TikTok World 2026) : automatise ciblage, budget et créa pour TikTok Shop, +30% de GMV moyen contre les Video Shopping Ads manuelles en test. Smart+ s'ouvre aussi au contrôle module par module (on/off de l'automation par levier). Pour du B2C (ex. hardware Buddy), canal direct pour tester de la vente assistée par créa UGC sans équipe média : démarrer petit budget plus 3-4 créa produit. Sources : socialmediatoday.com, ads.tiktok.com.
+2. **Meta Ads** (mai 2026) : la fenêtre de rétention des custom audiences sur l'événement achat passe de 180 à 730 jours (retargeting sur cycles longs, achats à fort ticket ou réachat 12-24 mois). Même update : Instant Forms générés par IA à partir d'une URL ou d'un prompt. Action : reconstruire les audiences de retargeting sur 730j, tester les Instant Forms IA pour la capture lead B2B. Source : tryvizup.com.
+
+## 📚 Apprentissage — Veille 19 juin 2026
+
+- **Nouveaux outils ads LinkedIn : BrandLink, Accelerate, Media Planner** (2026-06-22, veille 19 juin) — meilleures prévisions + perf cross-funnel. Tester Accelerate sur une campagne Flip. Les créas vidéo remontent dans l'attribution.

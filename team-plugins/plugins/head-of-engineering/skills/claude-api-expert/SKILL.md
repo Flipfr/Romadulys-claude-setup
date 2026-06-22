@@ -251,8 +251,27 @@ const response = await anthropic.messages.create({
 
 Action immédiate : ajouter `hard_deny` sur `Write(.env)` + `Write(*credentials*)` dans `settings.json` global.
 
-## 📚 Apprentissage — Veille 5 juin 2026
+---
 
-- **⚠️ Dépréciation Sonnet 4 / Opus 4 — retrait API le 15 juin 2026** (2026-06-05, veille 5 juin) — les IDs `claude-sonnet-4-20250514` et `claude-opus-4-20250514` sont retirés. Checklist migration obligatoire : grep ces IDs dans tout code Buddy/Switch et basculer vers Opus 4.8 / Sonnet courant AVANT le 15/06.
-- **Opus 4.8 = défaut partout + Fast mode à 10$/50$ par MTok (~2.5x plus rapide, 3x moins cher que 4.7/4.6 à 30$/150$)** (2026-06-05) — arbitrer Fast mode pour les charges prod sensibles au coût/latence. Mettre à jour les tableaux de coûts.
-- **Shift prompt → context engineering** (2026-06-05) — en 2026 on ne bricole plus des prompts, on construit des procédures stables (fichiers d'instructions, mémoire persistante, checkpoints humains sur étapes à risque). Front-load l'info critique (10% début / 10% fin), instructions en XML.
+## 🔄 Veille intégrée (MAJ 2026-06-15)
+
+### Claude Fable 5 (`claude-fable-5`) dispo API depuis le 9 juin 2026
+
+Modèle le plus capable au-dessus d'Opus 4.8. Prix API 10$/M input, 50$/M output (~5x Opus 4.8) : à réserver aux tâches à forte valeur. Pièges en prod : contexte 1M par défaut, adaptive thinking forcé (désactiver le thinking renvoie une erreur 400), la réponse peut renvoyer `stop_reason: "refusal"` (prévoir le param `fallbacks`), et pas de zero-data-retention (rétention 30j obligatoire, donc bloquant pour client sensible aux données). Source : anthropic.com/news/claude-fable-5-mythos-5 + platform.claude.com/docs/en/release-notes/overview.
+
+### Advanced tool use (header beta `advanced-tool-use`)
+
+Tool Search (`defer_loading`) charge les définitions d'outils à la demande, jusqu'à -85% de tokens quand elles dépassent 10K. Programmatic Tool Calling laisse Claude orchestrer via Python en sandbox, -37% sur recherches complexes. Idéal pour agents multi-outils/multi-MCP. Réserve : support documenté sur Sonnet 4.5, à revérifier pour Opus 4.8/Fable 5 avant prod (à confirmer). Source : anthropic.com/engineering/advanced-tool-use.
+
+### Structured Outputs (constrained decoding)
+
+`output_format` force du JSON valide, `strict: true` garantit les paramètres d'outils. Remplace le bricolage "tool-call qui simule du JSON" + retry dans les pipelines d'extraction. Réserve : support documenté Sonnet 4.5/Opus 4.1, à confirmer pour les modèles cibles. Source : platform.claude.com/docs/en/build-with-claude/structured-outputs.
+
+### Cache diagnostics (beta)
+
+Passer `diagnostics.previous_message_id` renvoie un `cache_miss_reason` qui indique où le préfixe de cache a divergé. À coupler aux mid-conversation system messages qui préservent les hits de cache. Levier de coût direct sur agents longs. Source : platform.claude.com/docs/en/release-notes/overview.
+
+## 📚 Apprentissage — Veille 19 juin 2026
+
+- **🚀 Claude Fable 5 + Mythos 5 — nouveau modèle frontier (9 juin 2026)** (2026-06-22, veille 19 juin) — Fable 5 (classe Mythos) = SOTA quasi tous benchmarks, **1M tokens contexte par défaut**, 128k output, adaptive thinking à niveaux d'effort (low/medium/high/xhigh), bien plus fiable pour piloter des subagents en parallèle. ⚠️ requêtes pluri-minutes en xhigh → adapter timeouts/streaming/progress côté client. Mettre à jour la table des modèles + le routing coût (Fable 5 pour long-horizon/agentique, Haiku/Sonnet pour le routinier).
+- **Opus 4.8 passe à 1M contexte par défaut (API, Bedrock, Vertex)** (2026-06-22).

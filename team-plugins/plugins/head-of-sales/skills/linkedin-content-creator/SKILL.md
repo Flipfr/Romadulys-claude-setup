@@ -289,6 +289,15 @@ Le contexte arrive en slide 3-4, jamais en hook.
 5. Checklist 5 points
 6. CTA "Audit AI Act 990€" → trojan horse vers diag 2 500€
 
-## 📚 Apprentissage — Veille 5 juin 2026
+---
 
-- **Hook "croyance privée" + carrousels-document dominants** (2026-06-05, veille 5 juin) — "Je pensais que X… après Y, je sais que Z." Les carrousels (framework/checklist) restent le format le plus sauvegardé/repartagé ; l'algo 2026 récompense les questions qui déclenchent des commentaires.
+## 🔄 Veille intégrée (MAJ 2026-06-15)
+
+Le carousel PDF (document post) reste le format le plus performant en 2026 : ~6,6% d'engagement contre moins de 2% pour le texte simple (l'algo récompense le dwell time, un carousel 10 slides vaut 30 à 60s de lecture). Reach global en forte baisse (impressions médianes ~636/post), d'où l'importance du format dense.
+À faire : passer le contenu en carousels (cas client, frameworks, "5 erreurs IA en PME"), et mettre tout lien externe en commentaire (un lien dans le post coupe le reach d'environ 60%).
+À éviter : l'engagement bait type "Commente OUI", désormais détecté et pénalisé.
+Source : dataslayer.ai.
+
+## 📚 Apprentissage — Veille 19 juin 2026
+
+- **Bascule vidéo LinkedIn 2026** (2026-06-22, veille 19 juin) — la création de vidéo croît 2x plus vite que tout autre format, vues +36% YoY. Les carrousels PDF restent au top (6,6%) mais ajouter de la **vidéo courte founder-led** (founder face caméra sur un insight) devient incontournable. Ranking = "Depth & Authority", pas le reach viral.

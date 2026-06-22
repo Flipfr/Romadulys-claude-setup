@@ -75,6 +75,14 @@ Pour chacun :
 
 Markdown structuré : 1 section par étape du funnel, tableaux pour la matrice, blocs "hypothèse / mesure / implémentation" pour chaque expérience. Exportable Notion.
 
-## 📚 Apprentissage — Veille 5 juin 2026
+---
 
-- **Funnel LinkedIn 2 temps (2026)** (2026-06-05, veille 5 juin) — notoriété d'abord (hook "croyance privée"), puis case study ads en retargeting. Ne pas cramer de budget case study sur audience froide.
+## 🔄 Veille intégrée (MAJ 2026-06-15)
+
+Ad ops piloté en conversationnel : TikTok (via Symphony / serveur MCP) et Meta exposent désormais des connecteurs IA (Claude/ChatGPT, et Perplexity côté Meta) pour piloter et analyser les campagnes en langage naturel (synthèses de perf, tendances, recommandations budget).
+Double valeur pour une agence : optimiser ses propres campagnes ET en faire une offre packagée auprès des clients ("on pilote vos ads via IA"). Tester sur un compte réel avant de packager.
+Sources : socialmediatoday.com, tryvizup.com.
+
+## 📚 Apprentissage — Veille 19 juin 2026
+
+- **LinkedIn 2026 : Depth & Authority + vidéo** (2026-06-22, veille 19 juin) — l'algo récompense la profondeur/autorité, pas le reach viral. La vidéo croît 2x plus vite que les autres formats. Mix gagnant founder : carrousels PDF + vidéo courte founder-led, régularité > coups d'éclat.

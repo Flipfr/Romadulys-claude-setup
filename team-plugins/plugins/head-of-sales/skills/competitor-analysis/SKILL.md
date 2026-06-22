@@ -112,6 +112,22 @@ Autres concurrents directs (à monitorer) : Xplora, Pixbee, Garmin Bounce, Pinwh
 
 - **Pour les hardware concurrents avec un positionnement fort (Littlebird "sans écran"), ne pas copier le positionnement mais le compléter.** Différenciation par la zone géo (EU vs US), le réseau (eSIM vs Sidewalk), le cas d'usage (urbain vs rural).
 
-## 📚 Apprentissage — Veille 5 juin 2026
+---
 
-- **Cartographie concurrents Buddy 2026** (2026-06-05, veille 5 juin) — TickTalk 5 (leader, 300k+ familles, "safety+fun, zéro réseau social, 40+ contrôles parentaux, 137h autonomie"), Pingo Track 4G (4G + double caméra, concurrent direct sur la techno), myFirst Fone S4. Promesse commune : "connecté sans les dangers d'internet". Buddy se différencie par audio/MQTT/Opus + sans écran ; point de vigilance : autonomie (TickTalk 137h).
+## 🔄 Veille intégrée (MAJ 2026-06-15)
+
+### Volet Flip : marché agences IA PME France 2026 (benchmark koino.fr)
+
+- Repères de prix observés : diagnostics 2 000 à 6 000 €, PoC 10 000 à 50 000 €, formations 1 200 à 1 500 €/jour, abonnements 590 à 3 500 €/mois.
+- La majorité se positionne formation OU PoC one-shot. Peu de concurrents sur l'abonnement de suivi indexé KPI.
+- **Le différenciateur Flip (modèle indexé KPI + zéro lock-in) n'est affiché par personne dans ce top 10** : argument frontal à mettre en avant.
+
+### Volet Buddy : hardware enfants
+
+- **Huawei Watch Kids X1 Pro** (mai 2026, 349 EUR) : corps détachable + boîtier caméra, double caméra, écran AMOLED, cellulaire, mais autonomie ~1 jour. Concurrente frontale de la Fitbit Ace LTE.
+- Angle de différenciation Buddy : autonomie longue + pas d'écran/caméra (moins de friction parentale, conformité plus simple). Surveiller le plafond de prix premium ~349 EUR.
+- Angle "device le plus conforme" : l'UE pousse une vérification d'âge généralisée d'ici fin 2026 (DSA + EU Digital Identity Wallet). Un onboarding parent aligné EUDI Wallet est un argument de confiance différenciant.
+
+## 📚 Apprentissage — Veille 19 juin 2026
+
+- **Faille privacy chez les concurrents montres GPS enfants** (2026-06-22, veille 19 juin) — tests Consumer Reports : plusieurs montres enfants transmettent les données perso vers des serveurs NA/Asie de l'Est, parfois sans chiffrement, sans MFA, DM loggés en clair. Faiblesse exploitable pour Buddy → comparatif "privacy/chiffrement/hébergement UE" comme axe de différenciation vs TickTalk & co.

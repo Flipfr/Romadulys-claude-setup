@@ -58,7 +58,7 @@ Objet : Article LinkedIn sur [topic] m'a fait penser à toi
 
 Salut [Prénom],
 
-Je viens de lire ton post sur [sujet précis] — la partie sur [détail] résonne fort avec ce qu'on observe chez Flip.
+Je viens de lire ton post sur [sujet précis] — la partie sur [détail] résonne fort avec ce qu'on observe chez Switch.
 
 On accompagne [audience] sur [problème], notamment [résultat client précis].
 
@@ -127,9 +127,13 @@ Templates copier-coller (cold email, LinkedIn, relances), tracker Notion duplica
 
 ---
 
-## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
+## 🔄 Veille intégrée (MAJ 2026-06-15)
 
-- **AI Summit Europe : alliances éditeurs (Mistral, Gemini EU) × agences IA locales — modèle hybride** (2026-05-25, source veille — agence-ia.com)
-  Contexte : modèle hybride puissance éditeur + agilité agence locale. PME accèdent à offres réservées aux grandes entreprises via ces alliances.
-  Pourquoi ça compte : opportunité de partenariat éditeur pour Flip — programme partenaire Anthropic, Mistral, Gemini EU — qui devient un canal d'acquisition + crédibilité.
-  Application : démarche partenaire à lancer : (1) Anthropic Partner Program — éligibilité + dossier ; (2) Mistral si réseau d'agences ouvert ; (3) Gemini EU partners — explorer. Priorité 1 : Anthropic vu la stack Flip.
+### Nouveau canal : référencement sur les dispositifs publics IA PME
+
+- Se référencer comme prestataire/opérateur sur les dispositifs publics IA PME : Accélérateur IA Bpifrance (lancé le 16 juin 2026), plan Osez l'IA. L'argent public finance l'accompagnement, donc être référencé = canal d'acquisition quasi gratuit.
+- **Action** : lancer une démarche de référencement de Flip auprès de ces dispositifs. (Conditions et modalités de référencement à reconfirmer sur source primaire.)
+
+## 📚 Apprentissage — Veille 19 juin 2026
+
+- **Référencement sur les dispositifs publics IA = canal d'acquisition** (2026-06-22, veille 19 juin) — devenir prestataire référencé sur le Diagnostic Data IA / "Osez l'IA" / "Pionniers de l'IA" (BPI, DGE) ouvre un flux de leads cofinancés. À ajouter comme démarche de partenariat institutionnel pour Flip.

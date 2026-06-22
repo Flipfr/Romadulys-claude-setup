@@ -96,3 +96,7 @@ S13 : [livrable concret]
 Notion-ready : H1 / H2 / H3, tableaux Markdown, blocs de code pour le Gantt ASCII. Exportable en PDF tel quel.
 
 Le document doit pouvoir être lu en 5 minutes par un dirigeant pressé, ou en 30 minutes par un PM qui doit l'exécuter — les deux niveaux de lecture cohabitent grâce au plan H1/H2/H3.
+
+## 📚 Apprentissage — Veille 19 juin 2026
+
+- **Report AI Act high-risk (+16 mois) → réallouer le temps Buddy** (2026-06-22, veille 19 juin) — l'échéance Annexe III passe d'août 2026 à décembre 2027 (Digital Omnibus, 7 mai 2026). La pression conformité high-risk se relâche → réallouer ce temps vers le produit/marché + le positionnement privacy. NE PAS relâcher sur EN71-3:2026 (actif) ni sur la privacy data.
