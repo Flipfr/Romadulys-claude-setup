@@ -1,0 +1,9 @@
+{
+  "name": "head-of-controlling",
+  "description": "Ton Head of Controlling / contrôleur de gestion dans Claude : contrôle de gestion + trésorerie 13 semaines + fiscalité PME.",
+  "author": {
+    "name": "Head of Plugins",
+    "email": "contact@example.com"
+  },
+  "version": "0.1.0"
+}

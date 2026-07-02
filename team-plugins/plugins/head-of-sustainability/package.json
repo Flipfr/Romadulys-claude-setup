@@ -1,0 +1,10 @@
+{
+  "name": "head-of-sustainability",
+  "version": "0.1.0",
+  "description": "Ton Head of Sustainability / RSE dans Claude : reporting CSRD/ESG + bilan carbone et plan de décarbonation.",
+  "author": "Head of Plugins",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "sustainability", "rse", "csrd", "carbone"],
+  "skills": ["csrd-esg-reporting", "bilan-carbone"],
+  "commands": ["sustainability"]
+}

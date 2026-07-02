@@ -103,6 +103,36 @@
       "description": "Head of Academy / Formation — architecture pédagogique + auto-école + lifecycle apprenant + landing. Slash: /academy",
       "category": "education",
       "source": "./team-plugins/plugins/head-of-academy"
+    },
+    {
+      "name": "head-of-legal",
+      "description": "Head of Legal - juridique + conformité (droit des sociétés, RGPD, EU AI Act, droit du travail, CGV/CGU) + revue de contrats. Slash: /legal",
+      "category": "legal",
+      "source": "./team-plugins/plugins/head-of-legal"
+    },
+    {
+      "name": "head-of-controlling",
+      "description": "Head of Controlling - pilotage financier d'exploitation (contrôle de gestion, trésorerie 13 semaines, fiscalité PME). Slash: /controlling",
+      "category": "finance",
+      "source": "./team-plugins/plugins/head-of-controlling"
+    },
+    {
+      "name": "head-of-supply",
+      "description": "Head of Supply - achats + supply chain + production lean (Kraljic, S&OP, stocks, TRS/OEE). Slash: /supply",
+      "category": "operations",
+      "source": "./team-plugins/plugins/head-of-supply"
+    },
+    {
+      "name": "head-of-risk",
+      "description": "Head of Risk - cartographie des risques + assurances + continuité d'activité (PCA/PRA, gestion de crise). Slash: /risk",
+      "category": "risk",
+      "source": "./team-plugins/plugins/head-of-risk"
+    },
+    {
+      "name": "head-of-sustainability",
+      "description": "Head of Sustainability - RSE + CSRD/ESG + bilan carbone (double matérialité, scopes 1/2/3, décarbonation). Slash: /sustainability",
+      "category": "sustainability",
+      "source": "./team-plugins/plugins/head-of-sustainability"
     }
   ]
 }

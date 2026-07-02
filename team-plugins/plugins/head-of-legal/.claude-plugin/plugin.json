@@ -1,0 +1,9 @@
+{
+  "name": "head-of-legal",
+  "description": "Ton Head of Legal / conformité dans Claude : droit des sociétés + RGPD + EU AI Act + droit du travail + CGV/CGU, et revue de contrats.",
+  "author": {
+    "name": "Head of Plugins",
+    "email": "contact@example.com"
+  },
+  "version": "0.1.0"
+}

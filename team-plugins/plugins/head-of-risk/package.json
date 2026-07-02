@@ -1,0 +1,10 @@
+{
+  "name": "head-of-risk",
+  "version": "0.1.0",
+  "description": "Ton Head of Risk dans Claude : cartographie des risques + assurances + continuité d'activité (PCA/PRA, gestion de crise).",
+  "author": "Head of Plugins",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "risk", "risques", "assurances", "continuite"],
+  "skills": ["cartographie-risques", "assurances-continuite"],
+  "commands": ["risk"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "head-of-sustainability",
+  "description": "Ton Head of Sustainability / RSE dans Claude : reporting CSRD/ESG + bilan carbone et plan de décarbonation.",
+  "author": {
+    "name": "Head of Plugins",
+    "email": "contact@example.com"
+  },
+  "version": "0.1.0"
+}

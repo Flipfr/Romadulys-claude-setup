@@ -1,0 +1,10 @@
+{
+  "name": "head-of-legal",
+  "version": "0.1.0",
+  "description": "Ton Head of Legal / conformité dans Claude : droit des sociétés + RGPD + EU AI Act + droit du travail + CGV/CGU, et revue de contrats.",
+  "author": "Head of Plugins",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "legal", "juridique", "conformite", "rgpd", "ai-act"],
+  "skills": ["droit-des-societes", "conformite-rgpd", "ai-act-compliance", "droit-du-travail-applique", "cgv-cgu-builder", "legal-review"],
+  "commands": ["legal"]
+}

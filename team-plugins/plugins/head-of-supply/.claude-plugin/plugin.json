@@ -1,0 +1,9 @@
+{
+  "name": "head-of-supply",
+  "description": "Ton Head of Supply chain dans Claude : achats + planification supply + excellence opérationnelle lean.",
+  "author": {
+    "name": "Head of Plugins",
+    "email": "contact@example.com"
+  },
+  "version": "0.1.0"
+}

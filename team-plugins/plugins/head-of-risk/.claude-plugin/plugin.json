@@ -1,0 +1,9 @@
+{
+  "name": "head-of-risk",
+  "description": "Ton Head of Risk dans Claude : cartographie des risques + assurances + continuité d'activité (PCA/PRA, gestion de crise).",
+  "author": {
+    "name": "Head of Plugins",
+    "email": "contact@example.com"
+  },
+  "version": "0.1.0"
+}

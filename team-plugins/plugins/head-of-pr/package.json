@@ -1,10 +1,10 @@
 {
   "name": "head-of-pr",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Ton Head of PR dans Claude — relations presse + personal branding + LinkedIn pour founders.",
   "author": "",
   "type": "module",
   "keywords": ["claude-code", "plugin", "head-of", "pr", "communications", "personal-branding"],
-  "skills": ["pr-communications", "personal-branding", "linkedin-content-creator"],
+  "skills": ["pr-communications", "personal-branding", "linkedin-content-creator", "communication-de-crise"],
   "commands": ["pr"]
 }

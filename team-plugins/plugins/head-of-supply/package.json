@@ -1,0 +1,10 @@
+{
+  "name": "head-of-supply",
+  "version": "0.1.0",
+  "description": "Ton Head of Supply chain dans Claude : achats + planification supply + excellence opérationnelle lean.",
+  "author": "Head of Plugins",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "supply", "achats", "supply-chain", "lean"],
+  "skills": ["achats-sourcing", "supply-chain-planning", "lean-operations"],
+  "commands": ["supply"]
+}

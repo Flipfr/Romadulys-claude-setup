@@ -1,0 +1,10 @@
+{
+  "name": "head-of-controlling",
+  "version": "0.1.0",
+  "description": "Ton Head of Controlling / contrôleur de gestion dans Claude : contrôle de gestion + trésorerie 13 semaines + fiscalité PME.",
+  "author": "Head of Plugins",
+  "type": "module",
+  "keywords": ["claude-code", "plugin", "head-of", "controlling", "finance", "controle-de-gestion", "tresorerie"],
+  "skills": ["controle-de-gestion", "tresorerie-cashflow", "fiscalite-pme"],
+  "commands": ["controlling"]
+}
