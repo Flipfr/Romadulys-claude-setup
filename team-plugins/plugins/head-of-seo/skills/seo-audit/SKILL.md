@@ -92,10 +92,3 @@ Pour les 20 articles top-traffic :
 ### Nouvelle métrique de suivi
 
 Au-delà du ranking position, suivre les **AI Citations** : combien de fois le domaine est-il cité dans les réponses AI Overviews sur les queries cibles ? Tracking via outils émergents (Stackmatix, Ahrefs AI Citations module en alpha).
-
----
-
-## 📚 Mise à jour — Veille 1er juin 2026
-
-- **2026-06-01** : GEO/AEO — se rendre citable par les LLM (ChatGPT / Perplexity / Gemini) (scrunch.com)
-  Ajouter un volet "citabilité LLM" à chaque audit, distinct du ranking Google. Les PME chercheront leurs prestataires via ces moteurs génératifs, pas via Google. Outils de suivi à intégrer : Profound, Scrunch, HubSpot AEO.

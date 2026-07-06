@@ -71,68 +71,12 @@ Selon le temps disponible :
 - Lance un produit ce mois ? → 80% du contenu se rapporte au problème qu'il résout
 - Cherches des partenariats ? → mets en avant tes succès clients
 
-## Heuristiques
+### Calendrier éditorial 90 jours (template canonique — cas Romain / Flip)
 
-- **Le contenu attire des opportunités, pas l'inverse.** Tu publies pour les 3% de ton audience qui agira, pas pour les 97% qui scrolleront.
-- **3 posts hebdo cohérents > 10 posts hebdo dispersés.** La régularité bat le volume.
-- **L'authenticité est non-négociable.** Si tu copies le ton d'un autre, ça sent à 1 km et ça ne convertit pas.
-- **Les commentaires valent plus que les likes.** Un post qui génère 30 commentaires et 50 likes bat un post qui fait 500 likes silencieux.
-
-## Anti-patterns à éviter
-
-- **Posts génériques "5 leçons que j'ai apprises"** sans contexte personnel (tout le monde le fait)
-- **Vanity content** sur les milestones sans valeur ajoutée pour le lecteur
-- **Pleurnicher** sur LinkedIn (échec déguisé en humblebrag — détecté instantanément)
-- **Copier les codes US** sans les adapter (le "thread game" ne marche pas pareil en France)
-
-## Format de sortie
-
-Plan personal branding Notion-ready : 5 sections clairement séparées, exemples de posts pour démarrer, calendrier éditorial du mois en tableau. Tu pars avec des actions concrètes pour la semaine prochaine.
-
----
-
-## 📚 Mise à jour — Veille du 24 avril 2026
-
-
-**Date d'intégration** : 2026-04-27 (veille semaine du 24 avril 2026)
-**3 items intégrés** : SaaSpocalypse, LinkedIn Depth Score (impact niche), distribution moat
-
----
-
-## ➕ À ajouter dans `Heuristiques` — Niche stratégique 2026
-
-### La discipline du "un seul angle pendant 12 mois"
-
-L'algo LinkedIn 2026 (Authenticity Update mars 2026) vérifie strictement le **profile-to-content alignment**. Conséquence directe sur la stratégie de personal branding :
-
-- **Choisir UN angle hyper-niche et s'y tenir 12 mois minimum.**
-- **Pour Romain** : "IA × transformation PME française" — point. Pas "tech en général", pas "founder life", pas "produit". Toute digression = throttle algorithmique.
-- **Le profil LinkedIn doit explicitement supporter cette niche** (headline, expérience, skills listés, posts épinglés). L'algo cross-référence et pénalise si désaccord profil/contenu.
-
-### Le narratif "SaaSpocalypse" comme angle d'attaque
-
-- **Ce que c'est** : terme inventé par un trader Jefferies, repris par Bloomberg le 3 février 2026, popularisé en France par L'Agence Sauvage. 285Md$ de capitalisation perdus en 48h sur les SaaS éditeurs.
-- **Pourquoi c'est puissant pour Romain** : ça lui donne un narrateur extérieur (Bloomberg, pas lui qui s'auto-proclame) + une urgence + un mot qui se mémorise. Parfait pour positioning.
-- **Comment l'utiliser** :
-  - Une série de 5-8 posts narratifs sur la SaaSpocalypse vue du terrain PME français
-  - Pas en phrase d'ouverture quotidienne (saturation rapide)
-  - Plutôt en post pilier mensuel + références ponctuelles
-- **Audience cible avec ce narratif** : dirigeants tech-savvy de PME 50-300 personnes, qui suivent un peu la tech (lisent Bloomberg, Les Échos tech, suivent quelques tech twitterati). Ne pas l'utiliser avec une cible PME terrain pure.
-
-## ➕ À ajouter dans `Anti-patterns`
-
-- **La tentation du "et aussi"** — "je parle d'IA mais aussi de leadership, et aussi de productivité, et aussi de podcast". L'algo 2026 punit. **Une seule case.**
-- **Le polish corporate** — broetry artificielle, citations Tony Robbins, photos pro chemise blanche. La 2026 LinkedIn récompense l'authentique imparfait, pas le glossy.
-- **Le pitch direct** — "Je suis founder de Flip, on aide les PME à...". Mort. Le pitch passe par le contenu, jamais par l'auto-présentation.
-
-## ➕ À ajouter dans `Templates`
-
-### Calendrier éditorial type 90 jours pour Romain (Flip)
-
-**Mission unique** : devenir LE nom qui sort quand un dirigeant de PME française tape "agent IA PME" dans sa tête.
+**Mission unique** : devenir LE nom qui sort quand un dirigeant de PME française pense "agent IA PME".
 
 **Mois 1 — Crédibilité terrain**
-- 4 posts/semaine, 70% carousels PDF
+- 3-4 posts/semaine, ~70% carousels PDF
 - Angles : cas client anonymisés (avant/après), cartographies process réelles, métriques chiffrées "j'ai économisé X heures à Y"
 - Pas de pitch. Que du concret.
 
@@ -142,34 +86,36 @@ L'algo LinkedIn 2026 (Authenticity Update mars 2026) vérifie strictement le **p
 - Crée du frottement → engagement → portée
 
 **Mois 3 — Thought leadership**
-- 1 post pilier mensuel "long-form" type SaaSpocalypse vue du terrain
-- 1 vidéo native par semaine (30-90s, hook fort dans les 3 premières secondes)
-- Commencer à répondre publiquement aux commentaires de cibles ICP (décideurs PME)
+- 1 post pilier mensuel "long-form" (ex : SaaSpocalypse vue du terrain)
+- 1 vidéo native founder par semaine (30-90s, hook fort dans les 3 premières secondes)
+- Répondre publiquement aux commentaires de cibles ICP (décideurs PME)
 
----
+Formats détaillés (structure carousel, hooks, règles algo) : voir la skill `linkedin-content-creator`.
 
-## 📚 Mémoire vivante associée
+## Heuristiques
 
-- **La niche extrême est désormais une condition d'existence sur LinkedIn** (2026-04-27, source veille — Authenticity Update LinkedIn mars 2026)
-  Contexte : profile-to-content alignment vérifié algorithmiquement. Toute digression hors niche déclarée = throttle.
-  Pourquoi ça compte : pour Romain, c'est l'occasion (forcée) de la discipline. Plus de "et aussi je parle de leadership". IA × PME, point.
-  Application : skill personal-branding (audit profil + calendrier 90j hyper-niche pour Romain).
+- **Le contenu attire des opportunités, pas l'inverse.** Tu publies pour les 3% de ton audience qui agira, pas pour les 97% qui scrolleront.
+- **Un seul angle hyper-niche, tenu 12 mois minimum.** L'algo LinkedIn 2026 (Authenticity Update) vérifie strictement le profile-to-content alignment : toute digression hors niche déclarée = throttle. Niche serrée > reach large : 10 000 abonnés ciblés battent 100 000 génériques, et les leads LinkedIn convertissent 3× mieux que les autres canaux. Le KPI reste le lead qualifié, pas l'impression. Pour Romain : "IA opérationnelle / transformation IA pour PME françaises" et rien d'autre. Pas "tech en général", pas "founder life", pas "productivité".
+- **Le profil perso génère ~8× l'engagement d'une page entreprise.** Romain poste depuis son profil perso, pas depuis la page Flip. La page reste secondaire. Le founder-led growth est la moat 2026 : 60% des acheteurs B2B découvrent via le contenu creator, 95% des décideurs disent que le thought leadership influence leurs décisions d'achat.
+- **Le profil doit explicitement supporter la niche** (headline, expérience, skills listés, posts épinglés). L'algo cross-référence et pénalise si désaccord profil/contenu.
+- **Rythme optimal : 3-4 posts/semaine, espacés ~48h** (laisser respirer chaque post). La régularité cohérente bat le volume dispersé.
+- **L'authenticité est non-négociable.** Si tu copies le ton d'un autre, ça sent à 1 km et ça ne convertit pas. LinkedIn 2026 récompense l'authentique imparfait, pas le glossy corporate.
+- **Les commentaires (et les saves) valent plus que les likes.** Un post qui génère 30 commentaires et 50 likes bat un post qui fait 500 likes silencieux.
 
-- **"SaaSpocalypse" comme angle d'attaque possible mais à doser** (2026-04-27, source veille — Bloomberg / L'Agence Sauvage)
-  Contexte : narratif disponible, externalisé (pas auto-proclamé), Bloomberg comme source de crédibilité.
-  Pourquoi ça compte : c'est un raccourci puissant pour positionner Flip sans avoir à expliquer 10 fois ce qu'on fait. Mais ça segmente — soit ça parle au client (tech-savvy), soit ça repousse (terrain pur).
-  Application : skill personal-branding (post pilier mensuel + références ponctuelles), skill flip-proposition-commerciale (deux versions de hook propal).
+## Anti-patterns à éviter
 
-- **Le founder-led growth est la moat 2026** (2026-04-27, source veille — Edelman-LinkedIn 2025/26)
-  Contexte : 60% des B2B buyers découvrent via creator content. 95% des décideurs disent que le thought leadership influence leurs décisions d'achat.
-  Pourquoi ça compte : Romain × LinkedIn devient le canal d'acquisition #1 de Flip. La page entreprise = secondaire.
-  Application : prioriser le temps de Romain sur le profil perso, pas la page Flip. Calendrier éditorial 90j priorité 1.
+- **La tentation du "et aussi"** — "je parle d'IA mais aussi de leadership, aussi de productivité". L'algo 2026 punit. Une seule case.
+- **Le pitch direct** — "Je suis founder de Flip, on aide les PME à...". Mort. Le pitch passe par le contenu (insights, cas, learnings), jamais par l'auto-présentation.
+- **Le polish corporate** — broetry artificielle, citations Tony Robbins, photos pro chemise blanche.
+- **Posts génériques "5 leçons que j'ai apprises"** sans contexte personnel (tout le monde le fait)
+- **Vanity content** sur les milestones sans valeur ajoutée pour le lecteur
+- **Pleurnicher** sur LinkedIn (échec déguisé en humblebrag — détecté instantanément)
+- **Copier les codes US** sans les adapter (le "thread game" ne marche pas pareil en France)
 
----
+### Angle narratif "SaaSpocalypse" (à doser)
 
-## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
+Narratif disponible et externalisé (terme repris par Bloomberg le 3 février 2026, popularisé en France par L'Agence Sauvage — 285 Md$ de capitalisation SaaS perdus en 48h). Puissant pour positionner Flip sans s'auto-proclamer : Bloomberg fait la crédibilité, le mot se mémorise, l'urgence est là. Mais ça segmente : ça parle aux dirigeants tech-savvy de PME 50-300 personnes (lisent Bloomberg, Les Échos tech), pas à la cible PME terrain pure. Usage : post pilier mensuel + références ponctuelles, jamais en ouverture quotidienne (saturation rapide).
 
-- **LinkedIn algo 2026 — pivot "value delivered" + dwell time comme signal clé** (2026-05-25, source veille — blog.linkboost.co)
-  Contexte : algo priorise pertinence, expertise, engagement qualitatif. Dwell time = signal clé. Commentaires = levier visibilité (apparaissent dans feed followers). Stratégie : 3-5 posts/sem, hooks forts <10 mots, carousels, storytelling + data, 10-15 min commentaires avant/après post.
-  Pourquoi ça compte : ajuster stratégie personal branding LinkedIn de Romain (Flip) — focus dwell time, routine commentaires obligatoire dans la fenêtre 10-15 min après publication.
-  Application : calendrier personal branding Romain : 3-5 posts/semaine, mix carrousels + storytelling + data, hooks <10 mots, routine commentaires 10-15 min avant + 10-15 min après chaque post (boost algo majeur).
+## Format de sortie
+
+Plan personal branding Notion-ready : 5 sections clairement séparées, exemples de posts pour démarrer, calendrier éditorial du mois en tableau. Tu pars avec des actions concrètes pour la semaine prochaine.

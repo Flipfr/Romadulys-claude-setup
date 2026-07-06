@@ -82,7 +82,7 @@ S'il manque l'objectif de la recherche, demande — un entretien sans hypothèse
 **Job émotionnel** : [comment ils veulent se sentir]
 **Pain principal** : [verbatim direct]
 **Tentatives** : [solutions essayées + pourquoi rejetées]
-**Switch moment** : [déclencheur du dernier changement, si applicable]
+**Flip moment** : [déclencheur du dernier changement, si applicable]
 **Verbatims marquants** :
   > "[Citation 1]"
   > "[Citation 2]"

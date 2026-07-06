@@ -99,7 +99,7 @@ Source : Anchour Meta Ads 2026 Playbook + Dataslayer.
 
 Meta sépare désormais click-through et **engage-through conversions** (vues longues, interactions) dans le reporting natif → les créas storytelling longues remontent dans l'attribution.
 
-**Conséquence brief** : passer la stratégie créa Meta vers **formats 30-45 secondes narratifs** (vs UGC court qui dominait). Pour Switch en B2B, c'est une opportunité — les vidéos pédagogiques longues vont enfin trouver leur attribution.
+**Conséquence brief** : passer la stratégie créa Meta vers **formats 30-45 secondes narratifs** (vs UGC court qui dominait). Pour Flip en B2B, c'est une opportunité — les vidéos pédagogiques longues vont enfin trouver leur attribution.
 
 ### Threads App Ads — canal vierge à activer
 
@@ -115,3 +115,8 @@ Threads s'ouvre aux App Ads globalement via Marketing API (pas de nouvelle créa
 ## 📚 Apprentissage — Veille 19 juin 2026
 
 - **Nouveaux outils ads LinkedIn : BrandLink, Accelerate, Media Planner** (2026-06-22, veille 19 juin) — meilleures prévisions + perf cross-funnel. Tester Accelerate sur une campagne Flip. Les créas vidéo remontent dans l'attribution.
+
+## 🔄 Veille intégrée (MAJ 2026-07-06, veille 6 juillet)
+
+- **Nouvelles features LinkedIn Ads, juin 2026** (socialbee.com) : **Reserve Ads** (inventaire premium garanti), ciblage sur les **données de profil**, **Auto-targeting** et **Draft with AI** (explicitement pensés pour les PME). LinkedIn capte **41% des budgets ads B2B**. Nouveaux KPIs à suivre : in-network vs out-of-network reach.
+- **Reco Flip** : première campagne bas-budget en **Auto-targeting sur dirigeants de PME** + **retargeting des vues de carrousels** (l'audience la plus chaude de LinkedIn en 2026 = ceux qui ont swipé un carrousel). Draft with AI pour générer les premières variantes texte, puis affiner à la main sur les 3 angles (douleur / bénéfice / social proof).

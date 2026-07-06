@@ -98,3 +98,12 @@ Markdown : cartographie et classification en tableaux, calendrier daté avec men
 ---
 
 ⚠️ **Rappel final** : ce livrable est une aide à la conformité et un support d'offre, pas un avis juridique. La qualification d'un système à haut risque, l'évaluation de conformité et l'interprétation du calendrier officiel se valident avec un avocat spécialisé IA / données personnelles.
+
+---
+
+## 📚 Apprentissage : Veille 6 juillet 2026
+
+### App UE de vérification d'âge prête, appui EUDI Wallet pour l'onboarding Buddy
+
+- **App UE de vérification d'âge techniquement prête** (2026-07-06, veille 6 juillet, source iapp.org, à confirmer sur source primaire Commission) : la France en pilote via **France Identité / EUDI Wallet**, dispo UE **fin 2026**, approche **privacy-preserving** (vérifie l'âge sans exposer l'identité complète).
+- **Pour l'onboarding parental de Buddy** (device enfant, rattachement à un compte parent vérifié) : **s'appuyer sur France Identité / EUDI Wallet** plutôt que bricoler sa propre vérification d'âge. Gain : conformité DSA (vérif d'âge fiable, l'auto-déclaration étant jugée non fiable), moins de friction, et argument de confiance "vérification d'âge officielle privacy-preserving" dans le tunnel d'activation.

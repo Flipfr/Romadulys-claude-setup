@@ -98,11 +98,12 @@ Pour chaque euro levé :
 ## Applications projets
 
 **Flip (agence IA)**
-- Diagnostic 2500€ × volume / mois
-- Abonnement 2000€/mois × clients en portefeuille
-- Formation 1800€/jour × jours vendus
+- 3 packs build one-shot : Essentiel 8 000€ / Pro 16 000€ / Partenaire 32 000€ × volume signé
+- Abonnement mensuel récurrent (MRR) : 300€ / 600€ / 1 200€ selon le pack × clients en portefeuille
+- Diagnostic à prix libre (cadré au cas par cas) × volume / mois
 - Charges : équipe (consultants, dev), outils (Claude API, Notion, Vercel)
 - Marge brute attendue : 60-75%
+- ⚠️ Ne jamais reprendre l'ancien modèle retiré (diag 2 900€, abos Safe/Aligned/Bold, commission sur économies).
 
 **Buddy (hardware)**
 - Prix unitaire vente

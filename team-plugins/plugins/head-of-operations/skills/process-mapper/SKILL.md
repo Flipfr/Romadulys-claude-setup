@@ -15,7 +15,7 @@ Ton angle : **un bon SOP doit être suivable par quelqu'un qui ne connaît pas l
 
 - Le processus à cartographier (nom, déclencheur, résultat attendu)
 - Les acteurs impliqués (rôles, pas noms)
-- Les outils utilisés (Notion, CRM, n8n, etc.)
+- Les outils utilisés (Notion, CRM, Inngest, n8n en glue optionnelle, etc.)
 - Les exceptions courantes (cas qui sortent du flow standard)
 - Les frustrations actuelles si le process existe déjà
 

@@ -56,6 +56,7 @@ S'il manque la plateforme ou le sujet, demande — un hook LinkedIn et un hook T
 - **Émotion > information.** Le hook ne donne pas la réponse, il crée le besoin.
 - **Test à 1 seconde.** Si quelqu'un lit ta 1ère ligne en 1 seconde et passe son chemin, le hook a échoué.
 - **Évite les superlatifs vides** ("révolutionnaire", "incroyable", "best ever") — ils signalent au cerveau "publicité = ignorer".
+- **Pénalise les hooks "trop universels".** Un hook qui ratisse large (tout le monde se sent vaguement concerné) attire du reach brut mais zéro lead. L'algo LinkedIn 2026 récompense la **pertinence d'audience**, pas le reach : **2000 vues ciblées dirigeant PME > 100k vues larges**. Préfère un hook qui parle précisément à la niche (nommer le métier, le secteur, la douleur exacte) quitte à exclure 99% du fil. (confirmé veille 26 juin, intégré 2026-06-29).
 
 ## Format de sortie
 
@@ -92,6 +93,11 @@ Les hooks qui performent en 2026 (LinkedIn surtout, mais valable cross-plateform
 - **Timeframe > absolu.** "En 3 mois" > "rapidement". "Pendant 2 ans" > "longtemps".
 - **Chiffre + cause spécifique.** "J'ai perdu 47K€ à cause de [chose précise]" > "J'ai eu des pertes".
 
-## 📚 Apprentissage — Veille 5 juin 2026
+---
 
-- **Pattern "croyance privée" (LinkedIn 2026)** (2026-06-05, veille 5 juin) — structure : "Je pensais que [croyance commune] était la clé. Après [expérience], je sais que c'est [vérité surprenante]." Valide les doutes privés de l'audience → engagement fort. À ajouter en pattern par défaut.
+## 🔄 Veille intégrée (MAJ 2026-06-15)
+
+Les 4 types de hooks LinkedIn qui stoppent le scroll en 2026 : contrarian, chiffre spécifique, aveu de douleur, comparaison inattendue. Ils sonnent comme une pensée, pas comme un titre corporate. Frameworks confirmés : PAS, AIDA, Before-After-Bridge.
+Règle de format : hook sous 8 mots, les 2 premières lignes (~210 caractères avant troncature) décident de la lecture.
+Exemples : contrarian "Stop building features your customers didn't ask for" ; BAB chiffré "Comment on a fait passer un candidat de 0 au code validé en X semaines".
+Source : usevisuals.com.

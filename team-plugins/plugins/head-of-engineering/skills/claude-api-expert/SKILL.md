@@ -32,7 +32,7 @@ const client = new Anthropic({
 });
 
 const message = await client.messages.create({
-  model: "claude-opus-4-7",  // ou claude-sonnet-4-6, claude-haiku-4-5
+  model: "claude-opus-4-8",  // ou claude-sonnet-5, claude-haiku-4-5-20251001
   max_tokens: 1024,
   system: "You are a helpful assistant.",
   messages: [
@@ -46,7 +46,7 @@ const message = await client.messages.create({
 **Streaming** — pour les réponses longues en temps réel
 ```typescript
 const stream = await client.messages.stream({
-  model: "claude-sonnet-4-6",
+  model: "claude-sonnet-5",
   max_tokens: 1024,
   messages: [{ role: "user", content: "..." }],
 });
@@ -61,7 +61,7 @@ for await (const chunk of stream) {
 **Tool use** — agents avec actions
 ```typescript
 const message = await client.messages.create({
-  model: "claude-sonnet-4-6",
+  model: "claude-sonnet-5",
   max_tokens: 1024,
   tools: [{
     name: "get_weather",
@@ -79,7 +79,7 @@ const message = await client.messages.create({
 **Prompt caching** — pour réduire les coûts sur les longs prompts système
 ```typescript
 const message = await client.messages.create({
-  model: "claude-sonnet-4-6",
+  model: "claude-sonnet-5",
   max_tokens: 1024,
   system: [
     {
@@ -98,8 +98,8 @@ const message = await client.messages.create({
 ```typescript
 const batch = await client.messages.batches.create({
   requests: [
-    { custom_id: "1", params: { model: "claude-haiku-4-5", ... } },
-    { custom_id: "2", params: { model: "claude-haiku-4-5", ... } },
+    { custom_id: "1", params: { model: "claude-haiku-4-5-20251001", ... } },
+    { custom_id: "2", params: { model: "claude-haiku-4-5-20251001", ... } },
   ],
 });
 ```
@@ -107,7 +107,7 @@ const batch = await client.messages.batches.create({
 **Vision** — analyse d'images
 ```typescript
 const message = await client.messages.create({
-  model: "claude-sonnet-4-6",
+  model: "claude-sonnet-5",
   max_tokens: 1024,
   messages: [{
     role: "user",
@@ -121,10 +121,16 @@ const message = await client.messages.create({
 
 ### Optimisation des coûts
 
-**Choisir le bon modèle**
-- **Haiku 4.5** : classification, extraction simple, ultra-rapide, le moins cher
-- **Sonnet 4.6** : sweet spot qualité/prix, la majorité des cas d'usage
-- **Opus 4.7** : raisonnement complexe, code lourd, agents multi-étapes
+> ⚠️ **Source de vérité des IDs et prix = skill `claude-api` officielle (dans l'env) + `models.md`.** Ne pas re-hardcoder les IDs de modèles ailleurs : ils re-périment à chaque sortie de modèle. En cas de doute, requêter la skill officielle plutôt que se fier à la table ci-dessous.
+
+**Choisir le bon modèle (gamme actuelle, juillet 2026)**
+
+| Modèle | ID | Usage type | Prix |
+|---|---|---|---|
+| **Haiku 4.5** | `claude-haiku-4-5-20251001` | Classification, extraction simple, scoring, ultra-rapide | le moins cher |
+| **Sonnet 5** | `claude-sonnet-5` | Agentique par défaut (orchestration, tool-use, jobs récurrents), 1M contexte | promo 2$/10$ par MTok jusqu'au 31 août 2026, sinon 3$/15$ |
+| **Opus 4.8** | `claude-opus-4-8` | Cas lourds, raisonnement complexe, code production-critical (money/sécurité/RLS), 1M contexte | tier premium |
+| **Fable 5** | `claude-fable-5` | Frontier long-horizon, SOTA quasi tous benchmarks | ~5× Opus (10$/50$ MTok), pas de ZDR |
 
 **Minimiser les tokens**
 - System prompt court et efficace > pavé verbeux
@@ -150,7 +156,7 @@ const message = await client.messages.create({
 - **Observabilité** : Sentry / Datadog avec traces, OpenTelemetry pour distributed tracing
 - **Error handling** : codes 400 (input invalide) vs 5xx (transient) → stratégies différentes
 
-### Cas d'usage Switch Agency
+### Cas d'usage Flip Agency
 
 Pipeline type :
 1. **Audio client** → Whisper (transcription)
@@ -159,7 +165,7 @@ Pipeline type :
 4. **Notion** → Claude (génération de la roadmap depuis la fiche)
 5. **Roadmap** → PDF (livraison sous 24h)
 
-Caching aggressif sur le system prompt "consultant senior Switch" répété sur chaque diagnostic.
+Caching aggressif sur le system prompt "consultant senior Flip" répété sur chaque diagnostic.
 
 ## Format de sortie
 
@@ -182,24 +188,24 @@ Nouveautés à exploiter en production :
 
 | Cas | Modèle | Pourquoi |
 |---|---|---|
-| Livrable structuré long (PRD, pitch deck) | Opus 4.7 + `xhigh` | qualité > coût |
-| Génération roadmap PME (Switch) | Opus 4.7 standard | équilibre qualité/coût |
-| Tool-use orchestration, agents H24 | Sonnet 4.6 | latence + coût |
+| Livrable structuré long (PRD, pitch deck) | Opus 4.8 + `xhigh` | qualité > coût |
+| Génération roadmap PME (Flip) | Opus 4.8 standard | équilibre qualité/coût |
+| Tool-use orchestration, agents H24 | Sonnet 5 | latence + coût |
 | Classification, extraction, scoring | Haiku 4.5 | volume + coût |
 
 ### Managed Agents — public beta (header `managed-agents-2026-04-01`)
 
-Harness managé par Anthropic avec sandboxing + tools intégrés, sans gestion d'infra côté client. Pour Switch, c'est un nouveau modèle d'offre PME :
+Harness managé par Anthropic avec sandboxing + tools intégrés, sans gestion d'infra côté client. Pour Flip, c'est un nouveau modèle d'offre PME :
 - L'agent tourne H24 sur un process (relances, pipeline, suivi commissions) sans que la PME gère VM/queues/storage.
 - Réduit le ticket d'entrée pour les PME non-tech.
-- À considérer pour un pricing tier "Switch H24" à mi-chemin entre diagnostic ponctuel et abonnement custom.
+- À considérer pour un pricing tier "Flip H24" à mi-chemin entre diagnostic ponctuel et abonnement custom.
 
 ### Claude Context (MCP Zilliz) — pour grosses codebases
 
-Quand un Head of bosse sur un repo > 200K LOC (Switch app, Buddy app), la fenêtre contexte explose. Claude Context (`github.com/zilliztech/claude-context`) expose le codebase entier via vector search sémantique, peu importe la taille.
+Quand un Head of bosse sur un repo > 200K LOC (Flip app, Buddy app), la fenêtre contexte explose. Claude Context (`github.com/zilliztech/claude-context`) expose le codebase entier via vector search sémantique, peu importe la taille.
 
 **Quand le câbler** : sur un repo > 200K LOC, ou dès qu'on perd des références cross-fichiers en review.
-**MCP recommandé par défaut** dans `head-of-engineering` pour les missions Switch sur codebases existants.
+**MCP recommandé par défaut** dans `head-of-engineering` pour les missions Flip sur codebases existants.
 
 ---
 
@@ -213,7 +219,7 @@ Source : anthropic.com/news/higher-limits-spacex. Accord SpaceX = +300 MW (220k+
 - Fin de la réduction heures de pointe sur Pro/Max.
 - Conséquence : on peut désormais lancer `head-of-content` sur **10 sujets simultanés** sans throttling.
 
-→ Mettre à jour les scripts batch (Switch diagnostics, content repurposer, génération LinkedIn en masse) pour exploiter la nouvelle capacité.
+→ Mettre à jour les scripts batch (Flip diagnostics, content repurposer, génération LinkedIn en masse) pour exploiter la nouvelle capacité.
 
 ### Managed Agents (public beta, 6 mai 2026)
 
@@ -226,7 +232,7 @@ Header `managed-agents-2026-04-01` débloque :
 **Setup minimal** (TypeScript SDK) :
 ```ts
 const response = await anthropic.messages.create({
-  model: "claude-opus-4-7",
+  model: "claude-opus-4-8",
   // ...
 }, {
   headers: { "anthropic-beta": "managed-agents-2026-04-01" }
@@ -275,3 +281,38 @@ Passer `diagnostics.previous_message_id` renvoie un `cache_miss_reason` qui indi
 
 - **🚀 Claude Fable 5 + Mythos 5 — nouveau modèle frontier (9 juin 2026)** (2026-06-22, veille 19 juin) — Fable 5 (classe Mythos) = SOTA quasi tous benchmarks, **1M tokens contexte par défaut**, 128k output, adaptive thinking à niveaux d'effort (low/medium/high/xhigh), bien plus fiable pour piloter des subagents en parallèle. ⚠️ requêtes pluri-minutes en xhigh → adapter timeouts/streaming/progress côté client. Mettre à jour la table des modèles + le routing coût (Fable 5 pour long-horizon/agentique, Haiku/Sonnet pour le routinier).
 - **Opus 4.8 passe à 1M contexte par défaut (API, Bedrock, Vertex)** (2026-06-22).
+
+## 📚 Apprentissage — Veille 26 juin 2026 (intégré 2026-06-29)
+
+### Opus 4.8 — fiabilité du code généré ×4 vs 4.7 → heuristique de choix de modèle
+
+Opus 4.8 est **4× moins susceptible que 4.7 de laisser passer un défaut dans le code qu'il génère** (accent honnêteté/fiabilité du modèle). Sources : anthropic.com/news + releasebot.io.
+
+Implication directe pour le choix de modèle sur du code :
+- **Moins de review humaine nécessaire** sur le code produit par Opus 4.8 (réduit le besoin, ne le supprime pas).
+- **Privilégier Opus 4.8 pour le code production-critical** (pricing engine, commissions, invoicing, webhooks signés) où un défaut qui passe coûte cher.
+
+| Cas | Modèle | Pourquoi |
+|---|---|---|
+| Code production-critical (money, sécurité, RLS) | Opus 4.8 | fiabilité ×4 sur les défauts laissés passer |
+| Génération de code lourde / agents multi-étapes | Opus 4.8 | qualité + moins de re-review |
+| Code routinier, scaffolding, classification | Sonnet / Haiku | coût + latence |
+
+## 📚 Apprentissage — Veille 6 juillet 2026
+
+### Claude Sonnet 5 (sorti 30 juin 2026) — le Sonnet le plus agentique
+
+`claude-sonnet-5`. SOTA agentique de la gamme Sonnet, **1M tokens de contexte**, **128k output**. **Promo de lancement : 2$/M input, 10$/M output jusqu'au 31 août 2026** (à mettre à jour dans la matrice modèles/prix ci-dessous). Action : **benchmarker Sonnet 5 vs Opus 4.8 avant la fin de la promo** (31 août) sur les workflows agentiques Flip (orchestration, tool-use, jobs Inngest), le rapport qualité/prix peut basculer une grande partie du volume vers Sonnet 5. Source : anthropic.com/news.
+
+**Matrice modèle mise à jour (juillet 2026)** :
+
+| Cas | Modèle | Pourquoi |
+|---|---|---|
+| Majorité des workflows agentiques (orchestration, tool-use, jobs récurrents) | **Sonnet 5** | le plus agentique, 1M ctx, promo 2$/10$ jusqu'au 31 août |
+| Code production-critical (money, sécurité, RLS) | Opus 4.8 | fiabilité ×4 sur les défauts laissés passer |
+| Livrable long-horizon frontier | Fable 5 | SOTA mais ~5× le prix + pas de ZDR |
+| Classification, extraction, scoring | Haiku 4.5 | volume + coût |
+
+### Contrôle des modèles côté Enterprise (1er juillet 2026) — levier de gouvernance des coûts
+
+Les admins Enterprise peuvent désormais **choisir les modèles autorisés + les niveaux d'effort par utilisateur**. Ce n'est plus qu'une décision technique, c'est un **levier de gouvernance des coûts** : réserver Opus (et les efforts `xhigh`) aux profils/usages qui le justifient, imposer Sonnet 5 par défaut au reste. À traduire côté Flip en **politique de modèle par rôle** (cf skill maintenance) : qui a le droit à quoi, pour éviter la fugue de coûts sur les jobs auto. Source : anthropic.com/news.

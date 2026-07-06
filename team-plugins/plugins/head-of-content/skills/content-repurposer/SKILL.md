@@ -130,6 +130,30 @@ J+10 : Reminder post avec angle différent
 
 **Ce que ça change** : la vidéo verticale n'est plus "pour la jeunesse / TikTok" — c'est devenu un format pro légitime sur LinkedIn. Ne plus la skipper sur les sujets B2B sérieux.
 
+## 📚 Confirmation — Veille 26 juin (intégrée 2026-06-29)
+
+**Recette prioritaire 2026 : article de blog → carrousel PDF LinkedIn multi-slides.** Le carrousel PDF reste le format le plus rentable (~3× l'engagement des images simples — chaque swipe compte comme une interaction et déclenche la distribution). Quand on repurpose un article, **le carrousel PDF passe en sortie n°1**, avant le thread texte.
+
+Structure de conversion article → carrousel :
+1. **Slide 1 — hook chiffré** (le chiffre ou la contradiction la plus forte de l'article)
+2. **Slides 2-3 — agitation** (pain points du lecteur cible)
+3. **Slides 4-N — solution actionnable, une idée par slide** (découper les H2/H3 de l'article)
+4. **Slide finale — CTA discussion** (commentaire / message, jamais de lien)
+
+Confirme et amplifie les veilles du 3 mai et du 15 juin (carrousel = format dominant). (source veille 26 juin).
+
+## 🔄 Veille intégrée (MAJ 2026-07-06, veille 6 juillet)
+
+### Chiffres algo LinkedIn 2026 qui figent le carrousel PDF en sortie n°1
+
+Données 2026 (dataslayer.ai) qui chiffrent la recette déjà en place :
+
+- **Carrousel PDF = format n°1** : 6,60% d'engagement (vs 5,60% vidéo native, ~2% texte), **+39% de reach**, et **12,92% des posts sont sauvegardés** (le save est le signal fort).
+- **Specs à respecter** : format portrait **1080×1350**, **5-15 slides**.
+- **Liens en premier commentaire, jamais dans le post** (un lien dans le corps coûte ~60% de reach).
+
+**Recette de repurposing à graver** : 1 diagnostic → 1 carrousel PDF → 1 édition de newsletter. Le diagnostic (données chiffrées, méthodo, ROI) est la source idéale, le carrousel est la sortie prioritaire, la newsletter capitalise le même contenu sur un canal owned.
+
 ## Format de sortie
 
 Markdown structuré : 1 section par format avec contenu rédigé prêt à publier, calendrier en bloc dédié, CTAs clairement identifiés. L'utilisateur doit pouvoir copier chaque section et la coller direct dans son outil de programmation.

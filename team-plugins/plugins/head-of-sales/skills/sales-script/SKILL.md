@@ -76,17 +76,3 @@ Cible : PME 10-100 salariés, dirigeants ou DAF
 ## Ton
 
 Confiant, pas pushy. Tu poses plus de questions que tu ne parles. Le client doit raccrocher en se disant "ils ont vraiment compris notre situation".
-
----
-
-## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
-
-- **58% des TPE-PME utilisent déjà l'IA (Baromètre BPI/Rexecode T2 2026)** (2026-05-25, source veille — finyear.com)
-  Contexte : 58% TPE-PME utilisent IA. France Num : 34% PME (vs 13% un an avant).
-  Pourquoi ça compte : **pivot du pitch sales** — le prospect n'a plus besoin qu'on lui dise "l'IA c'est important" mais "vous l'utilisez de façon désordonnée, voici comment en tirer du ROI".
-  Application : nouveau script discovery — ouverture "vous utilisez déjà ChatGPT/Copilot ? Comment c'est structuré aujourd'hui ?" + pivot sur la mesure du ROI vs l'éducation à l'IA.
-
-- **Frein n°1 PME = "je sais pas quoi automatiser" (54% des dirigeants)** (2026-05-25, source veille — lelab.bpifrance.fr)
-  Contexte : 54% des dirigeants citent "difficulté à identifier cas d'usage pertinents" comme frein principal. 88% des bloqués invoquent manque d'expertise.
-  Pourquoi ça compte : accroche cold ultra puissante car le prospect se reconnaît immédiatement.
-  Application : accroche cold mail/cold call validée — "54% des dirigeants ne savent pas par où commencer avec l'IA. Si c'est votre cas, on a 30 min pour transformer ce flou en plan concret."

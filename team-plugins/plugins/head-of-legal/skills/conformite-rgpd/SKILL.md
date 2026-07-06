@@ -97,3 +97,13 @@ Markdown : registre en tableau, checklist finale priorisée avec 🔴🟡🟢, p
 ---
 
 ⚠️ **Rappel final** : ce livrable est une aide à la mise en conformité, pas un avis juridique. AIPD, notification CNIL, transferts hors UE et politique de confidentialité publiée se valident avec un avocat données personnelles ou un DPO.
+
+---
+
+## 📚 Apprentissage : Veille 6 juillet 2026
+
+### COPPA renforcé (US) applicable depuis le 22 avril 2026, impact device enfant (Buddy)
+
+- **COPPA renforcé applicable depuis le 22 avril 2026** (2026-07-06, veille 6 juillet, source toyfairny.com, à confirmer sur source primaire FTC) : premiers amendements majeurs depuis 2013. Points clés : **consentement séparé pour les partages tiers**, minimisation, **définition élargie de la donnée** (identifiants persistants, biométrie, géolocalisation, données inférées), suppression des données inutiles.
+- **Pour Buddy sur le marché US** (device connecté enfants 4-10 ans) : **consentement parental granulaire** (un consentement distinct par partage tiers, pas un opt-in global), **rétention courte documentée**, **pas de partage tiers par défaut**. Le tout se pense **by-design dès la spec**, pas après.
+- **Angle** : la conformité COPPA renforcée devient un argument **privacy by design** différenciant sur un marché US où les jouets IA sont sous le feu des critiques (cf. skill pr-communications, vague AI toy safety).

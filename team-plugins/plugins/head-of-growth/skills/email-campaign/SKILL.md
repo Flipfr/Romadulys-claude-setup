@@ -58,3 +58,14 @@ Si tu manques le contexte d'inscription ou l'objectif précis, demande — un em
 ## Format de sortie
 
 Pour chaque email : bloc Markdown structuré (Objet / Preheader / Corps / CTA / Plain text), prêt à copier dans n'importe quel outil (Mailchimp, Brevo, Resend, etc.).
+
+---
+
+## 🔄 Veille intégrée (MAJ 2026-07-06, veille 6 juillet)
+
+### Newsletter LinkedIn = canal owned à lancer (Flip)
+
+Données 2026 (lagrowthmachine.com) : les **newsletters LinkedIn croissent +150% YoY**, le top 1% dépasse **100 000 abonnés**, et c'est un **canal owned** (notification à chaque édition à tous les abonnés, **pas de pénalité sur les liens sortants** contrairement aux posts).
+
+- **Reco Flip** : lancer une **newsletter LinkedIn** ("L'IA installée", **bi-mensuelle**) qui **repackage les carrousels + les cas clients** déjà produits (cf. pipeline content-repurposer). Zéro coût de distribution, base qui se constitue toute seule, et on peut y mettre des liens sans se faire throttler.
+- **Structure d'édition** : hook (le chiffre/insight fort d'un carrousel récent) → 1 cas client chiffré → 1 CTA unique (diagnostic / échange). Même règle qu'un email classique : 1 objectif, 1 CTA.

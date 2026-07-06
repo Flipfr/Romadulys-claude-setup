@@ -102,3 +102,22 @@ Disponible cette semaine et la suivante pour un point.
 ## Format de sortie
 
 Communiqué de presse formaté (header / chapeau / corps / boilerplate / contact), pitch email modulable selon média, media kit en page Notion partageable.
+
+---
+
+## 📚 Apprentissage — Veille 26 juin 2026
+
+### Narratif "sécurité IA enfants" = sujet presse chaud (Buddy)
+
+- **Le narratif "IA + enfants = danger" devient un sujet presse chaud** (2026-06-29, veille 26 juin) — findings alarmants sur la sécurité des jouets IA, vague médiatique sur les risques de l'IA pour les enfants. Sujet sur lequel la presse va se précipiter.
+- **Pour Buddy, préparer en amont** :
+  - Un **narratif sécurité/conformité proactif** dans la campagne crowdfunding : chiffré, hébergé UE, conforme (CE, EN71-3:2026, GDPR-K, pas de scroll/pub). Données chiffrées plutôt que déclarations. En faire un angle newsworthy ("le device enfant qui prend la sécurité au sérieux par design").
+  - Un **plan de réponse presse** si un incident sectoriel (fuite, rappel chez un concurrent) éclabousse la catégorie : posture, porte-parole, message clé prêt, capacité à répondre vite à un journaliste sur "et vous, comment vous protégez les enfants ?".
+
+## 📚 Apprentissage : Veille 6 juillet 2026
+
+### "AI toy" devient un terme toxique, angle PR défensif à préparer (Buddy)
+
+- **Vague "AI toy safety"** (2026-07-06, veille 6 juillet, source pirg.org) : rapport PIRG **"Trouble in Toyland"** (jouets IA tenant des propos dangereux, parfois toujours en écoute), ours **Kumma retiré de la vente**, projet de **loi fédérale US** (avril 2026) + propositions **Californie / Maryland**.
+- **Conséquence** : **"AI toy" devient un terme toxique**. Buddy doit **se démarquer de la catégorie jouet IA** dans son messaging : outil de **communication cadré** (lien parents/amis whitelistés), **guardrails stricts**, **pas de chatbot ouvert**, pas d'écoute permanente.
+- **Angle PR défensif à préparer avant lancement** : positionner Buddy comme "**device de communication pour enfants, pas un jouet IA bavard**", avec la conformité (CE, EN71-3:2026, GDPR-K, chiffré, hébergé UE, pas de scroll/pub) comme preuve. Anticiper la question journaliste "encore un AI toy ?" avec un message clé prêt qui coupe l'assimilation.

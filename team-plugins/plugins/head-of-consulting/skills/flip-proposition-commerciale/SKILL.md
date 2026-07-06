@@ -1,6 +1,6 @@
 ---
 name: flip-proposition-commerciale
-description: Rédige une proposition commerciale B2B structurée en 5 pages pour Flip agency (offre diagnostic 2500€ + abonnement 2000€/mois + formation 1800€/jour). À utiliser pour rédiger une proposition commerciale, un devis structuré, une offre client, un document de vente B2B Flip, ou pour mettre en forme une offre après un diagnostic, un appel de qualification, ou un brief client. À utiliser même si l'utilisateur dit juste "fais-moi un devis", "rédige l'offre pour [client]", ou "j'ai besoin d'une propal" — toute demande de document de vente Flip déclenche cette skill.
+description: Rédige une proposition commerciale B2B structurée en 5 pages pour Flip agency (3 packs build+abo : Essentiel 8k / Pro 16k / Partenaire 32k one-shot + 300/600/1200€/mois, diagnostic à prix libre). À utiliser pour rédiger une proposition commerciale, un devis structuré, une offre client, un document de vente B2B, ou pour mettre en forme une offre après un diagnostic, un appel de qualification, ou un brief client. À utiliser même si l'utilisateur dit juste "fais-moi un devis", "rédige l'offre pour [client]", ou "j'ai besoin d'une propal" — toute demande de document de vente déclenche cette skill.
 ---
 
 # Rédacteur de propositions commerciales — Flip
@@ -11,13 +11,21 @@ Tu es un expert en vente consultative B2B. Tu rédiges des propositions commerci
 
 Ton angle : **vendre une solution à un problème, pas une prestation**. Le client doit lire la propal et se reconnaître dans le diagnostic — au point de se dire "ils ont compris exactement ce qu'on vit".
 
-## Offre Flip (à intégrer correctement)
+## Offre Flip (modèle verrouillé 2026-06-16, TR38/TR39 — à intégrer correctement)
 
-- **Diagnostic** : 2 500 € HT — atelier 1 jour + roadmap PDF livrée sous 24h
-- **Abonnement mensuel** : 2 000 € HT/mois — accompagnement continu (build, run, support, itérations)
-- **Formation** : 1 800 € HT/jour — sessions de 1 à 5 jours selon besoin
-- **Engagement** : aucun, résiliable au mois pour l'abonnement
-- **Garantie** : si la roadmap n'est pas livrée sous 24h ouvrées, le diagnostic est offert
+**3 packs fixes** = un build one-shot + un abonnement mensuel. Le diagnostic est facturé séparément, **à prix libre au cas par cas** (plus de pack diag figé).
+
+| | Essentiel | Pro ⭐ | Partenaire |
+|---|---|---|---|
+| Build one-shot | 8 000 € HT | 16 000 € HT | 32 000 € HT |
+| Abonnement / mois | 300 € HT | 600 € HT | 1 200 € HT |
+
+- **Diagnostic** : prix libre, fixé au cas par cas selon le périmètre (plus de tarif fixe).
+- **Règlement du build (mode A standard)** : 20% à la signature → 50% à la livraison (J+30) → 30% à la recette. La **recette** est un gate : elle déclenche le démarrage de l'abonnement. Modes B/C disponibles en option.
+- **Devis libres** : les packs ne sont que des préremplissages. Le devis reste éditable ligne par ligne, avec bornes et zones 🟢/🟡/🔴 (vert = dans la fourchette, jaune = à valider, rouge = hors cadre).
+- **Commissions origine-based** : déclencheur = encaissement (pas signature). Deal apporté par le commercial → 30% build / 30% abo sur 12 mois / 50% features. Deal fourni par Flip → 20% / 20% / 30%.
+
+⚠️ **Modèle PÉRIMÉ à ne JAMAIS ressortir** : package Diag+Roadmap figé à 2 900€, X dynamique (outils×150 + process×200 + personnes×50), abonnements Safe/Aligned/Bold, commission sur économies mesurées, garantie ROI ou remboursé 90j/3×/20 premiers clients, One-Shot = X×6. Source de vérité : `docs/superpowers/specs/2026-06-16-pricing-packs-legal-design.md`.
 
 ## Inputs attendus
 
@@ -36,7 +44,7 @@ S'il manque des éléments structurants (notamment la formulation du problème d
 - **Le problème** : reformulé avec les mots du client (citation directe si possible, sinon paraphrase fidèle)
 - **L'impact chiffré** : coût actuel estimé (heures perdues × coût horaire, ou opportunité manquée). Si tu n'as pas la donnée, propose une fourchette argumentée.
 - **La solution Flip** : 2-3 phrases max
-- **Le ROI attendu** : sous forme "X heures/semaine économisées" + "payback en Y mois"
+- **Le ROI attendu** : sous forme "X heures/semaine économisées" + "payback en Y mois". Le ROI se **chiffre dans le diagnostic** (gains estimés) — il n'est plus adossé à une commission sur économies mesurées (modèle retiré).
 
 ### Page 2 — Diagnostic de la situation
 
@@ -52,19 +60,21 @@ S'il manque des éléments structurants (notamment la formulation du problème d
 
 ### Page 4 — Investissement
 
-Tableau clair :
+Tableau clair des 3 packs (build one-shot + abonnement mensuel) :
 
-| Prestation | Détail | Tarif HT |
+| Pack | Build one-shot HT | Abonnement HT/mois |
 |---|---|---|
-| Diagnostic | Atelier + roadmap 24h | 2 500 € |
-| Abonnement | Accompagnement mensuel | 2 000 €/mois |
-| Formation | Optionnel, par jour | 1 800 €/jour |
+| Essentiel | 8 000 € | 300 € |
+| **Pro ⭐ (recommandé)** | **16 000 €** | **600 €** |
+| Partenaire | 32 000 € | 1 200 € |
 
-Puis 2 options chiffrées :
-- **Option 1 — Diagnostic seul** : 2 500 € (le client repart avec sa roadmap, libre à lui de l'exécuter)
-- **Option 2 — Diagnostic + Abonnement 3 mois** : 2 500 € + 6 000 € = 8 500 € (recommandée si exécution rapide souhaitée)
+Le **diagnostic** est facturé à part, à prix libre selon le périmètre (à chiffrer avec le client).
 
-Modalités : 50% à la signature, 50% à la livraison de la roadmap. Abonnement facturé mensuellement, à terme échu.
+Recommander le pack **Pro** par défaut (tier du milieu = ancre haute + ancre basse de part et d'autre), sauf si le scope justifie clairement Essentiel ou Partenaire.
+
+**Modalités de règlement du build (mode A standard)** : 20% à la signature → 50% à la livraison (J+30) → 30% à la recette. La recette est un gate : sa validation déclenche le démarrage de l'abonnement mensuel. Modes B/C disponibles en option.
+
+Les packs ne sont que des préremplissages : le devis reste **éditable ligne par ligne** (bornes + zones 🟢/🟡/🔴), on l'ajuste au réel du client.
 
 ### Page 5 — Prochaines étapes
 
@@ -178,16 +188,16 @@ Entre le diagnostic one-shot (2500€) et l'abonnement mensuel (2000€/mois), p
 
 Le diagnostic **IA Booster BPI** est cadré depuis le 1er janvier 2026 à **10 000€ HT** (8 jours), avec **25% de prise en charge** pour PME 10-2000 salariés (>1M€ CA, >1 an d'existence). **Reste à charge : 7 500€ HT**.
 
-Comparatif à intégrer en slide systématique :
+Comparatif à intégrer en slide systématique (⚠️ diag Flip désormais à **prix libre**, abo selon pack) :
 
-| Critère | IA Booster BPI | Flip diagnostic |
+| Critère | IA Booster BPI | Flip |
 |---|---|---|
-| Prix | 7 500€ HT (après aide BPI) | **2 500€ HT** |
-| Durée | 8 jours étalés | **2 semaines, démarrage J+7** |
+| Prix diag | 7 500€ HT (après aide BPI) | **prix libre, ajusté au périmètre** |
+| Durée | 8 jours étalés | **démarrage J+7** |
 | Paperasse | Dossier BPI à monter | Aucune |
-| Suivi post-diag | Non inclus | **Abonnement 2k€/mois optionnel** |
+| Suivi post-diag | Non inclus | **Build pack 8k→32k + abo 300→1200€/mois** |
 
-→ Position Flip : "alternative agile, 3x moins cher, sans paperasse".
+→ Position Flip : "alternative agile, sans paperasse, build + run packagés".
 
 ### Positionnement vs cabinets / freelances (sweet spot vide)
 
@@ -197,7 +207,7 @@ Marché en 2 camps. Refondre la page d'offre avec comparatif explicite :
 |---|---|---|---|
 | Stema / Digitallia | 15-20k€ minimum | 4 mois | Industrialisation |
 | Freelance IA | 600-900€/jour | Immédiat | **Pas de continuité** |
-| **Flip** | **2 500€ + 2k€/mois** | **J+7** | **Récurrent** |
+| **Flip** | **build 8k→32k + abo 300→1200€/mois** | **J+7** | **Récurrent (abo + features)** |
 
 Identifier 2-3 verticales pour devenir LA micro-agence (ex : cabinets comptables). Page SEO "Alternative à Stema Partners" à monter dans le cluster.
 
@@ -207,39 +217,42 @@ Combiner 2 chiffres : "**26% des TPE/PME françaises utilisent l'IA en 2026 (×2
 
 ---
 
-## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
+## 🔄 Veille intégrée (MAJ 2026-06-15)
 
-- **🚨 Claude for Small Business — MENACE CONCURRENTIELLE FRONTALE pour Flip** (2026-05-25, source veille — releasebot.io/updates/anthropic/claude)
-  Contexte : Anthropic lance "Claude for Small Business" — branché QuickBooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, M365 avec workflows prêts pour paie/facturation/ventes/marketing/clôture.
-  Pourquoi ça compte : refondre l'offre Flip pour expliciter la valeur ajoutée vs Claude SMB — "on installe et on pilote Claude for Business pour vous, on diagnostique vos process avant, on mesure le ROI après". Plus de "accès à l'IA".
-  Application : slide propal "Pourquoi Flip et pas Claude for SMB tout seul" — diagnostic + orchestration + accompagnement humain comme valeur ajoutée. Refondre la slide value prop.
+### Slide "Contexte marché" : chiffres d'accroche (baromètre Bpifrance Le Lab, 1 200+ dirigeants)
 
-- **Frein n°1 PME = "je sais pas quoi automatiser" (54% des dirigeants)** (2026-05-25, source veille — lelab.bpifrance.fr)
-  Contexte : 54% des dirigeants citent "difficulté à identifier cas d'usage pertinents" comme frein principal. 88% des bloqués invoquent manque d'expertise.
-  Pourquoi ça compte : ouverture propal idéale — accroche directe au problème prouvé.
-  Application : slide problème de la propal — "54% des dirigeants ne savent pas par où commencer — notre diagnostic transforme ce blocage en roadmap concrète en 2 semaines".
+- 58% des dirigeants jugent l'IA importante pour la pérennité de leur entreprise à 3 à 5 ans.
+- Mais seulement ~26 à 31% des TPE/PME l'utilisent réellement, et 43% ne pilotent pas par la data.
+- Accroche prête : "58% savent que c'est vital, moins d'1/3 sont passés à l'acte. On comble ce gap."
+- Le 43% qui ne pilote pas par la data justifie frontalement le volet cockpit Flip. Les ~27% de sceptiques cadrent le traitement d'objection.
 
-- **Diagnostic IA BPI cofinance 50% pour PME <250 salariés — destruction objection prix** (2026-05-25, source veille — koino.fr)
-  Contexte : BPI France cofinance 50% un Diagnostic IA pour PME <250 salariés. France Num jusqu'à 50% sur transformation numérique.
-  Pourquoi ça compte : "votre diagnostic à 2500€ peut être cofinancé à 50% par BPI — reste à charge 1250€". Destruction de l'objection prix. **À vérifier : éligibilité exacte du diagnostic Flip avant de promettre.**
-  Application : slide financement BPI dans la propal — mention "potentiellement cofinançable BPI/France Num jusqu'à 50%" avec disclaimer "sous réserve d'éligibilité — accompagnement dossier inclus".
+### Positionnement vs dispositifs publics (Annexe ou slide approche)
 
-- **ROI médian IA documenté : +159,8% sur 24 mois (Baromètre IA & ROI 2022-2025, 200+ projets France)** (2026-05-25, source veille — denisatlan.fr/barometre-ia-pme)
-  Contexte : Baromètre IA & ROI 2022-2025 (200+ projets France) — ROI médian 159,8% sur 24 mois.
-  Pourquoi ça compte : chiffre de réassurance section ROI propal, sourcé proprement (200+ projets France).
-  Application : slide ROI de la propal — "ROI médian +159,8% sur 24 mois (Baromètre IA & ROI 2022-2025, 200+ projets France)". Sourcer.
+- **Accélérateur IA Bpifrance** (lancé le 16 juin 2026) : programme collectif PME/ETI, coût total ~64 400 € HT dont ~25 400 € financés Bpifrance (~41%). Positionner Flip comme l'opérateur privé qui exécute là où l'Accélérateur cadre la stratégie. Montants à reconfirmer sur source primaire avant propal client.
 
-- **34% des PME françaises utilisent l'IA (vs 13% un an avant)** (2026-05-25, source veille — francenum.gouv.fr)
-  Contexte : 60% des dirigeants n'ont pas de stratégie IA formalisée. 88% citent manque d'expertise.
-  Pourquoi ça compte : slide contexte marché de la propal — chiffres officiels France Num récents.
-  Application : slide contexte marché — "34% des PME françaises utilisent l'IA (vs 13% un an avant). 60% n'ont pas de stratégie formalisée. France Num 2026."
+## 📚 Apprentissage — Veille 19 juin 2026
 
-- **McKinsey France : +20-25% productivité, -15-20% coûts ops PME ayant adopté l'IA <18 mois** (2026-05-25, source veille — ai.axiiz.com)
-  Contexte : chiffres McKinsey France sur PME ayant adopté l'IA dans les 18 premiers mois.
-  Pourquoi ça compte : benchmark ROI crédible pour slide bénéfices propal.
-  Application : slide bénéfices attendus — fourchette McKinsey France (+20-25% productivité, -15-20% coûts ops) à 18 mois.
+- **Paysage des aides IA PME 2026 à exploiter** (2026-06-22, veille 19 juin) — plan "Osez l'IA" (200M€, objectif 80% PME/ETI équipées en 2030), Diagnostic Data IA (10j expert cofinancé 40% État / 25% BPI, reste ~7 500€), appel à projets "Pionniers de l'IA". Positionner Flip soit comme **alternative agile** (moins cher, plus rapide, sans paperasse), soit comme **prestataire référencé** sur ces dispositifs. Cartographier les aides dans une page de vente.
 
-## Apprentissages terrain
+## 🔄 Veille intégrée (MAJ 2026-06-29, veille 26 juin)
 
-- **2026-06-01** : levier financement IA Booster (France 2030) à mettre dans l'annexe "Comment financer" — diagnostic IA financé à 80%, reste à charge 780–2 600 €. Argument : "diagnostic à partir de 780 € reste à charge". (francenum.gouv.fr)
-  - ⚠️ Vérifier l'éligibilité de Flip comme prestataire référencé IA Booster AVANT de promettre le cofinancement. Sinon mention prudente "potentiellement éligible IA Booster — accompagnement dossier inclus".
+### Slide "Contexte marché" : chiffre d'autorité d'entrée (Bpifrance Le Lab, 1 200 entreprises)
+
+- Accroche prête : "**58% des dirigeants de PME/ETI jugent l'IA vitale, 58% n'ont aucune stratégie, et 88% citent le manque de compétences internes comme frein n°1**" (Bpifrance Le Lab, étude 1 200 entreprises). À poser en slide contexte de propal : ça nomme le gap (vital ↔ pas de stratégie) que Flip vient combler, et le 88% justifie frontalement le volet build + accompagnement.
+
+### Benchmark marché = argument de positionnement (pas "prix bas")
+
+- **Premier projet IA en PME = 8 à 35k€, ROI 3-8 mois** (sources koino.fr / justai.fr). Reframe à servir : les packs Flip (build **8k → 32k**) sont **PILE dans le marché** — argument de positionnement, jamais "on est moins cher". Le pack n'est pas un discount, c'est le ticket de marché.
+- **Angle aides publiques = accélérateur de closing** : Clic&Tech, AURA Industrie du Futur, AKTO. Le prospect compare un reste à charge, pas un prix plein → lève l'objection prix et raccourcit le cycle.
+
+### Les 2 angles qui structurent le marché 2026 : "ROI mesurable + souveraineté RGPD"
+
+- **Angle ROI** : il passe désormais par le **chiffrage des gains DANS le diagnostic** (gains estimés, payback) — **PAS** par une commission sur économies mesurées (modèle retiré). On promet un ROI chiffré, on ne se rémunère plus sur les économies.
+- **Angle souveraineté** : hébergement UE / conformité RGPD est un **différenciateur** à mettre en avant en propal, surtout pour PME data-sensibles (industrie, juridique, santé, finance).
+
+## 🔄 Veille intégrée (MAJ 2026-07-06, veille 6 juillet)
+
+### Encart "Financements mobilisables" à systématiser en page finale
+
+- **Diag Data IA Bpifrance** (bpifrance.fr) : 10 000 € HT, pris en charge 25 à 40%, éligibilité PME/ETI de 10 à 2 000 salariés (>1 M€ de CA, >1 an d'existence). En cumulant diag + formation OPCO + aide régionale (ex. Pack IA Île-de-France à 50%), le reste à charge peut passer **sous 5 000 €**.
+- **Action propal** : ajouter un encart "financements mobilisables" en page 5 (ou annexe). Le diagnostic Flip à prix libre et le build s'articulent avec ces dispositifs : le prospect compare un reste à charge, pas un prix plein (lève l'objection prix, raccourcit le cycle). ⚠️ Vérifier l'éligibilité de Flip comme prestataire référencé avant de le chiffrer noir sur blanc au client (montants et taux à reconfirmer sur source primaire).

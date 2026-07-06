@@ -100,3 +100,8 @@ La vidéo verticale courte est devenue un format dominant LinkedIn en 2026, sous
 ## 📚 Apprentissage — Veille 19 juin 2026
 
 - **Vidéo courte founder-led sur LinkedIn** (2026-06-22, veille 19 juin) — LinkedIn pousse fort la vidéo (création x2, vues +36% YoY). Décliner les insights IA/PME en formats vidéo courts founder face caméra, pas seulement TikTok/Reels. Hook dès la 1ère seconde, sous-titres systématiques (lecture sans son).
+
+## 🔄 Veille intégrée (MAJ 2026-07-06, veille 6 juillet)
+
+- **TikTok B2B = canal CPL le moins cher** (benly.ai) : CPL **25-75$** (vs 75-200$+ sur LinkedIn), advertisers B2B **+142% YoY**, **Spark Ads** = 2,4× le CTR et **+44% de conversion**, et **Instant Forms** en in-app. Le format qui gagne en B2B = **edutainment court** ("3 façons de… en 30s").
+- **Reco Flip** : lancer un test 30 jours de contenus edutainment IA-PME en vertical court (POV / tuto rapide / opinion chaude sur l'IA en PME), avec un **nurture email obligatoire derrière** (le lead TikTok B2B est froid, il faut le réchauffer). Recycler les meilleurs Reels vers LinkedIn natif (cf. pipeline content-repurposer).

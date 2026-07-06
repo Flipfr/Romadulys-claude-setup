@@ -58,7 +58,7 @@ Objet : Article LinkedIn sur [topic] m'a fait penser à toi
 
 Salut [Prénom],
 
-Je viens de lire ton post sur [sujet précis] — la partie sur [détail] résonne fort avec ce qu'on observe chez Switch.
+Je viens de lire ton post sur [sujet précis] — la partie sur [détail] résonne fort avec ce qu'on observe chez Flip.
 
 On accompagne [audience] sur [problème], notamment [résultat client précis].
 
@@ -121,19 +121,16 @@ Template avec colonnes :
 - **L'urgence se fabrique.** "On lance avec 3 partenaires en pilote, on signe d'ici X jours" booste les réponses.
 - **Donne avant de demander.** Une intro, une recommandation, un share — la réciprocité fait son travail.
 
+## Partenariats institutionnels : dispositifs publics IA PME
+
+Canal d'acquisition à fort levier pour Flip : se référencer comme prestataire/opérateur sur les dispositifs publics d'accompagnement IA des PME. L'argent public finance l'accompagnement, donc être référencé = flux de leads cofinancés, quasi gratuit.
+
+Dispositifs à cibler :
+- **Accélérateur IA Bpifrance** (lancé le 16 juin 2026), plan **"Osez l'IA"**, Diagnostic Data IA, "Pionniers de l'IA" (BPI, DGE).
+- **Réseau des Ambassadeurs IA** (economie.gouv.fr) : porté à **615 ambassadeurs** (20 régions, 13 secteurs) dans le cadre du plan "Osez l'IA" renforcé (l'État vise 80% des PME/ETI équipées en IA d'ici 2030). Ils orientent les PME accompagnées vers des prestataires.
+
+Action : lancer la démarche de référencement de Flip auprès de ces dispositifs, et approcher le ou les Ambassadeurs IA de la région pour un partenariat de flux. Cibler d'abord la région et les secteurs où Flip a déjà des cas clients. Conditions et modalités de référencement à reconfirmer sur source primaire.
+
 ## Format de sortie
 
 Templates copier-coller (cold email, LinkedIn, relances), tracker Notion duplicable, checklist d'accord en bullets.
-
----
-
-## 🔄 Veille intégrée (MAJ 2026-06-15)
-
-### Nouveau canal : référencement sur les dispositifs publics IA PME
-
-- Se référencer comme prestataire/opérateur sur les dispositifs publics IA PME : Accélérateur IA Bpifrance (lancé le 16 juin 2026), plan Osez l'IA. L'argent public finance l'accompagnement, donc être référencé = canal d'acquisition quasi gratuit.
-- **Action** : lancer une démarche de référencement de Flip auprès de ces dispositifs. (Conditions et modalités de référencement à reconfirmer sur source primaire.)
-
-## 📚 Apprentissage — Veille 19 juin 2026
-
-- **Référencement sur les dispositifs publics IA = canal d'acquisition** (2026-06-22, veille 19 juin) — devenir prestataire référencé sur le Diagnostic Data IA / "Osez l'IA" / "Pionniers de l'IA" (BPI, DGE) ouvre un flux de leads cofinancés. À ajouter comme démarche de partenariat institutionnel pour Flip.

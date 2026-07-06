@@ -120,115 +120,33 @@ Score chaque spoke (0-100) sur ces facteurs :
 ```markdown
 # Stratégie de cluster — [Sujet large]
 
-## Vue d'ensemble
-
-- **Sujet** : [topic large]
-- **Audience** : [qui]
-- **Objectif business** : [trafic/leads/conversion]
-- **Cadence proposée** : [X articles/mois sur Y mois]
-
----
+**Vue d'ensemble** : sujet · audience · objectif business (trafic/leads/conversion) · cadence (X articles/mois sur Y mois)
 
 ## 🏛️ Pillar page
+- **Méta** : titre · mot-clé head term · volume estimé · difficulté · longueur 3000-5000 mots · intention
+- **Outline** : H1, intro, chaque H2 avec les spokes qu'il référence, conclusion + CTA
 
-### Métadonnées
-- **Titre proposé** : [titre]
-- **Mot-clé principal** : [head term]
-- **Volume estimé** : [X recherches/mois]
-- **Difficulté** : [Easy/Medium/Hard]
-- **Longueur cible** : [3000-5000] mots
-- **Intention** : [info/commercial/mixte]
-
-### Outline
-- H1 : [titre]
-- Intro (200 mots)
-- H2.1 : [section] — référence Spoke 1, 3
-- H2.2 : [section] — référence Spoke 2, 4
-- H2.3 : [section] — référence Spoke 5, 6
-- ...
-- Conclusion + CTA
-
----
-
-## 🛰️ Supporting articles (spokes)
-
-### Spoke 1 — [Titre proposé]
-- **Mot-clé principal** : [keyword]
-- **Volume** : [X]
-- **Difficulté** : [niveau]
-- **Intention** : [info/commercial]
-- **Angle unique** : [ce qui le différencie]
-- **Longueur** : [1500-3000] mots
-- **Score priorité** : [X]/100
-- **Lie vers** : Pillar + Spokes 3, 7
-- **Anchor text suggéré pour le lien depuis pillar** : "[anchor]"
-
-### Spoke 2 — [Titre]
-[Format identique]
-
-[... continuer jusqu'à 8-12 spokes ...]
-
----
+## 🛰️ Spokes (8-12)
+Pour chacun : titre · mot-clé principal (unique) · volume · difficulté · intention · angle unique · longueur 1500-3000 mots · score priorité /100 · lie vers (pillar + 2-3 spokes) · anchor depuis le pillar
 
 ## 🗺️ Carte de maillage interne
+Tableau `source | cible | anchor recommandé` couvrant : pillar → chaque spoke, chaque spoke → pillar + 2-3 spokes. Anchors distincts.
 
-| Article source | Article cible | Anchor recommandé |
-|----------------|---------------|-------------------|
-| Pillar | Spoke 1 | "[anchor]" |
-| Pillar | Spoke 2 | "[anchor]" |
-| ... | ... | ... |
-| Spoke 1 | Pillar | "[anchor]" |
-| Spoke 1 | Spoke 3 | "[anchor]" |
-| ... | ... | ... |
-
----
-
-## 📊 Tableau de priorisation
-
-| # | Spoke | Volume | Diff. | Intent | Priorité | Score |
-|---|-------|--------|-------|--------|----------|-------|
-| 1 | [titre] | X | - | - | - | X/100 |
-| ... |
-
----
+## 📊 Priorisation
+Tableau `# | spoke | volume | difficulté | intention | score /100` trié par priorité de production.
 
 ## 📅 Plan de production
-
-### Mois 1
-- Semaine 1-2 : Pillar
-- Semaine 3 : Spoke #[X] — quick win
-- Semaine 4 : Spoke #[Y] — high dependency
-
-### Mois 2
-- Spokes #[A], #[B], #[C]
-
-[... continuer ...]
-
----
+Cadence sur 3-6 mois (pillar en premier, puis spokes par priorité). Voir la section "Séquence de production".
 
 ## ✅ Vérification anti-cannibalisation
-
-- [ ] Aucun spoke ne partage le mot-clé principal avec un autre
-- [ ] Chaque spoke a une intention de recherche distincte
+- [ ] Aucun spoke ne partage le mot-clé principal d'un autre
+- [ ] Chaque spoke a une intention distincte
 - [ ] Le pillar couvre la breadth, les spokes la depth
-- [ ] Les anchor texts sont diversifiés
-- [ ] Aucun couple de spokes n'est mergeable
+- [ ] Anchors diversifiés
+- [ ] Aucun couple de spokes mergeable
 
----
-
-## ⚠️ Risques identifiés
-
-1. [risque + mitigation]
-2. [risque + mitigation]
-
----
-
-## 📈 Métriques de suivi (3-6 mois)
-
-- Trafic organique cluster (GSC)
-- Rankings du pillar (top 10 pour head term ?)
-- Cross-link traffic (combien de visiteurs naviguent dans le cluster ?)
-- Conversion path (le cluster amène-t-il vers la conversion ?)
+## ⚠️ Risques + 📈 métriques de suivi (3-6 mois)
+Risques + mitigations. Métriques : trafic organique cluster (GSC), ranking pillar (top 10 head term ?), cross-link traffic, conversion path.
 ```
 
 ## Heuristiques
@@ -253,10 +171,3 @@ Score chaque spoke (0-100) sur ces facteurs :
 - `seo-internal-linking` — pour le maillage opérationnel article par article
 - `seo-audit` — pour auditer le cluster en cours de route
 - `programmatic-seo` — si une partie du cluster peut être automatisée à scale
-
----
-
-## 📚 Apprentissages terrain
-
-- **2026-06-01** : Nouvelle ligne d'offre "visibilité IA" (GEO/AEO) pour PME (scrunch.com)
-  Structurer le contenu des clusters pour être cité par les LLM (réponses courtes en H2, FAQ schema, citations sourcées) — double usage : présence Flip + offre vendable aux clients. Penser chaque cluster comme citable par les moteurs génératifs, pas seulement rankable sur Google.

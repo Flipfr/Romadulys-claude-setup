@@ -24,25 +24,26 @@ Si le mot-clé manque, demande. Si l'intention est ambiguë, propose 2 angles di
 
 ## Workflow en 4 phases
 
-### Phase 1 — Analyse de l'intention (avant d'écrire une ligne)
+### Phase 1 — Analyse de l'intention + GEO (avant d'écrire une ligne)
 
 1. **Classifier l'intention** :
    - Informationnelle : "comment", "qu'est-ce que", "guide" → article pédagogique
    - Commerciale : "meilleur", "vs", "avis" → comparatif/review
    - Transactionnelle : "acheter", "prix", "s'inscrire" → page produit/landing
    - Navigationnelle : marque + terme → page dédiée
-2. **Vérifier le SERP actuel** : que sert Google sur ce mot-clé ? Listes ? Guides ? Vidéos ? Si Google sert des listes, faire un guide narratif est suicidaire.
+2. **Vérifier le SERP actuel** : que sert Google sur ce mot-clé ? Listes ? Guides ? Vidéos ? Si Google sert des listes, faire un guide narratif est suicidaire. **Vérifie aussi la présence d'un AI Overview** : les AI Overviews apparaissent sur ~50% des requêtes (39% sur queries info) et volent ~46,7% du clic organique. Sur ces requêtes, viser l'**AI Citation** (être cité dans la réponse IA) prime sur le ranking position.
 3. **Identifier le gap** : qu'est-ce que les top 5 ne couvrent PAS bien ? C'est ton angle.
 
-### Phase 2 — Outline avant rédaction
+### Phase 2 — Outline avant rédaction (GEO / snippet-ready par défaut)
 
-Structure obligatoire :
-- **H1** unique, contient le mot-clé principal (idéalement au début), 50-60 caractères
+Structure obligatoire, pensée pour capter à la fois le SEO classique ET l'AI Citation. Pattern gagnant : "best short answer + best deeper answer + best cited answer" dans le même article.
+- **H1** unique = question utilisateur exacte, contient le mot-clé principal (idéalement au début), 50-60 caractères
+- **H2 "En bref"** en tête : **réponse condensée en ~40 mots**, snippet-ready, source d'AI Citation, placée *avant* le long format
 - **Intro** (100-150 mots) : hook + promesse + le mot-clé dans les 100 premiers mots
-- **4-7 H2** : chaque H2 livre une partie de la promesse, 2-3 H2 contiennent le mot-clé ou variation
+- **4-7 H2 (long format détaillé)** : chaque H2 livre une partie de la promesse, 2-3 H2 contiennent le mot-clé ou variation
 - **H3** sous H2 quand le H2 fait > 400 mots
 - **Conclusion** (150 mots) : récap + CTA + le mot-clé une dernière fois
-- **FAQ** (3-5 questions) en bas : capture les featured snippets et les "People Also Ask"
+- **FAQ schema-marquée** (3-5 questions sous-jacentes / "People Also Ask") en bas : capture les featured snippets ET augmente les chances de citation IA
 
 ### Phase 3 — Rédaction
 
@@ -162,10 +163,17 @@ Court, kebab-case, contient le mot-clé principal, sans mots vides.
 ## Heuristiques
 
 - **L'intention prime sur la densité.** Un article qui répond mal à l'intention ne rankera jamais, même avec une densité parfaite.
+- **Le ranking position n°1 vaut moins qu'une AI Citation.** Sur les queries info, l'AI Overview vole ~46,7% du clic. Optimiser pour être *cité par l'IA* (bloc "réponse 40 mots" + FAQ schema) devient prioritaire sur être *au-dessus du fold*.
 - **Écris pour le scroll.** L'utilisateur scrolle d'abord, lit ensuite. Sous-titres clairs, visuels qui cassent le mur de texte.
 - **Le H1 est un contrat.** Si le H1 promet "10 stratégies", le corps doit livrer 10 stratégies — pas 7.
 - **La FAQ est une mine d'or.** Capture des featured snippets en répondant directement aux questions de "People Also Ask".
 - **N'écris jamais "Bienvenue dans ce guide"**. Le lecteur veut la réponse, pas un préambule.
+
+## Filons éditoriaux LPL (auto-école / CPF) — à jour
+
+- **Restructurer les 20 articles top-traffic LPL** avec le pattern snippet-ready (bloc "réponse 40 mots" + FAQ schema) pour viser la citation dans les AI Overviews sur "permis libre", "passer son permis sans auto-école", "permis CPF 2026".
+- **Angle prix/financement CPF** : reste à charge forfaitaire porté à 150 € par dossier en avril 2026 (vs 103,20 €), sauf exonérations (demandeurs d'emploi). Combiné au plafond 900 € et à la restriction d'éligibilité du permis léger, le coût net du candidat "lambda" augmente. Montrer le coût réel après reste à charge et positionner les formules sans CPF (paiement direct/échelonné) comme plus simples et sans risque d'annulation de dossier. Verrouiller dates et montants via Légifrance avant publication.
+- **Filon "passer son permis à 17 ans 2026"** : requête à fort volume (conduite seul dès 17 ans). Article snippet-ready dédié.
 
 ## Anti-patterns à éviter
 
@@ -182,33 +190,3 @@ Court, kebab-case, contient le mot-clé principal, sans mots vides.
 - `seo-internal-linking` — pour le maillage approfondi
 - `seo-meta-creator` — pour itérer spécifiquement sur les meta
 - `seo-cluster-strategist` — pour planifier un cluster avant d'écrire les pièces
-
----
-
-## 📚 Apprentissages intégrés — Veille 8 mai 2026
-
-### AI Overviews change la donne — pivoter vers AI Citations (GEO)
-
-Source : Stackmatix + Search Engine Land, mai 2026.
-
-- AI Overviews apparaissent sur **50% des requêtes US** (39% sur queries info).
-- **CTR organique chute de 46,7%** sur 68k requêtes mesurées.
-- Nouvelle métrique : **AI Citations** (être cité dans la réponse IA), pas le ranking position.
-
-### Nouveau template d'article (snippet-ready)
-
-Tout article SEO doit désormais commencer par un bloc **"réponse en 40 mots"** en H2, *avant* le long format. Pattern gagnant : **"best short answer + best deeper answer + best cited answer"** dans le même article.
-
-Structure obligatoire :
-1. **H1** : question utilisateur exacte
-2. **H2 #1 : "En bref"** — réponse 40 mots condensée (snippet-ready, source d'AI Citation)
-3. **H2 #2 : long format détaillé** (1500-3000 mots SEO classique)
-4. **H2 #3 : FAQ schema-marquée** (3-5 questions sous-jacentes) — augmente les chances de citation
-
-### Application immédiate — corpus LPL
-
-Restructurer les **20 articles top-traffic LPL** avec ce pattern (bloc "réponse 40 mots" + FAQ). Cible : citation dans AI Overviews sur "permis libre", "passer son permis sans auto-école", "permis CPF 2026".
-
-### Heuristique nouvelle
-
-- **Le ranking position n°1 vaut moins qu'une AI Citation.** Sur les queries info, l'AI Overview vole 46,7% du clic. Optimiser pour être *cité par l'IA* devient prioritaire sur être *au-dessus du fold*.

@@ -107,7 +107,7 @@ des projets IA en entreprise échouent faute de stratégie
 ```
 
 **Slide "Problème" associé** :
-> Les PME se précipitent sur l'IA — mais 95% se cassent le nez sur la mise en œuvre. Flip est l'agence qui les fait passer dans les 5%.
+> Les PME se précipitent sur l'IA, mais 95% se cassent le nez sur la mise en œuvre. Flip est l'agence qui les fait passer dans les 5%.
 
 ## ➕ À ajouter dans `Heuristiques`
 
@@ -123,12 +123,3 @@ des projets IA en entreprise échouent faute de stratégie
   Contexte : 13% → 26% en 18 mois. Sources institutionnelles, donc opposables.
   Pourquoi ça compte : pour le pitch investisseur Flip, c'est l'argument "le marché bouge maintenant, le timing est binaire". Pour les propals client, c'est l'argument "vos concurrents y sont déjà".
   Application : skill pitch-deck (slide marché systématique), skill flip-proposition-commerciale (slide contexte), skill linkedin-content-creator (data point récurrent dans les posts contrarian).
-
----
-
-## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
-
-- **ROI médian IA documenté : +159,8% sur 24 mois (Baromètre IA & ROI 2022-2025, 200+ projets France)** (2026-05-25, source veille — denisatlan.fr/barometre-ia-pme)
-  Contexte : Baromètre IA & ROI 2022-2025 (200+ projets France) — ROI médian 159,8% sur 24 mois.
-  Pourquoi ça compte : chiffre de réassurance pour slide marché / proof points dans pitch investisseur, sourcé proprement.
-  Application : slide marché / opportunité — "ROI médian IA +159,8% sur 24 mois (Baromètre IA & ROI 2022-2025, 200+ projets France)" comme proof point dans le narratif d'investissement.

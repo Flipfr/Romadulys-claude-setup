@@ -85,6 +85,21 @@ Pour chaque module :
 
 Formation **CCP1 (Enseignant de la Conduite)** — format modulaire, fiches détaillées par compétence, conformité aux référentiels TP.
 
+## 🔄 Veille intégrée (MAJ 2026-06-15)
+
+### Réforme du Code (réforme européenne adoptée le 21 octobre 2025)
+La conduite seul dès 17 ans (permis B) est pleinement en vigueur en 2026, et le programme du Code évolue : usagers vulnérables, aides à la conduite, conduite sur sol glissant, enjeux environnementaux. Mettre à jour le contenu pédagogique Code en conséquence. Le calendrier exact des nouvelles questions est à recroiser avec la Sécurité Routière (à verrouiller via Légifrance avant communication publique).
+
+### Adaptive learning, standard LMS en 2026
+Parcours ajusté aux erreurs de l'apprenant pour réduire le temps de formation, plus micro-learning (modules < 5 min). Application produit côté Code : moteur de révision adaptatif qui re-sert les séries échouées, plus micro-modules mobiles (levier de rétention et argument marketing). Attention : les chiffres précis des agrégateurs ne sont pas sourcés officiellement, ne pas les réutiliser tels quels.
+
+## 📚 Apprentissage : Veille 6 juillet 2026
+
+### Adaptive learning / tuteurs IA = usage IA le plus transformateur en edtech
+
+- **Adaptive learning / tuteurs IA** (2026-07-06, veille 6 juillet, source meduzzen.com) : c'est **l'usage IA le plus transformateur en edtech** (contenu ajusté en temps réel selon le niveau, détection des lacunes de l'apprenant). Marché IA-éducation ~**4 Md$** (2024), croissance **+36 %/an** jusqu'en 2030 (chiffres agrégateur, à recroiser avant réutilisation publique).
+- **Application produit (entraînement au Code, CCP1)** : un **moteur adaptatif qui re-sert les séries selon les erreurs récurrentes** = différenciateur pédagogique fort vs Ornikar (révision ciblée, réduction du temps de formation). À arbitrer **build vs intégration** (chiffrer les deux) : construire son moteur maison ou brancher un LMS adaptatif existant.
+
 ## Format de sortie
 
 Markdown Notion-ready : architecture en arborescence, scripts de leçons en blocs séparés, quiz formatés (question / options / bonne réponse / explication).

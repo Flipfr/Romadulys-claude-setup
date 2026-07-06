@@ -21,19 +21,51 @@ Avant de rédiger, vérifie :
 
 Si tu manques de l'idée centrale précise, demande-la — un post sans idée claire est un post oubliable.
 
-## Anatomie d'un post LinkedIn performant
+## Algorithme LinkedIn 2026 (heuristiques de base)
+
+Depuis l'Authenticity Update de mars 2026, l'algo ne distribue plus par proximité réseau mais par **Depth Score = topic-relevance + dwell time + completion rate**. Ce qui en découle, à appliquer systématiquement :
+
+1. **Niche stricte > reach large.** L'algo punit la diffusion large et récompense l'audience pertinente. Un post à 100k vues génère souvent moins de leads qualifiés qu'un post ciblé à 2000 vues. Le KPI n'est pas l'impression, c'est le lead qualifié. Pour un profil "IA × PME" (Romain/Flip) : écrire pour le dirigeant PME et rien d'autre. Interdiction de poster hors expertise déclarée (politique, sport, déco perso) → throttle automatique.
+2. **Optimiser pour le SAVE, pas le like.** Hiérarchie des signaux 2026 : **Save > Like > Share > Comment**. Le save privé (intent fort) pèse plus que le like public. Contenus "savables" : templates prêts à utiliser, frameworks numérotés, checklists actionnables, heuristiques contre-intuitives.
+3. **Dwell time = signal #1 de distribution.** Plus le lecteur reste sur le post, plus il est diffusé. Le carrousel PDF 10 slides force 60-90s de consommation = combo gagnant.
+4. **Zéro lien externe dans le corps** = -60% de reach. Tous les liens vont en commentaire.
+5. **Les 60-90 premières minutes déterminent ~70% du reach final.** Mobiliser 5 commentaires réseau dans la 1ère heure = non-négociable si l'enjeu est l'engagement (à rappeler à l'utilisateur).
+6. **Reach organique en forte baisse** (impressions médianes ~636/post, -50% sur 12 mois). D'où l'importance d'un format dense et d'un hook chirurgical : première phrase = 50% du résultat.
+
+## Formats classés par performance 2026
+
+| Format | Engagement moyen | Note |
+|---|---|---|
+| Carousel PDF (document post) | **~6,6%** | format dominant, ~3× l'image simple, 7× le texte |
+| Vidéo verticale founder < 90s | ~5,6% | en croissance forte (+36% vues YoY), founder face caméra |
+| Texte avec hook fort | 2-4% | dépend du hook |
+| Image simple | ~1% | sous-performant |
+| Texte + lien externe | <1% | à proscrire |
+| Polls | mort | à supprimer de toute stratégie |
+
+### Carousel PDF — structure qui marche
+
+1. **Slide 1 — Hook** : statement bold ou résultat chiffré spécifique
+2. **Slides 2-3 — Agitation** : pain points du target précis
+3. **Slides 4-8 — solution actionnable** slide par slide (data propriétaire ou contrarian insight)
+4. **Slide 9 — Conclusion** : takeaway unique, mémorable
+5. **Slide 10 — CTA** : action spécifique (commenter, message, profil — JAMAIS un lien)
+
+Chaque swipe compte comme une interaction → déclenche la distribution. Format idéal pour cartographies de process, benchmarks sectoriels, cas clients anonymisés/chiffrés, méthodo diag, ROI mesuré.
+
+## Anatomie d'un post texte performant
 
 ### Ligne 1 — Le hook (la plus importante)
 
-Doit **forcer le clic sur "voir plus"**. Tactiques qui marchent :
+Doit **forcer le clic sur "voir plus"**. En 2026, le pattern gagnant est **"sound like thoughts, not headlines"** : vulnérabilité + résultat spécifique + timeframes concrets. Les questions ouvertes sincères battent les affirmations clivantes.
 
+- **Thought style (à privilégier)** : "J'ai mis 2 ans à comprendre que [insight contre-intuitif]." / "Pendant 6 mois j'ai [erreur spécifique]. J'ai perdu [chiffre]. Voici ce que j'aurais voulu savoir."
+- **In medias res** : démarrer au milieu de l'action, contexte en slide 3-4. "Le client venait de me dire stop. J'avais 48h pour le ramener." / "J'ai supprimé 80% de mon code production hier. Voici pourquoi."
 - **Contre-intuitif** : "J'ai arrêté d'utiliser des to-do lists. Mes résultats ont doublé."
 - **Chiffre surprenant** : "84% des startups B2B ratent leur première année à cause d'une seule erreur."
-- **Question provocante** : "Pourquoi tes meilleurs employés sont les premiers à partir ?"
-- **Affirmation forte** : "Le management est mort. Voici ce qui le remplace."
 - **Stakes personnels** : "J'ai perdu 47 000€ en 6 mois. Voici les 3 leçons."
 
-Ce qui tue un hook : commencer par "Je suis ravi de...", "Aujourd'hui, je voudrais...", ou tout préambule poli.
+Ce qui tue un hook : "Je suis ravi de...", "Aujourd'hui, je voudrais...", tout préambule poli, ou le ton headline/magazine ("Pourquoi 90% des X échouent").
 
 ### Corps — 3 à 7 paragraphes courts
 
@@ -49,255 +81,74 @@ Ce qui tue un hook : commencer par "Je suis ravi de...", "Aujourd'hui, je voudra
 
 ### CTA final (optionnel, à utiliser avec parcimonie)
 
-- "Partage si ça t'a parlé."
 - "Tu fais pareil ? Dis-moi en commentaire."
 - "Follow pour plus de posts comme ça."
 
 Pas plus d'un CTA par post, sinon ça dilue.
 
-## Formats disponibles
+## Angles éditoriaux validés
 
 ### `storytelling`
-Anecdote personnelle (vécu de l'auteur ou d'un proche) → leçon tirée → application universelle.
-Force : résonne émotionnellement, reste mémorisable, humanise le profil.
+Anecdote personnelle → leçon tirée → application universelle. Résonne émotionnellement, humanise le profil. **Vulnérabilité sans leçon = vente. Vulnérabilité avec leçon = thought leadership.**
 
-### `liste`
-"X choses que j'ai apprises sur [sujet]" / "X erreurs à ne pas faire en [domaine]"
-Format scannable, facile à consommer, fort en sauvegardes (signal positif algo).
+### `liste` / mistakes to avoid
+"X erreurs non-évidentes en [domaine]". Scannable, fort en sauvegardes, positionne en autorité par contraste.
 
 ### `contrarian`
-"Tout le monde dit X. Voici pourquoi c'est faux."
-Génère beaucoup de commentaires (les gens viennent défendre / nuancer), donc fort engagement.
+"Tout le monde dit X. Voici pourquoi c'est faux" — challenger une opinion populaire avec data. Crée du frottement → engagement.
+
+### `résultat chiffré + méthode`
+"J'ai fait X (chiffre précis), voici comment." Crédibilité instantanée.
 
 ### `before-after`
-"Avant : [situation perdue]. Après : [résultat positif]. Voici les 3 changements."
-Très puissant en B2B services et coaching, parle aux résultats concrets.
+"Avant : [situation perdue]. Après : [résultat positif]. Voici les 3 changements." Puissant en B2B services et coaching.
+
+### `behind the scenes`
+Making-of d'un projet en cours, sans polish. Authenticité algorithmique.
 
 ### `thread`
-Série de 3-5 posts liés sur un même sujet, publiés sur quelques jours. Chaque post fait référence au précédent dans l'intro.
-Force : crée de l'attente, fidélise l'audience, développe un sujet en profondeur.
+Série de 3-5 posts liés sur un même sujet, sur quelques jours. Crée de l'attente, développe un sujet en profondeur.
+
+## Angles à fort potentiel pour la niche IA × PME (Flip)
+
+- **Objectif 2030** : "L'État vise 80% des PME sous IA d'ici 2030, où en êtes-vous ?" (plan Osez l'IA, 615 Ambassadeurs IA). Autorité + urgence douce.
+- **Le vrai frein n'est pas la techno** : "Le frein n°1 à l'IA en PME, ce n'est pas la techno. C'est de savoir par où commencer." (Bpifrance : 54% des dirigeants freinés par "ne pas savoir identifier les cas d'usage"). Renvoie vers la valeur du diagnostic Flip sans pitcher.
 
 ## Livrable — pour chaque demande
 
 1. **1 version principale** (format choisi, post complet prêt à publier)
-2. **3 hooks alternatifs** pour A/B test (différents angles : 1 contrarian, 1 chiffre, 1 question/story selon le sujet)
+2. **3 hooks alternatifs** pour A/B test (1 thought style, 1 chiffre/data, 1 in medias res selon le sujet)
 3. **1 version mobile-first plus courte** (50% du volume, même idée, lignes encore plus courtes)
-4. **Hashtags suggérés** : 3-5 max, à la fin du post
+4. **Hashtags suggérés** : 3-5 max, à la fin du post (1 de niche + 2-3 généralistes)
 5. **Suggestion d'horaire de publication** : selon le format et la cible
 
 ## Règles LinkedIn (non négociables)
 
-- **Pas de liens dans le post** → en commentaire (l'algorithme pénalise les liens sortants)
+- **Pas de liens dans le post** → en commentaire (-60% de reach sinon)
 - **Hashtags max 3-5** à la fin, mix d'1 hashtag de niche + 2-3 généralistes
-- **Tagger des personnes avec parcimonie** (uniquement si pertinent + si tu as leur accord)
-- **Répondre aux 10 premiers commentaires dans la 1ère heure** = boost algorithmique majeur (à rappeler à l'utilisateur si l'enjeu est l'engagement)
-- **Meilleur moment de publication** : Mardi-Jeudi, **7h-9h** ou **12h-13h** (Europe). Lundi matin et vendredi après-midi sont les pires créneaux.
+- **Tagger des personnes avec parcimonie** (uniquement si pertinent + accord)
+- **Répondre aux 10 premiers commentaires dans la 1ère heure** = boost algorithmique majeur
+- **Meilleur moment de publication** : Mardi-Jeudi, **7h-9h** ou **12h-13h** (Europe). Lundi matin et vendredi après-midi = pires créneaux.
 
 ## À bannir absolument
 
-- "Je suis ravi/fier d'annoncer..."
-- "Voilà 6 mois que..."
-- "Aujourd'hui, je voudrais partager..."
-- Émojis en début de chaque ligne (effet "spam", pas "structure")
+- "Je suis ravi/fier d'annoncer...", "Voilà 6 mois que...", "Aujourd'hui, je voudrais partager..."
+- **Liens externes dans le corps** (-60% reach)
+- **Posts hors niche déclarée** (throttle)
+- **Engagement bait** ("Commentez OUI si vous êtes d'accord") — détecté et pénalisé par l'Authenticity Update
+- **Post promotionnel direct** ("Découvrez notre nouvelle offre") — throttle. Le pitch doit être indirect, via insights/cas/learnings.
+- **Polls** — morts algorithmiquement en 2026
+- Émojis en début de chaque ligne (effet "spam"), "🚀 Game changer 🚀" et tout LinkedInGlish vide
 - Posts qui parlent uniquement de soi sans bénéfice pour le lecteur
-- "🚀 Game changer 🚀" et tout vocabulaire LinkedInGlish vide
 
 ## Format de sortie
 
-Le post doit être **prêt à coller tel quel dans LinkedIn**. Pas de titre H1 ni de mise en forme markdown dans le post lui-même (LinkedIn ne supporte pas le markdown). Les sauts de ligne doivent être visibles.
+Le post doit être **prêt à coller tel quel dans LinkedIn**. Pas de titre H1 ni de markdown dans le post lui-même (LinkedIn ne supporte pas le markdown). Les sauts de ligne doivent être visibles.
 
 Hors-post (hooks alternatifs, version mobile, hashtags suggérés, horaire) : peut être structuré en markdown classique.
 
----
+## Calendrier éditorial
 
-## 📚 Mise à jour — Veille du 24 avril 2026
+Calendrier éditorial 90j : voir la skill `personal-branding` (source canonique).
 
-
-**Date d'intégration** : 2026-04-27 (veille semaine du 24 avril 2026)
-**3 items intégrés** : LinkedIn Authenticity Update / Depth Score, format carousel PDF, distribution moat
-
----
-
-## ➕ À ajouter dans `Heuristiques` — Algo LinkedIn 2026
-
-### Le Depth Score remplace le network-based (mars 2026)
-
-Depuis l'Authenticity Update de mars 2026, l'algo LinkedIn ne distribue plus principalement par proximité réseau mais par **topic-relevance + dwell time + completion rate**. Conséquences directes pour la rédaction :
-
-1. **Profile-to-content alignment strict.** Si le post sort de l'expertise déclarée du profil, throttle automatique. Pour Romain (expert IA × PME) : interdiction de poster sur la politique, le sport, la déco perso. Niche hyper-stricte.
-2. **-60% de reach sur les posts contenant un lien externe dans le corps.** *Tous les liens vont en commentaire*, jamais dans le post lui-même.
-3. **-50% de reach organique moyen sur 12 mois.** Le travail de hook devient encore plus critique — première phrase = 50% du résultat.
-4. **"Universal" virality dévalorisée, "Niche" virality survalorisée.** Mieux vaut 200 likes ultra-qualifiés (décideurs PME en France) que 5000 likes random.
-
-### Format gagnant 2026 — carousel PDF natif
-
-| Format | Engagement moyen | Note |
-|---|---|---|
-| Carousel PDF (document post) | **6.6%** | format dominant |
-| Vidéo native 30-90s | 5.6% | en croissance forte |
-| Texte avec hook fort | 2-4% | dépend du hook |
-| Texte + lien externe | <1% | à proscrire |
-| Image simple | ~1% | sous-performant |
-
-Donc carousel PDF = **278% de plus que vidéo, 596% de plus que texte**.
-
-**Structure carousel qui marche** :
-1. **Slide 1 — Hook** : statement bold ou résultat chiffré spécifique
-2. **Slides 2-3 — Agitation** : pain points du target précis
-3. **Slides 4-7 — "Universal Alpha"** : data propriétaire ou contrarian insight
-4. **Slide 8 — Conclusion** : takeaway unique, mémorable
-5. **Slide 9 — CTA** : action spécifique (commenter, message, profil — JAMAIS un lien)
-
-## ➕ À ajouter dans `Anti-patterns` / `À éviter`
-
-- **Liens externes dans le corps du post** = -60% de reach. Toujours en commentaire.
-- **Posts hors niche déclarée** = throttle. Si profil = "IA × PME", ne pas poster sur le management généraliste, le tennis, ou la politique.
-- **Hook générique** ("Aujourd'hui je voulais vous parler de...") = mort algorithmique. Première phrase = chiffre, contradiction, ou résultat tangible.
-- **Engagement bait** ("Commentez YES si vous êtes d'accord") = pénalisé par l'Authenticity Update.
-- **Post promotionnel direct** ("Découvrez notre nouvelle offre") = throttle. Le pitch doit être indirect, via insights/cas/learnings.
-
-## ➕ À ajouter dans `Frameworks` — 5 angles validés 2026
-
-1. **Vulnérabilité avec leçon** — partager un échec avec un takeaway concret. *"Vulnérabilité sans leçon = vente. Vulnérabilité avec leçon = thought leadership."*
-2. **Contrarian insight** — challenger une opinion populaire avec data. Crée du frottement → engagement.
-3. **Résultat chiffré + méthode** — "J'ai fait X (chiffre précis), voici comment". Crédibilité instantanée.
-4. **Mistakes to avoid** — lister 3-5 erreurs non-évidentes dans un domaine. Positionne en autorité par contraste.
-5. **Behind the scenes** — partager le making-of d'un projet en cours, sans polish. Authenticité algorithmique.
-
-## ➕ À ajouter dans `Templates`
-
-### Template post text — hook patterns 2026
-
-- **Le résultat brut** : "[Chiffre spécifique] sans dépenser un euro de pub. Voici ce qui a marché."
-- **La contradiction** : "Tout le monde dit [opinion populaire]. Après [N mois/projets], je pense l'inverse."
-- **L'aveu** : "J'ai mis [N mois] à comprendre [chose qui paraît évidente après]. Voici ce que j'aurais aimé qu'on me dise."
-- **Le before/after** : "Il y a [période], [état désastreux]. Aujourd'hui, [état nouveau]. Voici les 3 trucs qui ont tout changé."
-
-### Calendrier éditorial type pour Romain (Switch)
-
-50% carousels PDF / 30% texte / 20% vidéo native — **uniquement sur la niche IA × PME**.
-
-Rythme : 4-5 posts/semaine. Lundi-jeudi 8-10h. Pas le vendredi, pas le week-end.
-
----
-
-## 📚 Mémoire vivante associée
-
-- **L'algo LinkedIn 2026 favorise la niche extrême** (2026-04-27, source veille — Linkboost, InvolvDigital, Edelman-LinkedIn 2025/26)
-  Contexte : Authenticity Update mars 2026, Depth Score remplace network-based, profile-to-content alignment vérifié, -60% reach sur liens externes.
-  Pourquoi ça compte : la stratégie "ratisser large" est définitivement morte. Pour Romain, ça veut dire une discipline éditoriale forte — IA × PME et rien d'autre, pendant 6-12 mois minimum.
-  Application : skill linkedin-content-creator (filtrage niche systématique en pré-rédaction), skill personal-branding (re-niche le profil de Romain si pas déjà fait).
-
-- **Carousel PDF = format dominant à 7x le texte** (2026-04-27, source veille — InvolvDigital benchmark)
-  Contexte : 6.6% engagement vs 0.9% texte. Hook + 5-7 slides "Universal Alpha" + CTA. Structure swipe-friendly.
-  Pourquoi ça compte : pour Switch, on a un format idéal pour les cartographies de process, les benchmarks sectoriels, les cas client anonymisés. Pour Buddy, idéal pour les insights parents et les specs hardware.
-  Application : skill linkedin-content-creator (template carousel par défaut), créer un template Canva/Figma "Switch carousel" avec le template hook+5+CTA.
-
-- **Le founder-led growth est la moat de distribution B2B 2026** (2026-04-27, source veille — Edelman-LinkedIn / InvolvDigital)
-  Contexte : 60% des B2B buyers découvrent les marques via creator content avant le formulaire. 95% des décideurs disent que le thought leadership influence leurs achats. 79% ignorent les cold DMs.
-  Pourquoi ça compte : confirme l'intuition d'investir Romain × LinkedIn pour Switch. La page entreprise est secondaire, la moat est sur le profil personnel.
-  Application : skill personal-branding (calendrier 90j hyper-niche), skill linkedin-content-creator (priorité absolue Romain), ne plus alimenter la page entreprise Switch sauf cas exceptionnel.
-
----
-
-## 📚 Mise à jour — Veille du 3 mai 2026
-
-**3 items intégrés** : SAVE > LIKE algo update, hooks 2026 "thought style", short-form vertical < 90s
-
-### Algo LinkedIn 2026 — SAVE devient signal #1, polls morts
-
-Évolution majeure depuis la veille du 24 avril :
-- **Save > Like > Share > Comment** dans la hiérarchie des signaux. Le like public pèse moins que le save privé (intent fort).
-- **Dwell time = signal #1 de distribution**. Plus le lecteur reste sur le post, plus il est diffusé.
-- **Carrousel 10 slides** force naturellement 60-90 sec de consommation = combo gagnant pour dwell time.
-- **Polls = morts algorithmiquement en 2026**. Les supprimer de toute strat de contenu.
-
-**Conséquence directe sur la rédaction** : optimiser pour le SAVE, pas le like. Les contenus "savables" sont :
-- Templates prêts à utiliser
-- Frameworks numérotés (3 étapes, 5 critères, 7 erreurs)
-- Checklists actionnables
-- Heuristiques contre-intuitives qu'on veut retenir
-
-Bannir : posts d'opinion sans valeur d'archivage, posts émotionnels sans takeaway concret.
-
-### Hooks 2026 — "thought style" > "headline style"
-
-Le pattern qui performe en 2026 : **"sound like thoughts, not headlines"**. Vulnerability + résultat spécifique + timeframes concrets.
-
-Anciens patterns (à recycler avec parcimonie) :
-- ❌ "X erreurs à ne pas faire en [domaine]" (ton headline)
-- ❌ "Pourquoi 90% des [target] échouent" (ton magazine)
-
-Nouveaux patterns (à privilégier) :
-- ✅ "J'ai mis 2 ans à comprendre que [insight contre-intuitif]." (réflexion personnelle)
-- ✅ "Hier soir je relisais [contexte] et je me suis dit que..." (pensée à voix haute)
-- ✅ "Pendant 6 mois j'ai [erreur spécifique]. J'ai perdu [chiffre]. Voici ce que j'aurais voulu savoir." (vulnerability + résultat chiffré)
-- ✅ Questions ouvertes sincères > affirmations clivantes
-
-### Format gagnant 2026 — vidéo verticale < 90s
-
-La **short-form vertical video** est devenue un format dominant LinkedIn en 2026 (à côté du carousel PDF). Sous 90 secondes impératif.
-
-Conséquence pour le pipeline `content-repurposer` : tes Reels TikTok/Instagram peuvent être recyclés directement sur LinkedIn — pas besoin de format spécifique. Une seule capture verticale alimente 3 plateformes (TikTok, Reels, LinkedIn).
-
-**Calendrier éditorial révisé pour Romain (Switch)** :
-- 40% carousel PDF (ex-50%) — toujours dominant pour insights structurés
-- 25% vidéo verticale < 90s (NEW — recyclage des Reels)
-- 25% texte avec hook "thought style"
-- 10% behind-the-scenes / making-of (authentique)
-- **0% polls** (à supprimer définitivement)
-
-Rythme : 4-5 posts/semaine. Lundi-jeudi 8-10h.
-
----
-
-## 📚 Apprentissages intégrés — Veille 8 mai 2026
-
-### L'algo a définitivement pivoté du CTR vers le dwell time
-
-Source : Dataslayer + Linkboost, février-mai 2026.
-
-- **Carrousels PDF 10 slides** = 6,6% engagement (record — vs 0,9% texte simple).
-- Les **60-90 premières minutes** déterminent **70% du reach final** → mobiliser 5 commentaires réseau dans la 1ère heure = non-négociable.
-- Hooks gagnants : **contrarian / data / narrative (in medias res)**.
-
-### Nouveau rythme cible founder (Romain — Switch)
-
-Passer de 4-5 posts/semaine à **5 posts/jour ouvré** (1/jour). Donnée Leadfeeder : founders qui postent quotidiennement reportent **5-10× plus de demos B2B inbound**. Combiné à l'ABM hyper-perso → deal value +171%.
-
-Pipeline hebdomadaire founder :
-- **2 carrousels PDF** (10 slides, données chiffrées diagnostic PME — mardi/jeudi 8h)
-- **1 post narratif "in medias res"**
-- **1 post contrarian** (opinion qui dérange sur l'IA PME)
-- **1 post story client** (anonymisé, chiffré)
-
-### Hook narrative "in medias res" — nouveau format à intégrer
-
-Démarrer **au milieu de l'action**, pas par le contexte. Exemples :
-- "I almost fired my best dev last month."
-- "Le client venait de me dire stop. J'avais 48h pour le ramener."
-- "J'ai supprimé 80% de mon code production hier. Voici pourquoi."
-
-Le contexte arrive en slide 3-4, jamais en hook.
-
-### Séquence tactique AI Act — 6 posts sur 30j (avant le 2 août 2026)
-
-1. Deadline ("PME, vous avez 90 jours")
-2. Qui est concerné (RH, scoring, surveillance employés)
-3. Chiffre sanction (15M€ ou 3% CA mondial)
-4. Case study fictif (PME industrielle découvre qu'elle est en haut risque)
-5. Checklist 5 points
-6. CTA "Audit AI Act 990€" → trojan horse vers diag 2 500€
-
----
-
-## 🔄 Veille intégrée (MAJ 2026-06-15)
-
-Le carousel PDF (document post) reste le format le plus performant en 2026 : ~6,6% d'engagement contre moins de 2% pour le texte simple (l'algo récompense le dwell time, un carousel 10 slides vaut 30 à 60s de lecture). Reach global en forte baisse (impressions médianes ~636/post), d'où l'importance du format dense.
-À faire : passer le contenu en carousels (cas client, frameworks, "5 erreurs IA en PME"), et mettre tout lien externe en commentaire (un lien dans le post coupe le reach d'environ 60%).
-À éviter : l'engagement bait type "Commente OUI", désormais détecté et pénalisé.
-Source : dataslayer.ai.
-
-## 📚 Apprentissage — Veille 19 juin 2026
-
-- **Bascule vidéo LinkedIn 2026** (2026-06-22, veille 19 juin) — la création de vidéo croît 2x plus vite que tout autre format, vues +36% YoY. Les carrousels PDF restent au top (6,6%) mais ajouter de la **vidéo courte founder-led** (founder face caméra sur un insight) devient incontournable. Ranking = "Depth & Authority", pas le reach viral.
+Repère de mix pour un founder niche IA × PME : ~40% carousel PDF, ~25% vidéo verticale founder < 90s, ~25% texte hook "thought style", ~10% behind-the-scenes. 0% polls. Rythme cible founder : jusqu'à 1 post/jour ouvré (les founders qui postent quotidiennement reportent 5-10× plus de demos B2B inbound). Lundi-jeudi 8-10h.

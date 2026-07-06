@@ -156,6 +156,26 @@ Pour chacune :
 - **Délégué au niveau 4 ne veut pas dire abandonné.** Tu vérifies les outcomes périodiquement (KPIs).
 - **Le coût de la non-délégation** est ton temps × ton taux horaire effectif. À 200€/h, déléguer une tâche de 5h/semaine à 30€/h te fait gagner 850€/semaine.
 - **L'erreur classique** : déléguer sans former. Tu paies pour 50% de productivité pendant 30j, puis tu juges. Investis dans le ramp-up.
+- **Niveau de délégation humaine = niveau de déterminisme d'un agent IA.** Même grille mentale : réduire la variance d'output sur des tâches récurrentes. Niveau 1 (fait et rapporte) = agent "review every step" ; niveau 2 = agent autonome + rapport post-hoc ; niveau 3 = agent exception-only ; niveau 4 = pleine autonomie + audit rétrospectif. Corollaire : si une tâche n'est pas déléguable à un humain en niveau 3-4, elle n'est probablement pas automatisable par agent IA non plus. Et une tâche bien automatisable est déjà bien délégable (input/output stable, critères de succès clairs).
+
+## Frameworks
+
+### Audit croisé délégation humaine / automatisation IA
+
+Avant de décider "humain délégué vs agent IA" pour une tâche, scorer sur 4 axes (1-5) :
+
+1. **Stabilité de l'input** (varie peu vs très variable)
+2. **Clarté des critères de succès** (binaire vs floue)
+3. **Tolérance à l'erreur** (zéro vs élevée)
+4. **Volume** (1×/an vs N×/jour)
+
+- **16-20** → automatisation IA prioritaire
+- **11-15** → délégation humaine niveau 1-2 (fait et rapporte) avant éventuelle automatisation
+- **<11** → garder soi-même ou repenser le process
+
+### Rôle codifié = brief de délégation figé
+
+Un rôle bien défini (ex : slash-command dédiée par périmètre, cf. gstack qui structure Claude Code en équipe virtuelle de 23 rôles sur un workflow think→plan→build→review→test→ship→reflect) équivaut à un brief de délégation niveau 3-4 codifié une fois pour toutes. Un rôle = un périmètre + un niveau d'autonomie. À exploiter pour transformer les briefs récurrents en templates réutilisables, et pour benchmarker la granularité de nos rôles (16 head-of vs 23) : quels périmètres manquent.
 
 ## Contexte
 
@@ -165,53 +185,6 @@ Romain gère : **Flip** (agence IA) + **Buddy** (hardware) + **lePERMISLIBRE** +
 
 Audit en tableau, brief de délégation en template réutilisable, plan d'onboarding sur 30 jours en planning détaillé. Notion-ready.
 
----
-
-## 📚 Mise à jour — Veille du 24 avril 2026
-
-
-**Date d'intégration** : 2026-04-27 (veille semaine du 24 avril 2026)
-**1 item intégré** : Archon + Superpowers (parallèle harness builder ↔ niveau de délégation)
-
----
-
-## ➕ À ajouter dans `Heuristiques` — Parallèle agent IA / délégation humaine
-
-L'émergence des "harness builders" en avril 2026 (Archon, Superpowers) clarifie un parallèle utile pour la délégation humaine :
-
-**Niveau de délégation = niveau de déterminisme du harness.**
-
-| Niveau délégation humaine | Équivalent agent IA | Quand l'utiliser |
-|---|---|---|
-| 1. Fait et rapporte (chaque étape validée) | Agent en mode "review every step" | Tâches critiques, premier mois d'un assistant |
-| 2. Fait et notifie après | Agent autonome avec rapport post-hoc | Tâches récurrentes, trust établi |
-| 3. Fait et notifie si problème | Agent autonome avec exception only | Tâches matures, équipe rodée |
-| 4. Fait totalement (pas de notification) | Agent en pleine autonomie | Tâches commodity, audit rétrospectif |
-
-**Insight cross-pollination** : si une tâche n'est pas déléguable à un humain en niveau 3-4, elle n'est probablement pas automatisable par agent IA non plus. Inversement, une tâche bien automatisable est probablement déjà bien délégable — elle a la structure d'input/output stable et les critères de succès clairs.
-
-## ➕ À ajouter dans `Frameworks` — Audit cross délégation/automatisation
-
-Avant de décider "humain délégué vs agent IA" pour une tâche, scorer sur 4 axes :
-
-1. **Stabilité de l'input** (varie peu vs très variable) — 1-5
-2. **Clarté des critères de succès** (binaire vs floue) — 1-5
-3. **Tolérance à l'erreur** (zéro vs élevée) — 1-5
-4. **Volume** (1×/an vs N×/jour) — 1-5
-
-- Score total **16-20** → automatisation IA prioritaire (haute stabilité + clarté + tolérance + volume)
-- Score total **11-15** → délégation humaine niveau 1-2 (fait et rapporte) avant éventuelle automatisation
-- Score total **<11** → garder soi-même ou repenser le process
-
-## ➕ À ajouter dans `Anti-patterns`
+## Anti-patterns (suite)
 
 - **Vouloir automatiser une tâche pas encore déléguable.** Si tu n'arrives pas à expliquer la tâche à un humain de niveau confirmé en 30 minutes, tu n'arriveras pas non plus à la décrire dans un prompt/skill. Documente d'abord, automatise ensuite.
-
----
-
-## 📚 Mémoire vivante associée
-
-- **Le niveau de délégation et le niveau de déterminisme d'un agent IA sont la même grille mentale** (2026-04-27, source veille — Archon, Superpowers)
-  Contexte : la communauté open-source travaille sur la "déterminisation" des agents (Archon harness builders) au moment où Flip déploie de la délégation humaine pour scaler. Les deux problèmes sont structurellement les mêmes — réduire la variance d'output sur des tâches récurrentes.
-  Pourquoi ça compte : on peut servir le même framework aux clients Flip pour les deux décisions. Argument de cohérence méthodologique.
-  Application : skill delegation-system (parallèle humain/IA), skill flip-diagnostic-pme (cartographie tâches → décision déléguer humain ou IA selon score 16-20 / 11-15 / <11).

@@ -1,13 +1,13 @@
 ---
 name: code-review-nextjs
-description: Code review senior pour la stack Next.js 14+ App Router, TypeScript strict, Supabase, n8n, Claude API, Tailwind. Identifie bugs et failles de sécurité, problèmes de performance (re-renders, N+1, bundle size), qualité de code, et faiblesses de typage TypeScript. À utiliser pour reviewer un PR, auditer un fichier ou un module, vérifier la sécurité d'une route API, identifier des bugs ou race conditions, ou évaluer la qualité d'une codebase Next.js. À utiliser même quand l'utilisateur dit juste "regarde ce code", "qu'est-ce qui cloche ici", "améliore ça" sur du code de la stack Flip.
+description: Code review senior pour la stack Next.js 14+ App Router, TypeScript strict, Supabase, Inngest, Claude API, Tailwind. Identifie bugs et failles de sécurité, problèmes de performance (re-renders, N+1, bundle size), qualité de code, et faiblesses de typage TypeScript. À utiliser pour reviewer un PR, auditer un fichier ou un module, vérifier la sécurité d'une route API, identifier des bugs ou race conditions, ou évaluer la qualité d'une codebase Next.js. À utiliser même quand l'utilisateur dit juste "regarde ce code", "qu'est-ce qui cloche ici", "améliore ça" sur du code de la stack Flip.
 ---
 
 # Code Review Expert — Stack Flip
 
 ## Rôle
 
-Tu es un senior dev full-stack avec 15 ans d'expérience. Stack maîtrisée : **Next.js 14+ App Router, TypeScript strict, Supabase (Postgres + Auth + Storage + Realtime), n8n, Claude API, Tailwind CSS + shadcn/ui, Vercel**.
+Tu es un senior dev full-stack avec 15 ans d'expérience. Stack maîtrisée : **Next.js 14+ App Router, TypeScript strict, Supabase (Postgres + Auth + Storage + Realtime), Inngest, Claude API, Tailwind CSS + shadcn/ui, Vercel**. Orchestration = Inngest (jobs Claude diag, emails batch, sync, recompute commissions). n8n = glue optionnelle, jamais la logique métier ; s'il porte de la logique dans le code reviewé, c'est un point à signaler.
 
 Ton angle : **direct, technique, sans flatterie**. Si le code est bon, tu le dis en une phrase et tu passes. Si un point est critique, tu le marques comme tel — un dev qui pousse en prod du code avec une faille SQL n'a pas besoin qu'on lui dore la pilule.
 
@@ -95,16 +95,12 @@ Markdown avec blocs de code TypeScript correctement balisés. Utilise les `[CRIT
 
 ---
 
-## 📚 Mise à jour — Veilles 15+22 mai 2026 (intégrées 2026-05-25)
+## 📚 Apprentissage — Veille 26 juin 2026 (intégré 2026-06-29)
 
-- **Karpathy CLAUDE.md = 70 lignes, 110k stars en 3 mois — densité > volume** (2026-05-25, source veille — github karpathy CLAUDE.md)
-  Contexte : fichier CLAUDE.md de 70 lignes (distillation Forrest Chang depuis Karpathy), 110k stars en 3 mois, #1 GitHub Trending pendant 28 jours.
-  Pourquoi ça compte : la valeur n'est pas dans le volume mais la densité d'instructions — référence pour rédiger les guides Next.js avec un maximum d'instructions actionnables au mot.
-  Application : en code review, suggérer la compression des CLAUDE.md / README / docs internes vers ~70 lignes d'instructions denses plutôt que des wikis. Préférer "1 ligne = 1 règle actionnable" à "1 paragraphe = 1 explication".
+### Opus 4.8 laisse passer 4× moins de bugs que 4.7 → recentrer la review humaine
 
----
+Le code écrit par Opus 4.8 contient **4× moins de défauts laissés passer** que celui de 4.7. Sur la plateforme Flip, ça **réduit (sans supprimer) le besoin de review humaine** sur le code généré.
 
-## 📚 Apprentissages terrain — Veille 1er juin 2026
-
-- **2026-06-01** : CLAUDE.md Karpathy (~109k stars) comme référence de densité d'instructions (source : github.com/forrestchang/andrej-karpathy-skills).
-  65 lignes qui battent des fichiers de config verbeux. En review d'un CLAUDE.md / README / doc de contribution, privilégier la densité d'instructions : signaler le remplissage explicatif et viser ~65 lignes actionnables.
+Conséquence sur le processus de review :
+- **La review reste obligatoire** (patterns à ne pas casser, RLS, audit log money, idempotence webhooks — voir CLAUDE.md). On ne signe jamais un merge à l'aveugle.
+- **Mais on recentre l'effort** : concentrer la review sur la **logique métier** (pricing engine, barème commissions, invoicing FR-conforme) et la **sécurité** (RLS, routes protégées, secrets) plutôt que sur la chasse aux bugs triviaux que le modèle attrape désormais lui-même.
