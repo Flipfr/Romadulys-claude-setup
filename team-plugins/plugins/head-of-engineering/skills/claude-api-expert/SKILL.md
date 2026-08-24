@@ -128,7 +128,7 @@ const message = await client.messages.create({
 | Modèle | ID | Usage type | Prix |
 |---|---|---|---|
 | **Haiku 4.5** | `claude-haiku-4-5-20251001` | Classification, extraction simple, scoring, ultra-rapide | le moins cher |
-| **Sonnet 5** | `claude-sonnet-5` | Agentique par défaut (orchestration, tool-use, jobs récurrents), 1M contexte | promo 2$/10$ par MTok jusqu'au 31 août 2026, sinon 3$/15$ |
+| **Sonnet 5** | `claude-sonnet-5` | Agentique par défaut (orchestration, tool-use, jobs récurrents), 1M contexte | 2$/10$ par MTok, devenu le prix standard (hausse du 01/09/2026 annulée, cf veille 21 août) |
 | **Opus 4.8** | `claude-opus-4-8` | Cas lourds, raisonnement complexe, code production-critical (money/sécurité/RLS), 1M contexte | tier premium |
 | **Fable 5** | `claude-fable-5` | Frontier long-horizon, SOTA quasi tous benchmarks | ~5× Opus (10$/50$ MTok), pas de ZDR |
 
@@ -316,3 +316,29 @@ Implication directe pour le choix de modèle sur du code :
 ### Contrôle des modèles côté Enterprise (1er juillet 2026) — levier de gouvernance des coûts
 
 Les admins Enterprise peuvent désormais **choisir les modèles autorisés + les niveaux d'effort par utilisateur**. Ce n'est plus qu'une décision technique, c'est un **levier de gouvernance des coûts** : réserver Opus (et les efforts `xhigh`) aux profils/usages qui le justifient, imposer Sonnet 5 par défaut au reste. À traduire côté Flip en **politique de modèle par rôle** (cf skill maintenance) : qui a le droit à quoi, pour éviter la fugue de coûts sur les jobs auto. Source : anthropic.com/news.
+
+## 📚 Apprentissage — Veille 10 juillet 2026
+
+### Endpoint API `/v1/skills` — les Agent Skills s'invoquent aussi par API
+
+Les **Agent Skills** ne vivent pas que dans l'app Claude Code : Anthropic expose un endpoint **`/v1/skills`** qui permet de les enregistrer et de les invoquer directement via l'API (même logique que ce qui a été fait pour MCP : ouvrir un mécanisme interne à l'API). Une skill = un bundle de contexte + instructions + scripts, chargé à la demande côté API.
+
+**Implication Flip (directe)** : on peut **exposer nos skills aux systèmes clients déployés** (Next.js + Claude API), pas seulement en session Claude Code. Un système client peut charger une skill Flip (ex : procédure métier, prompt diag, format de livrable) au runtime via l'API, sans dupliquer la logique dans le code applicatif. À évaluer pour packager de la logique réutilisable côté produits livrés (au lieu de la réécrire en dur dans chaque app). Source : medium.com/the-context-layer.
+
+## 📚 Apprentissage — Veilles 31 juillet et 21 août 2026
+
+### Skills API, Files API et computer use passés en GA (19-20 août 2026) : la beta évoquée le 10 juillet est terminée
+
+- **Skills API (`/v1/skills`) en disponibilité générale** : plus de header beta `skills-2025-10-02`. On uploade un dossier de skill (instructions + scripts + templates), versionné côté Anthropic, chargé à la demande dans le sandbox Claude. Un cockpit client peut appeler une skill Flip directement, sans hébergement côté agence : facturable dans l'abonnement.
+- **Files API en GA** : upload une fois, référence par ID, récupération des fichiers produits par l'agent. Expiration auto, rate limits x5, **1 To de stockage par organisation**. Cas Flip direct : GoExport (2 Excel SharePoint), Veditex (extraction Taonix), évite de repasser le contenu à chaque tour (tokens payés en double sinon).
+- **Computer use en GA + nouveau "browser use tool"** : lit la structure de la page en plus de la capture d'écran (cible un champ/bouton nommé, pas une position à l'écran), enchaîne plusieurs actions par tour. Cas client cité : traitement de dossiers 32 min → 13 min, -30% de coût. Éligible HIPAA sous BAA. **Rouvre le dossier legacy/Sage** classé "opportuniste, bloqué par l'accès" (cf mémoire flip-cockpit-positioning) : si le logiciel a une interface web, plus besoin d'API. Candidat de test : Taonix chez Veditex.
+
+Source : claude.com/blog/computer-use-skills-api-files-api.
+
+### Endpoints dépréciés et dates de coupure (à tenir à jour)
+
+- **Workbench legacy + endpoints `generate_prompt` / `improve_prompt` / `templatize_prompt`** : coupés le **17/08/2026**. Prompts, variables et evals du legacy non repris dans le nouveau Workbench, export manuel nécessaire avant la coupure. Source : docs.anthropic.com/en/release-notes/api.
+
+### Sonnet 5 : le prix promo devient le prix standard
+
+La hausse prévue au 01/09/2026 est annulée, 2$/10$ par MTok reste le prix (cf table des modèles ci-dessus). Impact direct sur la marge des abonnements cockpit, argument de réassurance client (le coût de la couche IA ne dérive pas).

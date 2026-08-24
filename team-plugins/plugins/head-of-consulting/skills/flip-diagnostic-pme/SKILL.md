@@ -230,3 +230,26 @@ Chaque pack = case study chiffré + roadmap 30j + estimation gain mensuel récur
 ## 🔄 Veille intégrée (MAJ 2026-07-06, veille 6 juillet)
 
 - **Le frein n°1 n'est pas la techno, c'est le "par où commencer"** (Bpifrance Le Lab, lelab.bpifrance.fr) : 31% des TPE-PME utilisent l'IA générative, et **54% des dirigeants** citent l'identification des cas d'usage comme premier obstacle (loin devant la technique). L'étude montre aussi que les effets CA/productivité sont **nettement plus forts quand l'usage est déjà structuré**. Deux angles à servir en ouverture de diag : (1) "le problème n'est pas l'IA, c'est savoir par où commencer" = exactement ce que le diagnostic Flip résout ; (2) "usage structuré = meilleurs résultats" justifie le build + abo (on structure, on ne se contente pas de brancher un outil). À placer juste après le benchmark sectoriel.
+
+## 🔄 Veille intégrée (MAJ 2026-07-10, veille 10 juillet)
+
+### Nouveau quick win systématique : connecteur Microsoft 365 en ÉCRITURE
+
+- **Le connecteur M365 de Claude passe en écriture** (veille 10 juillet) : Claude peut désormais non seulement lire mais **agir** dans Microsoft 365 (rédiger et envoyer des mails, gérer l'agenda Outlook, créer et éditer des fichiers OneDrive/SharePoint). Ça transforme l'assistant M365 de "répond aux questions" en "fait le travail".
+- **Pourquoi c'est un quick win béton** : la majorité des PME clientes sont full M365. L'automatisation devient **réelle sans build custom** (pas de connecteur maison à coder) : réponse mail sur gabarit, préparation de RDV, mise à jour de documents. À proposer en quick win par défaut dès qu'une PME est sous Microsoft, juste après le scan "MCP M365 ready" du cadrage process.
+
+## 🔄 Veilles intégrées (MAJ 2026-08-21, veilles 31 juillet et 21 août)
+
+### Nouvelle question de qualification : "vos outils métier ont-ils une interface web ?"
+
+Le browser use tool de Claude (GA le 20/08/2026) pilote un logiciel via son interface web, sans API : il lit la structure de la page (pas juste des pixels), vise un champ ou un bouton nommé. Ça rouvre le dossier legacy/Sage, jusqu'ici classé opportuniste faute d'accès (cf mémoire flip-cockpit-positioning). **Ajouter systématiquement en étape 1 du cadrage process** : "cet outil a-t-il une interface web accessible ?" Si oui, l'automatisation devient possible même sans API ni export de données. À tester avant de le vendre comme promesse ferme (candidat : Taonix chez Veditex).
+
+### Chiffre d'ouverture de diag mis à jour : 31% → 55% en 12 mois
+
+L'adoption de l'IA générative en TPE/PME françaises est passée de 31% à 55% en 12 mois (+24 points, source France Num, veille 21 août). Remplace/complète l'ancrage "34% en 1 an" utilisé jusqu'ici. Phrase à servir : "la moitié des PME utilisent déjà l'IA, la question n'est plus 'faut-il y aller', c'est 'vous l'utilisez déjà mal, on la branche sur vos outils'." Registre client : vouvoiement, jamais de familier.
+
+### Diag Data IA Bpifrance : format et financement précisés
+
+8 jours d'expert, 10 000 € HT, reste à charge PME ~7 500 € HT selon le millésime (France 2030 couvre 25 à 40%, à vérifier sur source primaire avant propal). Plateforme diaginno.bpifrance.fr : le client crée son compte, dépose un dossier, puis **choisit un prestataire référencé dans la liste**. Être référencé n'est pas suffisant en soi, il faut être le prestataire vers lequel le client arrive déjà orienté, d'où l'intérêt du catalogue DGE / Hub France IA (88 offreurs, dépôt encore ouvert au fil de l'eau) comme canal d'amont.
+
+Application : aligner le format du diag Flip sur ces 8 jours pour rentrer dans le dispositif, et prioriser l'habilitation Bpifrance prestataire référencé.

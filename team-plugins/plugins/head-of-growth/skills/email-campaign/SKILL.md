@@ -69,3 +69,24 @@ Données 2026 (lagrowthmachine.com) : les **newsletters LinkedIn croissent +150%
 
 - **Reco Flip** : lancer une **newsletter LinkedIn** ("L'IA installée", **bi-mensuelle**) qui **repackage les carrousels + les cas clients** déjà produits (cf. pipeline content-repurposer). Zéro coût de distribution, base qui se constitue toute seule, et on peut y mettre des liens sans se faire throttler.
 - **Structure d'édition** : hook (le chiffre/insight fort d'un carrousel récent) → 1 cas client chiffré → 1 CTA unique (diagnostic / échange). Même règle qu'un email classique : 1 objectif, 1 CTA.
+
+## 🔄 Veille intégrée (MAJ 2026-07-10, veille 10 juillet)
+
+### Deliverability 2026 : protéger le domaine principal, jamais d'outbound depuis flipfr.fr
+
+- **Prérequis techniques non négociables** (veille 10 juillet) : **SPF, DKIM et DMARC** configurés, sinon les envois partent en spam par défaut (Gmail/Outlook les exigent).
+- **Warm-up indispensable** : monter en volume progressivement sur une boîte neuve. **Safe limit : 50 à 100 emails/boîte/jour.** Pour scaler l'outbound, utiliser **3 à 5 boîtes chauffées** en parallèle plutôt qu'une seule poussée à fond.
+- **Règle d'or Flip** : **ne JAMAIS envoyer de l'outbound (prospection à froid) depuis le domaine principal `flipfr.fr`.** Un domaine de prospection cramé fait tomber la délivrabilité des emails **transactionnels** (devis, contrats, notifications clients) qui partent du domaine principal. Utiliser des **domaines secondaires dédiés** (ex. type `.email`, `try-flip.fr`), chauffés séparément, pour toute la prospection. Le domaine principal reste réservé au transactionnel et au relationnel client existant.
+
+## 🔄 Veille intégrée (MAJ 2026-08-21, veille 31 juillet)
+
+### 2026 : le rejet remplace le spam, DMARC en p=none ne suffit plus
+
+Google, Yahoo et Microsoft sont passés de "recommandé" à "appliqué". La sanction n'est plus le dossier spam, c'est le **rejet pur** : le mail n'arrive nulle part et on ne le sait pas. Exigences précisées : SPF + DKIM + DMARC avec une politique **au moins `p=quarantine`** (`p=none` ne suffit plus), désabonnement en un clic (RFC 8058), plaintes sous 0,3% et bounces sous 2%.
+
+**Point critique pour Flip** : Google applique désormais le même filtrage aux petits volumes dès qu'il détecte un motif de prospection sortante. 200 mails/jour depuis un domaine mal authentifié déclenche les mêmes filtres qu'une newsletter à 50 000. Un petit volume mal configuré n'échappe pas au filtrage.
+
+**Prérequis techniques avant d'écrire la moindre séquence** (à valider systématiquement) :
+- Vérifier la politique DMARC du domaine d'envoi cold : `dig TXT _dmarc.<domaine>`, doit être en `p=quarantine` minimum.
+- Config Resend côté admin alignée sur le domaine secondaire dédié (jamais `flipfr.fr`).
+- Réduire le volume plutôt que le maximiser : diviser par 5 la volumétrie et multiplier la pertinence bat le scaling brut (l'acheteur B2B reçoit 3 à 5x plus de cold emails qu'en 2023, quasi tous générés par IA).
